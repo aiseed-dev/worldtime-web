@@ -1,0 +1,10 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p>都市名(日本語・ふりがな・英語)または国名で検索できます。</p>
+<p><input type="search" id="q" placeholder="例: とうきょう、New_York、フランス" autocomplete="off"></p>
+<div id="results"></div>
+<noscript><p class="noscript-warn">検索には JavaScript が必要です。<a href="/WorldTime/LocationIndex">都市一覧</a>をご利用ください。</p></noscript>
+{% endblock %}
+{% block scripts %}
+<script type="module" src="/assets/js/search.js?v={{ asset_ver }}"></script>
+{% endblock %}

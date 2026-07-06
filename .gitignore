@@ -1,0 +1,12 @@
+# 生成物(build_data.py / generate.py が再生成する)
+/public/
+/data/
+
+# Python
+/.venv/
+__pycache__/
+*.pyc
+
+# 環境固有
+.DS_Store
+secrets.json

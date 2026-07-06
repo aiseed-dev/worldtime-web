@@ -1,0 +1,90 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<noscript><p class="noscript-warn">時刻の表示には JavaScript が必要です。このページの標準時は UTC{{ std_offset_label }} です。</p></noscript>
+
+<div class="localtime">
+  <div class="timenow">
+    現在時刻:
+    <span class="clockbig" id="currentTime">--:--:--</span><span class="tzabbr" id="tzname"></span><span class="dstflag" id="isdst"></span>
+  </div>
+  <ul>
+    <li>タイムゾーンの名称: <span id="zname">{{ tz_static_label }}</span></li>
+    <li>協定世界時との時差: <span id="zutc">UTC{{ std_offset_label }}</span></li>
+    <li>日本時間との時差: <span id="zjst">--</span></li>
+  </ul>
+  <p id="zdesc"></p>
+  <p class="jst">現在の日本時間: <span id="currentTimej">--</span></p>
+</div>
+
+<h2>サマータイム情報</h2>
+<p id="dstinfo">--</p>
+
+{% if place.note %}
+<h2>備考</h2>
+<div>{{ place.note|safe }}</div>
+{% endif %}
+
+<h2>日本時間との変換</h2>
+<form class="convert" id="fromltoj" action="#" onsubmit="return false">
+  <p>{{ place.name }}の現地時間:</p>
+  <select class="f-year"></select>年
+  <select class="f-month"></select>月
+  <select class="f-day"></select>日
+  <select class="f-hour"></select>時
+  <select class="f-minute"></select>分
+  <button type="button" id="btn-ltoj">日本時間に変換</button>
+  <div class="result" id="ltoj"></div>
+</form>
+<form class="convert" id="fromjtol" action="#" onsubmit="return false">
+  <p>日本時間:</p>
+  <select class="f-year"></select>年
+  <select class="f-month"></select>月
+  <select class="f-day"></select>日
+  <select class="f-hour"></select>時
+  <select class="f-minute"></select>分
+  <button type="button" id="btn-jtol">現地時間に変換</button>
+  <div class="result" id="jtol"></div>
+</form>
+
+<h2>時差早見表</h2>
+<div id="reckoner"></div>
+
+<h2>日の出・日の入りの時間</h2>
+<form class="convert" id="sunform" action="#" onsubmit="return false">
+  <select class="f-year"></select>年
+  <select class="f-month"></select>月
+  <select class="f-day"></select>日
+  <button type="button" id="btn-sun">計算</button>
+</form>
+<p class="result" id="suncontent"></p>
+
+{% if climate %}
+<h2>気候(平均気温、平均降水量)</h2>
+<div class="scroll-x">
+<table class="wtable climate">
+  <thead>
+    <tr><th></th>{% for m in range(1, 13) %}<th>{{ m }}月</th>{% endfor %}</tr>
+  </thead>
+  <tbody>
+  {% for s in climate.series %}
+    <tr><th>{{ s.name }}</th>{% for v in s.data %}<td>{{ v if v is not none else "-" }}</td>{% endfor %}</tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="muted">出典: <a href="{{ climate.url }}" target="_blank" rel="noopener">{{ climate.institute }}</a></p>
+{% endif %}
+
+<h2>位置</h2>
+<p>{{ place.name }} — 緯度: {{ "%.2f"|format(place.lat) }} / 経度: {{ "%.2f"|format(place.lng) }}</p>
+
+{% if place.wikipedia %}
+<h2>関連リンク</h2>
+<p><a href="https://ja.wikipedia.org/wiki/{{ place.wikipedia }}" target="_blank" rel="noopener">ウィキペディア({{ place.name }})</a></p>
+{% endif %}
+
+<script type="application/json" id="placeData">{{ place_json|safe }}</script>
+{% endblock %}
+{% block scripts %}
+<script type="module" src="/assets/js/location.js?v={{ asset_ver }}"></script>
+{% endblock %}

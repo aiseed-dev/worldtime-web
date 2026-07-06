@@ -1,0 +1,63 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p>世界の各地の都市の現在の時刻を確認することができ、現地時間と日本時間との変換ができます。現地時間については、サマータイムを考慮しています。</p>
+
+<h2>主要都市の現在時刻</h2>
+<ul class="clock-grid">
+{% for c in featured %}
+  <li>
+    <span class="city"><a href="/WorldTime/Location/{{ c.id }}">{{ c.name }}</a><span class="cc">{{ c.country }}</span></span>
+    <time data-clock data-fmt="mdhm" data-tz="{{ c.tz }}">--</time>
+    <span data-abbr data-tz="{{ c.tz }}" data-std="{{ c.std }}" data-dst="{{ c.dst }}"></span>
+    <span class="dstmark" data-dst-mark data-tz="{{ c.tz }}" title="サマータイム中" hidden>☀</span>
+  </li>
+{% endfor %}
+</ul>
+
+<h2>地域から探す</h2>
+<ul class="region-grid">
+{% for a in areas %}
+  <li><a href="/WorldTime/Area/{{ a.id }}">{{ a.name }}</a></li>
+{% endfor %}
+</ul>
+<p class="muted">地域の区分は tzdata の区分に従っています。海洋部に位置するアイスランド、カーボベルデ等は大西洋に、マダガスカル、モルディブ等はインド洋に、ニュージーランド、ハワイ等は太平洋に区分されています。</p>
+
+<h2>人気海外旅行先の時差・日の出・日の入りの時間</h2>
+{% for group in popular %}
+<p>{{ group.label }}　{% for c in group.cities %}<a href="/WorldTime/Location/{{ c.id }}">{{ c.name }}</a>{% if not loop.last %}、{% endif %}{% endfor %}</p>
+{% endfor %}
+
+<h2><a href="/WorldTime/LocationIndex">世界の都市の一覧</a></h2>
+<div class="link-cols">
+{% for col in city_cols %}
+  <ul>
+  {% for c in col %}
+    <li><a href="/WorldTime/Location/{{ c.id }}">{{ c.name }}</a></li>
+  {% endfor %}
+  </ul>
+{% endfor %}
+</div>
+
+<h2><a href="/WorldTime/ListOfCountries">世界の国と地域の一覧</a></h2>
+<p>
+{% for c in featured_countries %}
+  <a href="/WorldTime/Country/{{ c.alpha2 }}">{{ c.name }}</a>{% if not loop.last %}、{% endif %}
+{% endfor %}
+　… <a href="/WorldTime/ListOfCountries">すべての国と地域</a>
+</p>
+
+<h2>ツール・読み物</h2>
+<ul>
+  <li><a href="/WorldTime/Meeting">世界の会議時間の計算</a> — 複数都市の時刻対応表</li>
+  <li><a href="/WorldTime/Home/NewYear">カウントダウン ニューイヤー</a> — 世界の新年と初日の出</li>
+  <li><a href="/Uc">世界の時間とタイムゾーンについて</a></li>
+  <li><a href="/Uc/Dst">サマータイムについて</a></li>
+  <li><a href="/Uc/GmtUtc">UTC, GMT, うるう秒について</a></li>
+  <li><a href="/Uc/NewYear">世界で一番早い「新年」、「初日の出」の場所</a></li>
+  <li><a href="/Uc/WorldCountries">世界の国の数</a></li>
+  <li><a href="/Uc/News">タイムゾーンに関するニュースから</a></li>
+</ul>
+{% endblock %}
+{% block scripts %}
+<script type="module" src="/assets/js/clock.js?v={{ asset_ver }}"></script>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p>世界の主要都市の新年へのカウントダウンです。世界で一番早く新年を迎えるキリバスのライン諸島とサモア、人の住んでいる場所で世界で一番早く初日の出が見られるニュージーランドのチャタム島、世界で一番遅く新年を迎えるアメリカ領サモアのパゴパゴも入れています。<br>
+※サマータイムを考慮しています。初日の出の時間は、同じ市内でも位置や標高によって変わるので目安と思ってください。詳しくは「<a href="/Uc/NewYear">世界で一番早い「新年」、「初日の出」の場所</a>」をどうぞ。</p>
+<noscript><p class="noscript-warn">カウントダウンの表示には JavaScript が必要です。</p></noscript>
+{% for area in areas %}
+<h2>{{ area.name }}</h2>
+<div class="scroll-x">
+<table class="list">
+  <thead>
+    <tr><th>都市名</th><th>現在時刻</th><th>新年まで</th><th>初日の出</th><th>初日の出まで</th></tr>
+  </thead>
+  <tbody>
+  {% for c in area.cities %}
+    <tr class="ny-row" data-tz="{{ c.tz }}" data-lat="{{ c.lat }}" data-lng="{{ c.lng }}">
+      <td><a href="/WorldTime/Location/{{ c.id }}">{{ c.name }}</a></td>
+      <td><time data-clock data-fmt="mdhm" data-tz="{{ c.tz }}">--</time>
+        <span data-abbr data-tz="{{ c.tz }}" data-std="{{ c.std }}" data-dst="{{ c.dst }}"></span></td>
+      <td class="ny-count">--</td>
+      <td class="ny-sunrise">--</td>
+      <td class="ny-suncount">--</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endfor %}
+{% endblock %}
+{% block scripts %}
+<script type="module" src="/assets/js/newyear.js?v={{ asset_ver }}"></script>
+{% endblock %}

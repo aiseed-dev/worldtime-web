@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="stylesheet" href="/assets/css/site.css?v={{ asset_ver }}">
+<link rel="icon" href="/favicon.ico">
+{% block head %}{% endblock %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NDMMVEGBQ4"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-NDMMVEGBQ4');
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="inner">
+    <p class="site-title"><a href="/">世界時計</a><span class="sub">Time-j.net</span></p>
+    <nav class="site-nav">
+      <a href="/WorldTime/LocationIndex">都市一覧</a>
+      <a href="/WorldTime/ListOfCountries">国一覧</a>
+      <a href="/Search">検索</a>
+    </nav>
+  </div>
+</header>
+{% if breadcrumb %}
+<nav class="breadcrumb" aria-label="パンくず">
+  <ol>
+  {% for item in breadcrumb %}
+    <li>{% if item.url %}<a href="{{ item.url }}">{{ item.label }}</a>{% else %}{{ item.label }}{% endif %}</li>
+  {% endfor %}
+  </ol>
+</nav>
+{% endif %}
+<main>
+<h1>{{ header }}</h1>
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="inner">
+    <a href="/About">このサイトについて</a>
+    <a href="/PrivacyPolicy">プライバシーポリシー</a>
+    <span>© Time-j.net</span>
+  </div>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

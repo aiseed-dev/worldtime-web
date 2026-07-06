@@ -1,0 +1,14 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p>世界の都市の一覧です。地域ごとに、都市名の50音順に並んでいます。</p>
+{% for sec in sections %}
+<h2>{{ sec.name }}</h2>
+<div class="link-cols">
+  <ul>
+  {% for c in sec.cities %}
+    <li><a href="/WorldTime/Location/{{ c.id }}">{{ c.name }}</a> <span class="muted">{{ c.country }}</span></li>
+  {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+{% endblock %}

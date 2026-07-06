@@ -1,0 +1,14 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p>世界の国と地域の一覧です。国名のあいうえお順に表示しています。国名をクリックすると、その国の時差と現在時刻のページを表示します。</p>
+{% for sec in sections %}
+<h2>{{ sec.kana }}</h2>
+<div class="link-cols">
+  <ul>
+  {% for c in sec.countries %}
+    <li>{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</li>
+  {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+{% endblock %}

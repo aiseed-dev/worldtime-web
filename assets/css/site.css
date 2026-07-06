@@ -1,0 +1,210 @@
+/* WorldTimeStatic 共通スタイル (K1/K6: フレームワーク不使用、BIZ UD優先システムフォント) */
+:root {
+  --ink: #222;
+  --muted: #667;
+  --line: #d8dce2;
+  --brand: #1a5276;
+  --brand-light: #eaf2f8;
+  --accent: #c0392b;
+  --working: #fdf2cc;
+  --bg: #fff;
+  --maxw: 900px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: "BIZ UDPGothic", "BIZ UDGothic", "Hiragino Sans",
+    "Noto Sans CJK JP", "Yu Gothic", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+a { color: var(--brand); }
+a:hover { text-decoration: none; }
+
+img { max-width: 100%; height: auto; }
+
+.muted { color: var(--muted); font-size: .9em; }
+
+/* ---- ヘッダー ---- */
+.site-header {
+  background: var(--brand);
+  color: #fff;
+}
+.site-header .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: .6rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem 1.2rem;
+}
+.site-title { font-size: 1.25rem; font-weight: 700; margin: 0; }
+.site-title a { color: #fff; text-decoration: none; }
+.site-title .sub { font-size: .8rem; font-weight: 400; opacity: .85; margin-left: .5rem; }
+.site-nav { margin-left: auto; }
+.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: .95rem;
+}
+.site-nav a:hover { text-decoration: underline; }
+
+/* ---- パンくず ---- */
+.breadcrumb {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: .4rem 1rem 0;
+  font-size: .85rem;
+  color: var(--muted);
+}
+.breadcrumb ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.breadcrumb li + li::before { content: "›"; margin: 0 .45em; color: var(--muted); }
+
+/* ---- 本文 ---- */
+main {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: .5rem 1rem 2.5rem;
+}
+h1 { font-size: 1.45rem; border-bottom: 3px solid var(--brand); padding-bottom: .25rem; margin: .8rem 0; }
+h2 { font-size: 1.15rem; background: var(--brand-light); border-left: 5px solid var(--brand); padding: .25rem .6rem; margin: 1.8rem 0 .7rem; }
+h3 { font-size: 1.02rem; margin: 1.2rem 0 .4rem; }
+
+/* ---- 現在時刻ブロック ---- */
+.localtime {
+  background: var(--brand-light);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+}
+.localtime .clockbig {
+  font-size: clamp(1.6rem, 6vw, 2.4rem);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .02em;
+}
+.localtime .tzabbr { font-size: 1rem; font-weight: 400; margin-left: .5rem; }
+.localtime .dstflag { color: var(--accent); font-weight: 700; margin-left: .6rem; font-size: .95rem; }
+.localtime ul { margin: .6rem 0 0; padding-left: 1.2em; }
+.localtime .jst { margin: .4rem 0 0; }
+
+/* ---- テーブル ---- */
+.scroll-x { overflow-x: auto; }
+table { border-collapse: collapse; margin: .6rem 0; }
+th, td { border: 1px solid var(--line); padding: .3rem .55rem; }
+th { background: var(--brand-light); font-weight: 700; text-align: left; }
+table.list { width: 100%; font-size: .95rem; }
+table.list td { vertical-align: top; }
+table.wtable th, table.wtable td { text-align: center; padding: .25rem .4rem; font-variant-numeric: tabular-nums; }
+table.wtable td.working { background: var(--working); }
+.next { margin-top: 1rem; font-weight: 700; color: var(--accent); }
+.dstmark { color: var(--accent); }
+time[data-clock] { font-variant-numeric: tabular-nums; }
+
+/* ---- フォーム ---- */
+form.convert { margin: .5rem 0 1rem; }
+select { font: inherit; padding: .15rem .2rem; }
+button {
+  font: inherit;
+  padding: .25rem .9rem;
+  border: 1px solid var(--brand);
+  background: var(--brand);
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover { opacity: .9; }
+.result { margin: .4rem 0; font-weight: 700; }
+
+/* ---- 検索 ---- */
+input#q {
+  font: inherit;
+  width: 100%;
+  max-width: 26rem;
+  padding: .45rem .7rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+#results ul { list-style: none; padding: 0; }
+#results li { padding: .25rem 0; border-bottom: 1px dashed var(--line); }
+
+/* ---- ホーム ---- */
+.region-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: .5rem;
+  margin: .8rem 0;
+  padding: 0;
+  list-style: none;
+}
+.region-grid a {
+  display: block;
+  background: var(--brand-light);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: .5rem .8rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+.clock-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: .6rem;
+  margin: .8rem 0;
+  padding: 0;
+  list-style: none;
+}
+.clock-grid li {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: .5rem .7rem;
+}
+.clock-grid .city { font-weight: 700; }
+.clock-grid .city .cc { font-weight: 400; color: var(--muted); font-size: .85em; margin-left: .35em; }
+.clock-grid time {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.link-cols { columns: 4 10rem; column-gap: 1.2rem; }
+.link-cols ul { margin: 0; padding-left: 1.2em; break-inside: avoid; }
+.worldmap { margin: .8rem 0; }
+.worldmap .credit { font-size: .75rem; color: var(--muted); }
+@media (max-width: 620px) { .worldmap { display: none; } }
+
+/* ---- フッター ---- */
+.site-footer {
+  border-top: 1px solid var(--line);
+  margin-top: 2rem;
+  font-size: .85rem;
+  color: var(--muted);
+}
+.site-footer .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.5rem;
+}
+.site-footer a { color: var(--muted); }
+
+/* ---- noscript ---- */
+.noscript-warn {
+  background: #fff3cd;
+  border: 1px solid #e0c060;
+  padding: .6rem 1rem;
+  border-radius: 6px;
+  margin: .8rem 0;
+}

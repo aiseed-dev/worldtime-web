@@ -1,0 +1,109 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<noscript><p class="noscript-warn">時刻の表示には JavaScript が必要です。</p></noscript>
+
+<div class="localtime">
+  <div class="timenow">
+    現在時刻:
+    <span class="clockbig" id="currentTime">--:--:--</span><span class="tzabbr" id="tzname"></span><span class="dstflag" id="isdst"></span>
+    {% if multi %}<span class="muted">({{ featured.heading }})</span>{% endif %}
+  </div>
+  <ul>
+    <li>タイムゾーンの名称: <span id="zname">--</span></li>
+    <li>協定世界時との時差: <span id="zutc">--</span></li>
+    <li>日本時間との時差: <span id="zjst">--</span></li>
+  </ul>
+  <p id="zdesc"></p>
+  <p class="jst">現在の日本時間: <span id="currentTimej">--</span></p>
+</div>
+
+<h2>サマータイム情報</h2>
+<p id="dstinfo">--</p>
+
+{% if country.tz_desc %}
+<h2>タイムゾーンの説明</h2>
+<div>{{ country.tz_desc|safe }}</div>
+{% endif %}
+
+{% if multi %}
+<h2>タイムゾーン別の現在時刻</h2>
+<div class="scroll-x">
+<table class="list">
+  <thead>
+    <tr><th>区域</th><th>現在時刻</th><th>UTCとの時差</th><th>主な都市(場所)</th></tr>
+  </thead>
+  <tbody>
+  {% for z in zones %}
+    <tr>
+      <td>{{ z.heading }}</td>
+      <td>
+        <time data-clock data-fmt="mdhm" data-tz="{{ z.tz }}">--</time>
+        <span data-abbr data-tz="{{ z.tz }}" data-std="{{ z.std }}" data-dst="{{ z.dst }}"></span>
+        <span class="dstmark" data-dst-mark data-tz="{{ z.tz }}" title="サマータイム中" hidden>☀</span>
+      </td>
+      <td>UTC<span data-off data-tz="{{ z.tz }}"></span></td>
+      <td>
+      {%- for c in z.cities -%}
+        <a href="/WorldTime/Location/{{ c.id }}">{{ c.name }}</a>{% if not loop.last %}、{% endif %}
+      {%- endfor -%}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<h2>主な都市(場所)</h2>
+<p>
+{%- for c in zones[0].cities -%}
+  <a href="/WorldTime/Location/{{ c.id }}">{{ c.name }}</a>{% if not loop.last %}、{% endif %}
+{%- endfor -%}
+</p>
+{% endif %}
+
+{% if country.tz_tz_note %}
+<h2>タイムゾーン情報</h2>
+<div>{{ country.tz_tz_note|safe }}</div>
+{% endif %}
+
+<h2>日本時間との変換{% if multi %}({{ featured.heading }}){% endif %}</h2>
+<form class="convert" id="fromltoj" action="#" onsubmit="return false">
+  <p>{{ country.name }}{% if multi %}({{ featured.heading }}){% endif %}の現地時間:</p>
+  <select class="f-year"></select>年
+  <select class="f-month"></select>月
+  <select class="f-day"></select>日
+  <select class="f-hour"></select>時
+  <select class="f-minute"></select>分
+  <button type="button" id="btn-ltoj">日本時間に変換</button>
+  <div class="result" id="ltoj"></div>
+</form>
+<form class="convert" id="fromjtol" action="#" onsubmit="return false">
+  <p>日本時間:</p>
+  <select class="f-year"></select>年
+  <select class="f-month"></select>月
+  <select class="f-day"></select>日
+  <select class="f-hour"></select>時
+  <select class="f-minute"></select>分
+  <button type="button" id="btn-jtol">現地時間に変換</button>
+  <div class="result" id="jtol"></div>
+</form>
+
+<h2>時差早見表{% if multi %}({{ featured.heading }}){% endif %}</h2>
+<div id="reckoner"></div>
+
+{% if country.tz_note %}
+<h2>備考</h2>
+<div>{{ country.tz_note|safe }}</div>
+{% endif %}
+
+{% if country.wikipedia %}
+<h2>関連リンク</h2>
+<p><a href="https://ja.wikipedia.org/wiki/{{ country.wikipedia_link }}" target="_blank" rel="noopener">ウィキペディア({{ country.name }})</a></p>
+{% endif %}
+
+<script type="application/json" id="placeData">{{ place_json|safe }}</script>
+{% endblock %}
+{% block scripts %}
+<script type="module" src="/assets/js/location.js?v={{ asset_ver }}"></script>
+{% if multi %}<script type="module" src="/assets/js/clock.js?v={{ asset_ver }}"></script>{% endif %}
+{% endblock %}

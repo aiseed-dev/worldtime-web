@@ -1,0 +1,22 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p>海外との会議やオンライン通話の時間調整に。都市を選ぶと、それぞれの都市の対応する時刻の一覧表を表示します。業務時間(9時〜18時)は色付きで表示されます。サマータイムを考慮しています。</p>
+<noscript><p class="noscript-warn">このツールの利用には JavaScript が必要です。</p></noscript>
+
+<form class="convert" id="meetingform" action="#" onsubmit="return false">
+  <p>
+    日付:
+    <select class="f-year"></select>年
+    <select class="f-month"></select>月
+    <select class="f-day"></select>日
+  </p>
+  <p>都市(最大4つ):</p>
+  {% for i in range(4) %}
+  <p><select class="m-city" data-slot="{{ i }}"></select></p>
+  {% endfor %}
+</form>
+<div id="meetingout"></div>
+{% endblock %}
+{% block scripts %}
+<script type="module" src="/assets/js/meeting.js?v={{ asset_ver }}"></script>
+{% endblock %}

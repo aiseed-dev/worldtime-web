@@ -1,0 +1,38 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p>{{ area_name }}の国と地域のタイムゾーンの一覧を、国名のあいうえお順に表示しています。<span class="dstmark">☀</span> は、サマータイム期間中であることを示しています。</p>
+<noscript><p class="noscript-warn">現在時刻の表示には JavaScript が必要です。</p></noscript>
+<div class="scroll-x">
+<table class="list">
+  <thead>
+    <tr>
+      <th>国または地域名</th>
+      <th>該当区域</th>
+      <th>現在時刻</th>
+      <th>UTCとの時差</th>
+      <th>サマータイム</th>
+      <th>主要都市(場所)</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for row in rows %}
+    <tr>
+      <td><a href="/WorldTime/Country/{{ row.alpha2 }}">{{ row.country }}</a></td>
+      <td>{{ row.area_note }}</td>
+      <td>
+        <time data-clock data-fmt="mdhm" data-tz="{{ row.tz }}">--</time>
+        <span data-abbr data-tz="{{ row.tz }}" data-std="{{ row.std }}" data-dst="{{ row.dst }}"></span>
+        <span class="dstmark" data-dst-mark data-tz="{{ row.tz }}" title="サマータイム中" hidden>☀</span>
+      </td>
+      <td>UTC<span data-off data-tz="{{ row.tz }}"></span></td>
+      <td>{{ "導入" if row.has_dst else "なし" }}</td>
+      <td><a href="/WorldTime/Location/{{ row.id }}">{{ row.name }}</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+{% endblock %}
+{% block scripts %}
+<script type="module" src="/assets/js/clock.js?v={{ asset_ver }}"></script>
+{% endblock %}
