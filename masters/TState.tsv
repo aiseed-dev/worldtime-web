@@ -1,0 +1,126 @@
+Country	Code	Title	Wikipedia	Titlej	Timezone
+AR	BA	Buenos Aires Province	Buenos_Aires_Province	ブエノスアイレス州	America/Argentina/Buenos_Aires
+AR	CA	Catamarca Province	Catamarca_Province	カタマルカ州	America/Argentina/Catamarca
+AR	CB	Chubut Province	Chubut_Province	チュブ州	America/Argentina/Catamarca
+AR	CD	Córdoba Province	Córdoba_Province_(Argentina)	コルドバ州	America/Argentina/Cordoba
+AR	CH	Chaco Province	Chaco_Province	チャコ州	America/Argentina/Cordoba
+AR	CR	Corrientes Province	Corrientes_Province	コリエンテス州	America/Argentina/Cordoba
+AR	ER	Entre Ríos Province	Entre_Ríos_Province	エントレ・リオス州	America/Argentina/Cordoba
+AR	FO	Formosa Province	Formosa_Province	フォルモサ州	America/Argentina/Cordoba
+AR	LP	La Pampa Province	La_Pampa_Province	ラ・パンパ州	America/Argentina/Salta
+AR	LR	La_Rioja_Province	La_Rioja_Province_(Argentina)	ラ・リオハ州	
+AR	MD	Mendoza Province	Mendoza_Province	メンドーサ州	America/Argentina/Mendoza
+AR	MI	Misiones Province	Misiones_Province	ミシオネス州	America/Argentina/Cordoba
+AR	NE	Neuquén Province	Neuquén_Province	ネウケン州	America/Argentina/Salta
+AR	PJ	Jujuy Province	Jujuy_Province	フフイ州	America/Argentina/Jujuy
+AR	RN	Río Negro Province	Río_Negro_Province	リオネグロ州	America/Argentina/Salta
+AR	SA	Salta Province	Salta_Province	サルタ州	America/Argentina/Salta
+AR	SC	Santa Cruz Province	Santa_Cruz_Province_(Argentina)	サンタクルス州	America/Argentina/Rio_Gallegos
+AR	SE	Santiago del Estero Province	Santiago_del_Estero_Province	サンティアゴ・デル・エステロ州	America/Argentina/Cordoba
+AR	SF	Santa Fe Province	Santa_Fe_Province	サンタフェ州	America/Argentina/Cordoba
+AR	SJ	San Juan Province	San_Juan_Province_(Argentina)	サンフアン州	America/Argentina/San_Juan
+AR	SL	San Luis Province	San_Luis_Province	サンルイス州	America/Argentina/San_Luis
+AR	TF	Tierra del Fuego Province	Tierra_del_Fuego_Province_(Argentina)	ティエラ・デル・フエゴ州	America/Argentina/Ushuaia
+AR	TU	Tucumán Province	Tucumán_Province	トゥクマン州	America/Argentina/Tucuman
+AU	AC	Australian Capital Territory	Australian_Capital_Territory	オーストラリア首都特別地域	Australia/Sydney
+AU	NS	New South Wales	New_South_Wales	ニューサウスウェールズ州	Australia/Perth
+AU	NT	Northern Territory 	Northern_Territory 	ノーザンテリトリー	Australia/Melbourne
+AU	QL	Queensland 	Queensland 	クイーンズランド州	Australia/Brisbane
+AU	SA	South Australia 	South_Australia 	南オーストラリア州	Australia/Adelaide
+AU	TS	Tasmania 	Tasmania 	タスマニア州	Australia/Hobart
+AU	VI	Victoria 	Victoria_(Australia)	ビクトリア州	Australia/Sydney
+AU	WA	Western Australia 	Western_Australia_	西オーストラリア州	Australia/Darwin
+BR	AC	Acre 	Acre_(state)	アクレ州 	America/Rio_Branco
+BR	AL	Alagoas 	Alagoas 	アラゴアス州 	America/Maceio
+BR	AM	Amazonas 	Amazonas_(Brazilian_state)	アマゾナス州 	America/Manaus
+BR	AP	Amapá 	Amapá 	アマパ州 	America/Belem
+BR	BA	Bahia 	Bahia 	バイーア州 	America/Bahia
+BR	CE	Ceará 	Ceará 	セアラ州 	America/Fortaleza
+BR	DF	Distrito Federal 	Brazilian_Federal_District	ブラジリア連邦直轄区	America/Sao_Paulo
+BR	ES	Espírito Santo 	Espírito_Santo 	エスピリト・サント州 	America/Sao_Paulo
+BR	GO	Goiás 	Goiás 	ゴイアス州 	America/Sao_Paulo
+BR	MA	Maranhão 	Maranhão 	マラニョン州 	America/Fortaleza
+BR	MG	Minas Gerais 	Minas_Gerais 	ミナス・ジェライス州 	America/Sao_Paulo
+BR	MS	Mato Grosso do Sul 	Mato_Grosso_do_Sul 	マット・グロッソ・ド・スル州 	America/Campo_Grande
+BR	MT	Mato Grosso 	Mato_Grosso 	マット・グロッソ州 	America/Cuiaba
+BR	PA	Pará 	Pará 	パラー州 	America/Belem
+BR	PB	Paraíba 	Paraíba 	パライバ州 	America/Fortaleza
+BR	PE	Pernambuco 	Pernambuco 	ペルナンブーコ州 	America/Recife
+BR	PI	Piauí 	Piauí 	ピアウイ州 	America/Fortaleza
+BR	PR	Paraná 	Paraná_(state)	パラナ州 	America/Sao_Paulo
+BR	RJ	Rio de Janeiro 	Rio_de_Janeiro_(state) 	リオデジャネイロ州 	America/Sao_Paulo
+BR	RN	Rio Grande do Norte 	Rio_Grande_do_Norte 	リオグランデ・ド・ノルテ州	America/Fortaleza
+BR	RO	Rondônia 	Rondônia 	ロンドニア州 	America/Porto_Velho
+BR	RR	Roraima 	Roraima 	ロライマ州 	America/Boa_Vista
+BR	RS	Rio Grande do Sul 	Rio_Grande_do_Sul 	リオグランデ・ド・スル州	America/Sao_Paulo
+BR	SC	Santa Catarina 	Santa_Catarina_(state)	サンタ・カタリーナ州 	America/Sao_Paulo
+BR	SE	Sergipe 	Sergipe 	セルジッペ州 	America/Maceio
+BR	SP	São Paulo 	São_Paulo_(state)	サンパウロ州 	America/Sao_Paulo
+BR	TO	Tocantins 	Tocantins_(state)	トカンティンス州 	America/Araguaina
+CA	AB	Alberta	Alberta	アルバータ州	
+CA	BC	British Columbia	British_Columbia	ブリティッシュコロンビア州	
+CA	MB	Manitoba	Manitoba	マニトバ州	
+CA	NB	New Brunswick	New_Brunswick	ニューブランズウィック州	
+CA	NL	Newfoundland and Labrador	Newfoundland_and_Labrador	ニューファンドランド・ラブラドール州	
+CA	NS	Nova Scotia	Nova_Scotia	ノバスコシア州	
+CA	NT	Northwest Territories	Northwest_Territories	ノースウエスト準州	
+CA	NU	Nunavut	Nunavut	ヌナブト準州	
+CA	ON	Ontario	Ontario	オンタリオ州	
+CA	PE	Prince Edward Island	Prince_Edward_Island	プリンスエドワードアイランド州	
+CA	QC	Quebec	Quebec	ケベック州	
+CA	SK	Saskatchewan	Saskatchewan	サスカチュワン州	
+CA	YT	Yukon	Yukon	ユーコン準州	
+GB	EN	England	England	イングランド	
+GB	NI	Northern Ireland	Northern_Ireland	北アイルランド	
+GB	SC	Scotland	Scotland	スコットランド	
+GB	WL	Wales	Wales	ウェールズ	
+US	AK	Alaska	Alaska	アラスカ州	
+US	AL	Alabama	Alabama	アラバマ州	
+US	AR	Arkansas	Arkansas	アーカンソー州	
+US	AZ	Arizona	Arizona	アリゾナ州	
+US	CA	California	California	カリフォルニア州	
+US	CO	Colorado	Colorado	コロラド州	
+US	CT	Connecticut	Connecticut	コネチカット州	
+US	DE	Delaware	Delaware	デラウェア州	
+US	FL	Florida	Florida	フロリダ州	
+US	GA	Georgia	Georgia_(U.S._state)	ジョージア州	
+US	HI	Hawaii	Hawaii	ハワイ州	
+US	IA	Iowa	Iowa	アイオワ州	
+US	ID	Idaho	Idaho	アイダホ州	
+US	IL	Illinois	Illinois	イリノイ州	
+US	IN	Indiana	Indiana	インディアナ州	
+US	KS	Kansas	Kansas	カンザス州	
+US	KY	Kentucky	Kentucky	ケンタッキー州	
+US	LA	Louisiana	Louisiana	ルイジアナ州	
+US	MA	Massachusetts	Massachusetts	マサチューセッツ州	
+US	MD	Maryland	Maryland	メリーランド州	
+US	ME	Maine	Maine	メイン州	
+US	MI	Michigan	Michigan	ミシガン州	
+US	MN	Minnesota	Minnesota	ミネソタ州	
+US	MO	Missouri	Missouri	ミズーリ州	
+US	MS	Mississippi	Mississippi	ミシシッピ州	
+US	MT	Montana	Montana	モンタナ州	
+US	NC	North Carolina	North_Carolina	ノースカロライナ州	
+US	ND	North Dakota	North_Dakota	ノースダコタ州	
+US	NE	Nebraska	Nebraska	ネブラスカ州	
+US	NH	New Hampshire	New_Hampshire	ニューハンプシャー州	
+US	NJ	New Jersey	New Jersey	ニュージャージー州	
+US	NM	New Mexico	New_Mexico	ニューメキシコ州	
+US	NV	Nevada	Nevada	ネバダ州	
+US	NY	New York	New_York	ニューヨーク州	
+US	OH	Ohio	Ohio	オハイオ州	
+US	OK	Oklahoma	Oklahoma	オクラホマ州	
+US	OR	Oregon	Oregon	オレゴン州	
+US	PA	Pennsylvania	Pennsylvania	ペンシルバニア州	
+US	RI	Rhode Island	Rhode_Island	ロードアイランド州	
+US	SC	South Carolina	South_Carolina	サウスカロライナ州	
+US	SD	South Dakota	South_Dakota	サウスダコタ州	
+US	TN	Tennessee	Tennessee	テネシー州	
+US	TX	Texas	Texas	テキサス州	
+US	UT	Utah	Utah	ユタ州	
+US	VA	Virginia	Virginia	バージニア州	
+US	VT	Vermont	Vermont	バーモント州	
+US	WA	Washington	Washington	ワシントン州	
+US	WI	Wisconsin	Wisconsin	ウィスコンシン州	
+US	WV	West Virginia	West_Virginia	ウェストバージニア州	
+US	WY	Wyoming	Wyoming	ワイオミング州	

@@ -208,3 +208,44 @@ input#q {
   border-radius: 6px;
   margin: .8rem 0;
 }
+
+/* ---- 世界の天気地図 ---- */
+.mapwrap { position: relative; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.mapwrap svg { display: block; width: 100%; height: auto; touch-action: none; cursor: grab; }
+.mapctl { position: absolute; top: .5rem; left: .5rem; z-index: 2; display: flex; gap: .3rem; }
+.mapctl button { padding: .15rem .6rem; }
+#worldmap .sea { fill: #dceaf5; }
+#worldmap .land { fill: #f4f1ea; stroke: #b9c2cc; stroke-width: .3; }
+#worldmap .ct { fill: var(--brand); opacity: .85; }
+#worldmap .lbl, #worldmap .tmp { font-size: 3.2px; fill: #333; display: none; paint-order: stroke; stroke: #fff; stroke-width: .6; }
+#worldmap.z2 .tmp { display: block; }
+#worldmap.z3 .lbl { display: block; }
+#worldmap a { cursor: pointer; }
+#worldmap .t-frigid { fill: #4b0082; }
+#worldmap .t-cold  { fill: #1a4fc4; }
+#worldmap .t-cool  { fill: #2e9dd6; }
+#worldmap .t-mild  { fill: #3cb371; }
+#worldmap .t-warm  { fill: #e8a020; }
+#worldmap .t-hot   { fill: #d0342c; }
+
+/* ---- ダークモード(OS設定連動) ---- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e2e5e9;
+    --muted: #98a2ad;
+    --line: #3a424b;
+    --brand: #7ab4dc;
+    --brand-light: #1d2a36;
+    --accent: #ff8a7a;
+    --working: #4a3f1e;
+    --bg: #14171a;
+  }
+  .site-header { background: #10222f; }
+  button { background: #2a5878; border-color: #2a5878; }
+  .noscript-warn { background: #3a331b; border-color: #7a6a30; color: var(--ink); }
+  #worldmap .sea { fill: #101c26; }
+  #worldmap .land { fill: #2b3138; stroke: #4a525b; }
+  #worldmap .lbl, #worldmap .tmp { fill: #dde2e8; stroke: #14171a; }
+  #worldmap .t-cold { fill: #5b83e8; }
+  input#q, select { background: #1d2228; color: var(--ink); border-color: var(--line); }
+}

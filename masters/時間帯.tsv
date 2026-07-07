@@ -1,0 +1,431 @@
+Id	Alpha2	表示	State	都市名	Wikipedia	Lat	Lng	対象地域	Comments	夏時間	StandardName	タイムゾーン名	DstName	夏時間タイムゾーン名
+Europe/Andorra	AD	1	  	アンドラ	アンドラ	42.5	1.5167			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Asia/Dubai	AE	1	  	ドバイ	ドバイ	25.3	55.3			0	GST	湾岸時間		
+Asia/Kabul	AF	1	  	カブール	カーブル	34.5167	69.2			0	AFT	アフガニスタン時間		
+America/Antigua	AG	1	  	アンティグア島	アンティグア島	17.05	-60.2			0	AST	大西洋時間		
+America/Anguilla	AI	1	  	アンギラ	アンギラ	18.2	-62.9333			0	AST	大西洋時間		
+Europe/Tirane	AL	1	  	ティラナ	ティラナ	41.3333	19.8333			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Asia/Yerevan	AM	1	  	エレバン	エレバン	40.1833	44.5			0	AMT	アルメニア時間		
+America/Curacao	CW	1	  	キュラソー島	キュラソー島	12.1833	-69			0	AST	大西洋時間		
+Africa/Luanda	AO	1	  	ルアンダ	ルアンダ	-7.2	13.2333			0	WAT	西アフリカ時間		
+Antarctica/McMurdo	AQ	1	  	マクマード基地	マクマード基地	-76.1667	166.6	マクマード基地（ロス島）	McMurdo Station, Ross Island	1	NZST	ニュージーランド時間	NZDT	ニュージーランド夏時間
+Antarctica/South_Pole	AQ	1	  	アムンゼン・スコット基地	アムンゼン・スコット基地	-90	0	アムンゼン・スコット基地（南極点）	Amundsen-Scott Station, South Pole	1	NZST	ニュージーランド時間	NZDT	ニュージーランド夏時間
+Antarctica/Rothera	AQ	1	  	ロゼラ基地		-66.4333	-67.8667	ロゼラ基地（アデレード島）	Rothera Station, Adelaide Island	0	ROTT			
+Antarctica/Palmer	AQ	1	  	パーマー基地		-63.2	-63.9	パーマー基地（アンバース島）	Palmer Station, Anvers Island	0	CLT			
+Antarctica/Mawson	AQ	1	  	モーソン基地		-66.4	62.8833	モーソン基地（ホルム湾）	Mawson Station, Holme Bay	0	MAWT			
+Antarctica/Davis	AQ	1	  	デービス基地		-67.4167	77.9667	デービス基地（ベストフォールドヒルズ）	Davis Station, Vestfold Hills	0	DAVT			
+Antarctica/Casey	AQ	1	  	ケーシー基地		-65.7167	110.5167	ケーシー基地（ヴィンセンス湾）	Casey Station, Bailey Peninsula	0	AWST			
+Antarctica/Vostok	AQ	1	  	ボストーク基地	ボストーク基地	-77.6	106.9	ボストーク基地（南磁極軸）	Vostok Station, S Magnetic Pole	0	VOST			
+Antarctica/DumontDUrville	AQ	1	  	デュモン・デュルヴィル基地		-65.3333	140.0167	デュモン・デュルヴィル基地（アデリーランド）	Dumont-d'Urville Station, Terre Adelie	0	DDUT			
+Antarctica/Syowa	AQ	1	  	昭和基地	昭和基地	-68.9939	39.59	昭和基地（オングル島）	Syowa Station, E Ongul I	0	SYOT			
+Antarctica/Troll	AQ	1	  	トロール基地		0	0	トロール基地（ドローニング・モード・ランド）		1	GMT	グリニッジ標準時	CEST	中央ヨーロッパ夏時間
+America/Argentina/Buenos_Aires	AR	1	BA	ブエノスアイレス	ブエノスアイレス	-33.4	-57.55		Buenos Aires (BA, CF)	0	ART	アルゼンチン時間		
+America/Argentina/Cordoba	AR	0	CD	コルドバ	コルドバ (アルゼンチン)	-30.6	-63.8167		most locations (CB, CC, CN, ER, FM, MN, SE, SF)	0	ART	アルゼンチン時間		
+America/Argentina/Salta	AR	0	SA	サルタ	サルタ州	-23.2167	-64.5833		(SA, LP, NQ, RN)	0	ART	アルゼンチン時間		
+America/Argentina/Jujuy	AR	0	PJ	フフイ	フフイ州	-23.8167	-64.7		Jujuy (JY)	0	ART	アルゼンチン時間		
+America/Argentina/Tucuman	AR	0	TU	トゥクマン	サン・ミゲル・デ・トゥクマン	-25.1833	-64.7833		Tucuman (TM)	0	ART	アルゼンチン時間		
+America/Argentina/Catamarca	AR	0	CA	カタマルカ	カタマルカ州	-27.5333	-64.2167		Catamarca (CT), Chubut (CH)	0	ART	アルゼンチン時間		
+America/Argentina/La_Rioja	AR	0	LR	ラ・リオハ	ラ・リオハ州 (アルゼンチン)	-28.5667	-65.15		La Rioja (LR)	0	ART	アルゼンチン時間		
+America/Argentina/San_Juan	AR	0	SJ	サンフアン	サンフアン州 (アルゼンチン)	-30.4667	-67.4833		San Juan (SJ)	0	ART	アルゼンチン時間		
+America/Argentina/Mendoza	AR	0	MD	メンドーサ	メンドーサ	-31.1167	-67.1833		Mendoza (MZ)	0	ART	アルゼンチン時間		
+America/Argentina/San_Luis	AR	0	SL	サンルイス	サンルイス州	-32.6833	-65.65		San Luis (SL)	0	ART	アルゼンチン時間		
+America/Argentina/Rio_Gallegos	AR	0	SC	リオ・ガジェーゴス	パタゴニア	-50.3667	-68.7833		Santa Cruz (SC)	0	ART	アルゼンチン時間		
+America/Argentina/Ushuaia	AR	0	TF	ウシュアイア	ウシュアイア	-53.2	-67.7		Tierra del Fuego (TF)	0	ART	アルゼンチン時間		
+Pacific/Pago_Pago	AS	1	  	パゴパゴ	パゴパゴ	-13.7333	-169.3			0	SST	サモア時間		
+Europe/Vienna	AT	1	  	ウィーン	ウィーン	48.2167	16.3333			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Australia/Lord_Howe	AU	6	NS	ロード・ハウ島	ロード・ハウ島	-30.45	159.0833		Lord Howe Island	1	LHST	ロード・ハウ時間	LHDT	ロード・ハウ夏時間
+Antarctica/Macquarie	AQ	0	  	マッコーリー島		-53.5	158.95	マッコーリー島	Macquarie Island Station, Macquarie Island	0	MIST	マッコーリー島時間		
+Australia/Hobart	AU	1	TS	ホバート	ホバート	-41.1167	147.3167		Tasmania - most locations	1	AEST	オーストラリア東部時間	AEDT	オーストラリア東部夏時間
+Australia/Currie	AU	0	TS	カレー（キング島）	キング島	-38.0667	143.8667		Tasmania - King Island	1	AEST	オーストラリア東部時間	AEDT	オーストラリア東部夏時間
+Australia/Melbourne	AU	0	VI	メルボルン	メルボルン	-36.1833	144.9667		Victoria	1	AEST	オーストラリア東部時間	AEDT	オーストラリア東部夏時間
+Australia/Sydney	AU	1	NS	シドニー	シドニー	-32.1333	151.2167		New South Wales - most locations	1	AEST	オーストラリア東部時間	AEDT	オーストラリア東部夏時間
+Australia/Broken_Hill	AU	0	NS	ブロークンヒル	ブロークンヒル	-30.05	141.45		New South Wales - Yancowinna	1	ACST	オーストラリア中部時間	ACDT	オーストラリア中部夏時間
+Australia/Brisbane	AU	2	QL	ブリスベン	ブリスベン	-26.5333	153.0333		Queensland - most locations	0	AEST	オーストラリア東部時間		
+Australia/Lindeman	AU	0	QL	ハミルトン島	ハミルトン島	-19.7333	149		Queensland - Holiday Islands	0	AEST	オーストラリア東部時間		
+Australia/Adelaide	AU	3	SA	アデレード	アデレード	-33.0833	138.5833		South Australia	1	ACST	オーストラリア中部時間	ACDT	オーストラリア中部夏時間
+Australia/Darwin	AU	4	NT	ダーウィン	ダーウィン (オーストラリア)	-11.5333	130.8333		Northern Territory	0	ACST	オーストラリア中部時間		
+Australia/Perth	AU	5	WA	パース	パース (西オーストラリア州)	-30.05	115.85		Western Australia - most locations	0	AWST	オーストラリア西部時間		
+Australia/Eucla	AU	0	WA	ユークラ		-30.2833	128.8667		Western Australia - Eucla area	0	ACWST	オーストラリア中西部時間		
+America/Aruba	AW	1	  	アルバ	アルバ	12.5	-68.0333			0	AST	大西洋時間		
+Europe/Mariehamn	AX	1	  	マリエハムン	マリエハムン	60.1	19.95			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Asia/Baku	AZ	1	  	バクー	バクー	40.3833	49.85			0	AZT	アゼルバイジャン時間	AZST	アゼルバイジャン夏時間
+Europe/Sarajevo	BA	1	  	サラエヴォ	サラエヴォ	43.8667	18.4167			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+America/Barbados	BB	1	  	バルバドス	バルバドス	13.1	-58.3833			0	AST	大西洋時間		
+Asia/Dhaka	BD	1	  	ダッカ	ダッカ	23.7167	90.4167			0	BDT	バングラデシュ時間		
+Europe/Brussels	BE	1	  	ブリュッセル	ブリュッセル	50.8333	4.3333			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Africa/Ouagadougou	BF	1	  	ワガドゥグー	ワガドゥグー	12.3667	-0.4833			0	GMT	グリニッジ標準時		
+Europe/Sofia	BG	1	  	ソフィア	ソフィア (ブルガリア)	42.6833	23.3167			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Asia/Bahrain	BH	1	  	バーレン	バーレーン	26.3833	50.5833			0	AST	アラビア時間		
+Africa/Bujumbura	BI	1	  	ブジュンブラ	ブジュンブラ	-2.6167	29.3667			0	CAT	中央アフリカ時間		
+Africa/Porto-Novo	BJ	1	  	ポルトノボ	ポルトノボ	6.4833	2.6167			0	WAT	西アフリカ時間		
+America/St_Barthelemy	BL	1	  	サン・バルテルミー島	サン・バルテルミー島	17.8833	-61.15			0	AST	大西洋時間		
+Atlantic/Bermuda	BM	1	  	バミューダ諸島	バミューダ諸島	32.2833	-63.2333			1	AST	大西洋時間	ADT	大西洋夏時間
+Asia/Brunei	BN	1	  	ブルネイ	ブルネイ	4.9333	114.9167			0	BNT	ブルネイ時間		
+America/La_Paz	BO	1	  	ラパス	ラパス	-15.5	-67.85			0	BOT	ボリビア時間		
+America/Kralendijk	BQ	1	  	ボネール島	ボネール島	12.1508	-68.2767			0	AST	大西洋時間		
+America/Noronha	BR	6	PE	フェルナンド・デ・ノローニャ島	フェルナンド・デ・ノローニャ	-2.15	-31.5833		Atlantic islands	0	FNT	フェルナンド・デ・ノローニャ時間		
+America/Belem	BR	2	PA	ベレン	ベレン (パラー州)	-0.55	-47.5167		Amapa, E Para	0	BRT	ブラジル時間		
+America/Fortaleza	BR	0	CE	フォルタレザ	フォルタレザ	-2.2833	-37.5		NE Brazil (MA, PI, CE, RN, PB)	0	BRT	ブラジル時間		
+America/Recife	BR	0	PE	レシフェ	レシフェ	-7.95	-33.1		Pernambuco	0	BRT	ブラジル時間		
+America/Araguaina	BR	0	TO	アラグアイーナ		-6.8	-47.8		Tocantins	0	BRT	ブラジル時間		
+America/Maceio	BR	0	AL	マセイオ	マセイオ	-8.3333	-34.2833		Alagoas, Sergipe	0	BRT	ブラジル時間		
+America/Bahia	BR	0	BA	バイーア	サルヴァドール	-11.0167	-37.4833		Bahia	0	BRT	ブラジル時間		
+America/Sao_Paulo	BR	1	SP	サンパウロ	サンパウロ市	-22.4667	-45.3833		S & SE Brazil (GO, DF, MG, ES, RJ, SP, PR, SC, RS)	0	BRT	ブラジル時間	BRST	ブラジル夏時間
+America/Campo_Grande	BR	3	MS	カンポ・グランデ	カンポ・グランデ (マットグロッソ・ド・スル州)	-19.55	-53.3833		Mato Grosso do Sul	0	AMT	アマゾン時間	AMST	アマゾン夏時間
+America/Cuiaba	BR	0	MT	クイアバ	クイアバ	-14.4167	-55.9167		Mato Grosso	1	AMT	アマゾン時間	AMST	アマゾン夏時間
+America/Santarem	BR	0	PA	サンタレン		-1.5667	-53.1333		W Para	0	BRT	ブラジル時間		
+America/Porto_Velho	BR	0	RO	ポルト・ベーリョ	ロンドニア州	-7.2333	-62.1		Rondonia	0	AMT	アマゾン時間		
+America/Boa_Vista	BR	0	RR	ボア・ヴィスタ	ロライマ州	2.8167	-59.3333		Roraima	0	AMT	アマゾン時間		
+America/Manaus	BR	4	AM	マナウス	マナウス	-2.8667	-59.9833		E Amazonas	0	AMT	アマゾン時間		
+America/Eirunepe	BR	0	AM	エイルネペ		-5.3333	-68.1333		W Amazonas	0	ACT	アマゾン時間		
+America/Rio_Branco	BR	5	AC	リオブランコ	リオブランコ (アクレ州)	-8.0333	-66.2		Acre	0	ACT	アクレ時間		
+America/Nassau	BS	1	  	ナッソー	ナッソー	25.0833	-76.65			1	EST	アメリカ東部時間	EDT	アメリカ東部夏時間
+Asia/Thimphu	BT	1	  	ティンプー	ティンプー	27.4667	89.65			0	BTT	ブータン時間		
+Africa/Gaborone	BW	1	  	ハボローネ	ハボローネ	-23.35	25.9167			0	CAT	中央アフリカ時間		
+Europe/Minsk	BY	1	  	ミンスク	ミンスク	53.9	27.5667			0	MSK	モスクワ時間		
+America/Belize	BZ	1	  	ベリーズ	ベリーズシティ	17.5	-87.8			0	CST	アメリカ中部時間		
+America/St_Johns	CA	1	NL	セント・ジョンズ	セントジョンズ (ニューファンドランド・ラブラドール州)	47.5667	-51.2833		Newfoundland Time, including SE Labrador	1	NST	ニューファンドランド時間	NDT	ニューファンドランド夏時間
+America/Halifax	CA	2	NS	ハリファックス	ハリファックス	44.65	-62.4		Atlantic Time - Nova Scotia (most places), PEI	1	AST	大西洋時間	ADT	大西洋夏時間
+America/Glace_Bay	CA	0	NS	グレースベイ		46.2	-58.05		Atlantic Time - Nova Scotia - places that did not observe DST 1966-1971	1	AST	大西洋時間	ADT	大西洋夏時間
+America/Moncton	CA	0	NB	モンクトン		46.1	-63.2167		Atlantic Time - New Brunswick	1	AST	大西洋時間	ADT	大西洋夏時間
+America/Goose_Bay	CA	0	NL	ハッピーバレー・グースベイ		53.3333	-59.5833		Atlantic Time - Labrador - most locations	1	AST	大西洋時間	ADT	大西洋夏時間
+America/Blanc-Sablon	CA	0	QC	ブラン・サブロン		51.4167	-56.8833		Atlantic Standard Time - Quebec - Lower North Shore	0	AST	大西洋時間		
+America/Toronto	CA	3	ON	トロント	トロント	43.65	-78.6167		Eastern Time - Ontario - most locations	1	EST	東部時間	EDT	東部夏時間
+America/Nipigon	CA	0	ON	ニピゴン		49.0167	-87.7333		Eastern Time - Ontario & Quebec - places that did not observe DST 1967-1973	1	EST	東部時間	EDT	東部夏時間
+America/Thunder_Bay	CA	0	ON	サンダー・ベイ	サンダーベイ (オンタリオ州)	48.3833	-88.75		Eastern Time - Thunder Bay, Ontario	1	EST	東部時間	EDT	東部夏時間
+America/Iqaluit	CA	0	NU	イカルイト	イカルイト	63.7333	-67.5333		Eastern Time - east Nunavut - most locations	1	EST	東部時間	EDT	東部夏時間
+America/Pangnirtung	CA	0	NU	パングナータング		66.1333	-64.2667		Eastern Time - Pangnirtung, Nunavut	1	EST	東部時間	EDT	東部夏時間
+America/Resolute	CA	0	NU	レゾリュート	レゾリュート	74.6956	-93.1708		Eastern Standard Time - Resolute, Nunavut	1	CST	中部時間	CDT	中部夏時間
+America/Atikokan	CA	0	ON	アティコカン		48.7586	-90.3783		Eastern Standard Time - Atikokan, Ontario and Southampton I, Nunavut	0	EST	東部時間		
+America/Rankin_Inlet	CA	0	NU	ランキンインレット		62.8167	-91.9169		Central Time - central Nunavut	1	CST	中部時間	CDT	中部夏時間
+America/Winnipeg	CA	4	MB	ウィニペグ	ウィニペグ	49.8833	-96.85		Central Time - Manitoba & west Ontario	1	CST	中部時間	CDT	中部夏時間
+America/Rainy_River	CA	0	ON	レイニーリバー		48.7167	-93.4333		Central Time - Rainy River & Fort Frances, Ontario	1	CST	中部時間	CDT	中部夏時間
+America/Regina	CA	5	SK	レジャイナ	レジャイナ	50.4	-103.35		Central Standard Time - Saskatchewan - most locations	0	CST	中部時間		
+America/Swift_Current	CA	0	SK	スウィフトカレント		50.2833	-106.1667		Central Standard Time - Saskatchewan - midwest	0	CST	中部時間		
+America/Edmonton	CA	6	AB	エドモントン	エドモントン	53.55	-112.5333		Mountain Time - Alberta, east British Columbia & west Saskatchewan	1	MST	山岳部時間	MDT	山岳部夏時間
+America/Cambridge_Bay	CA	0	NU	ケンブリッジベイ		69.1139	-104.9472		Mountain Time - west Nunavut	1	MST	山岳部時間	MDT	山岳部夏時間
+America/Yellowknife	CA	0	NT	イエローナイフ	イエローナイフ	62.45	-113.65		Mountain Time - central Northwest Territories	1	MST	山岳部時間	MDT	山岳部夏時間
+America/Inuvik	CA	0	NT	イヌヴィック	イヌヴィック	68.3497	-132.2833		Mountain Time - west Northwest Territories	1	MST	山岳部時間	MDT	山岳部夏時間
+America/Creston	CA	0	BC	クレストン		0	0			0	MST	山岳部時間		
+America/Dawson_Creek	CA	0	BC	ドーソン・クリーク		59.7667	-119.7667		Mountain Standard Time - Dawson Creek & Fort Saint John, British Columbia	0	MST	山岳部時間		
+America/Fort_Nelson	CA	0	BC	フォート・ネルソン		58.8057352	-122.7459673		Mountain Standard Time - Dawson Creek & Fort Saint John, British Columbia	0	MST	山岳部時間		
+America/Vancouver	CA	7	BC	バンクーバー	バンクーバー (ブリティッシュコロンビア州)	49.2667	-122.8833		Pacific Time - west British Columbia	1	PST	太平洋時間	PDT	太平洋夏時間
+America/Whitehorse	CA	0	YT	ホワイトホース	ホワイトホース (ユーコン準州)	60.7167	-134.95		Pacific Time - south Yukon	1	PST	太平洋時間	PDT	太平洋夏時間
+America/Dawson	CA	0	YT	ドーソン・シティ	ドーソン・シティ	64.0667	-138.5833		Pacific Time - north Yukon	1	PST	太平洋時間	PDT	太平洋夏時間
+Indian/Cocos	CC	1	  	ココス諸島	ココス諸島	-11.8333	96.9167			0	CCT	ココス諸島時間		
+Africa/Kinshasa	CD	1	  	キンシャサ	キンシャサ	-3.7	15.3	キンシャサ、バンドゥンドゥ、バ・コンゴ、赤道州	west Dem. Rep. of Congo	0	WAT	西アフリカ時間		
+Africa/Lubumbashi	CD	1	  	ルブンバシ	ルブンバシ	-10.3333	27.4667	カサイ、カタンガ、キブ、マニエマ、東部州	east Dem. Rep. of Congo	0	CAT	中央アフリカ時間		
+Africa/Bangui	CF	1	  	バンギ	バンギ	4.3667	18.5833			0	WAT	西アフリカ時間		
+Africa/Brazzaville	CG	1	  	ブラザビル	ブラザヴィル	-3.7333	15.2833			0	WAT	西アフリカ時間		
+Europe/Zurich	CH	1	  	チューリッヒ	チューリッヒ	47.3833	8.5333			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Africa/Abidjan	CI	1	  	アビジャン	アビジャン	5.3167	-3.9667			0	GMT	グリニッジ標準時		
+Pacific/Rarotonga	CK	1	  	ラロトンガ島	ラロトンガ島	-20.7667	-158.2333			0	CKT	クック諸島時間		
+America/Santiago	CL	1	  	サンティアゴ	サンティアゴ (チリ)	-32.55	-69.3333	主要部分	most locations	1	CLT	チリ時間	CLST	チリ夏時間
+America/Punta_Arenas	CL	1	  	プンタ・アレーナス		0	0	最南部（マガジャネス地方）		0	CLST	チリ夏時間		
+Pacific/Easter	CL	1	  	イースター島	イースター島	-26.85	-108.5667	イースター島とサラ・イ・ゴメス島	Easter Island & Sala y Gomez	1	EAT	イースター島時間	EAST	イースター島夏時間
+Africa/Douala	CM	1	  	ドゥアラ	ドゥアラ	4.05	9.7			0	WAT	西アフリカ時間		
+Asia/Shanghai	CN	1	  	上海	上海市	31.2333	121.4667		east China - Beijing, Guangdong, Shanghai, etc.	0	CST	北京時間		
+Asia/Urumqi	CN	0	  	ウルムチ	ウルムチ市	43.8	87.5833		most of Tibet & Xinjiang	0	XJT	ウルムチ時間		
+America/Bogota	CO	1	  	ボゴタ	ボゴタ	4.6	-73.9167			0	COT	コロンビア時間		
+America/Costa_Rica	CR	1	  	コスタリカ	コスタリカ	9.9333	-83.9167			0	CST	アメリカ中部時間		
+America/Havana	CU	1	  	ハバナ	ハバナ	23.1333	-81.6333			1	CST	アメリカ中部時間	CDT	アメリカ中部夏時間
+Atlantic/Cape_Verde	CV	1	  	カーボベルデ	カーボベルデ	14.9167	-22.4833			0	CVT	カーボベルデ時間		
+Indian/Christmas	CX	1	  	クリスマス島	クリスマス島 (オーストラリア)	-9.5833	105.7167			0	CXT	クリスマス島時間		
+Asia/Nicosia	CY	1	  	ニコシア	ニコシア	35.1667	33.3667			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Asia/Famagusta	CY	2	  	北キプロス		0	0			0	TRT	トルコ時間		
+Europe/Prague	CZ	1	  	プラハ	プラハ	50.0833	14.4333			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Europe/Berlin	DE	1	  	ベルリン	ベルリン	52.5	13.3667			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Europe/Busingen	DE	0	  	ビュージンゲン		0	0			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Africa/Djibouti	DJ	1	  	ジブチ	ジブチ市	11.6	43.15			0	EAT	東アフリカ時間		
+Europe/Copenhagen	DK	1	  	コペンハーゲン	コペンハーゲン	55.6667	12.5833			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+America/Dominica	DM	1	  	ドミニカ国	ドミニカ国	15.3	-60.6			0	AST	大西洋時間		
+America/Santo_Domingo	DO	1	  	サントドミンゴ	サントドミンゴ	18.4667	-68.1			0	AST	大西洋時間		
+Africa/Algiers	DZ	1	  	アルジェ	アルジェ	36.7833	3.05			0	CET	中央ヨーロッパ時間		
+America/Guayaquil	EC	1	  	グアヤキル	グアヤキル	-1.8333	-78.1667	本土	mainland	0	ECT	エクアドル時間		
+Pacific/Galapagos	EC	2	  	ガラパゴス諸島	ガラパゴス諸島	0.9	-88.4	ガラパゴス諸島	Galapagos Islands	0	GALT	ガラパゴス時間		
+Europe/Tallinn	EE	1	  	タリン	タリン	59.4167	24.75			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Africa/Cairo	EG	1	  	カイロ	カイロ (エジプト)	30.05	31.25			0	EET	東ヨーロッパ時間		
+Africa/El_Aaiun	EH	1	  	アイウン	アイウン	27.15	-12.8			0	CET	中央ヨーロッパ時間	WET	西ヨーロッパ時間
+Africa/Asmara	ER	1	  	アスマラ	アスマラ	15.3333	38.8833			0	EAT	東アフリカ時間		
+Europe/Madrid	ES	1	  	マドリード	マドリード	40.4	-2.3167		mainland	1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Africa/Ceuta	ES	2	  	セウタ	セウタ	35.8833	-4.6833		Ceuta & Melilla	1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Atlantic/Canary	ES	3	  	カナリア諸島	カナリア諸島	28.1	-14.6		Canary Islands	1	WET	西ヨーロッパ時間	WEST	西ヨーロッパ夏時間
+Africa/Addis_Ababa	ET	1	  	アディスアベバ	アディスアベバ	9.0333	38.7			0	EAT	東アフリカ時間		
+Europe/Helsinki	FI	1	  	ヘルシンキ	ヘルシンキ	60.1667	24.9667			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Pacific/Fiji	FJ	1	  	フィジー	フィジー	-17.8667	178.4167			1	FJT	フィジー時間	FJST	フィジー夏時間
+Atlantic/Stanley	FK	1	  	スタンリー	スタンリー (フォークランド諸島)	-50.3	-56.15			0	FKST	フォークランド諸島夏時間		
+Pacific/Chuuk	FM	1	  	チューク州	チューク諸島	7.4167	151.7833	チューク州、ヤップ州	Truk (Chuuk) and Yap	0	CHUT	チューク時間		
+Pacific/Pohnpei	FM	2	  	ポンペイ州	ポンペイ島	6.9667	158.2167	ポンペイ州	Ponape (Pohnpei)	0	PONT	ポンペイ時間		
+Pacific/Kosrae	FM	0	  	コスラエ州	コスラエ州	5.3167	162.9833	コスラエ州	Kosrae	0	KOST	コスラエ時間		
+Atlantic/Faroe	FO	1	  	フェロー諸島	フェロー諸島	62.0167	-5.2333			1	WET	西ヨーロッパ時間	WEST	西ヨーロッパ夏時間
+Europe/Paris	FR	1	  	パリ	パリ	48.8667	2.3333			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Africa/Libreville	GA	1	  	リーブルヴィル	リーブルヴィル	0.3833	9.45			0	WAT	西アフリカ時間		
+Europe/London	GB	1	  	ロンドン	ロンドン	51.5083	0.1253			1	GMT	グリニッジ標準時	BST	イギリス夏時間
+America/Grenada	GD	1	  	グレナダ	グレナダ	12.05	-60.25			0	AST	大西洋時間		
+Asia/Tbilisi	GE	1	  	トビリシ	トビリシ	41.7167	44.8167			0	GET	グルジア時間		
+America/Cayenne	GF	1	  	カイエンヌ	カイエンヌ	4.9333	-51.6667			0	GFT	フランス領ギアナ時間		
+Europe/Guernsey	GG	1	  	ガーンジー島	ガーンジー島	49.45	-1.4667			1	GMT	グリニッジ標準時	BST	イギリス夏時間
+Africa/Accra	GH	1	  	アクラ	アクラ	5.55	0.2167			0	GMT	グリニッジ標準時		
+Europe/Gibraltar	GI	1	  	ジブラルタル	ジブラルタル	36.1333	-4.65			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+America/Godthab	GL	1	  	ヌーク	ヌーク	64.1833	-50.2667	主要部分	most locations	1	WGT	西グリーンランド時間	WGST	西グリーンランド夏時間
+America/Danmarkshavn	GL	2	  	デンマークシャウン		76.7667	-17.3333	東海岸（イトコルトルミットの北部）	east coast, north of Scoresbysund	0	GMT	グリニッジ標準時		
+America/Scoresbysund	GL	3	  	イトコルトルミット		70.4833	-20.0333	イトコルトルミット（スコルズビスーン）	Scoresbysund / Ittoqqortoormiit	1	EGT	東グリーンランド時間	EGST	東グリーンランド夏時間
+America/Thule	GL	4	  	チューレ	チューレ空軍基地	76.5667	-67.2167	カーナーク/チューレ	Thule / Pituffik	1	AST	大西洋時間	ADT	大西洋夏時間
+Africa/Banjul	GM	1	  	バンジュール	バンジュール	13.4667	-15.35			0	GMT	グリニッジ標準時		
+Africa/Conakry	GN	1	  	コナクリ	コナクリ	9.5167	-12.2833			0	GMT	グリニッジ標準時		
+America/Guadeloupe	GP	1	  	グアドループ	グアドループ	16.2333	-60.4667			0	AST	大西洋時間		
+Africa/Malabo	GQ	1	  	マラボ	マラボ	3.75	8.7833			0	WAT	西アフリカ時間		
+Europe/Athens	GR	1	  	アテネ	アテネ	37.9667	23.7167			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Atlantic/South_Georgia	GS	1	  	サウスジョージア島	サウスジョージア・サウスサンドウィッチ諸島	-53.7333	-35.4667			0	GST	サウスジョージア時間		
+America/Guatemala	GT	1	  	グアテマラ	グアテマラ	14.6333	-89.4833			0	CST	アメリカ中部時間		
+Pacific/Guam	GU	1	  	グアム	グアム	13.4667	144.75			0	ChST	チャモロ時間		
+Africa/Bissau	GW	1	  	ビサウ	ビサウ	11.85	-14.4167			0	GMT	グリニッジ標準時		
+America/Guyana	GY	1	  	ガイアナ	ガイアナ	6.8	-57.8333			0	GYT	ガイアナ時間		
+Asia/Hong_Kong	HK	1	  	香港	香港	22.2833	114.15			0	HKT	香港時間		
+America/Tegucigalpa	HN	1	  	テグシガルパ	テグシガルパ	14.1	-86.7833			0	CST	アメリカ中部時間		
+Europe/Zagreb	HR	1	  	ザグレブ	ザグレブ	45.8	15.9667			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+America/Port-au-Prince	HT	1	  	ポルトープランス	ポルトープランス	18.5333	-71.6667			0	EST	アメリカ東部時間	EDT	アメリカ東部夏時間
+Europe/Budapest	HU	1	  	ブダペスト	ブダペスト	47.5	19.0833			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Asia/Jakarta	ID	1	  	ジャカルタ	ジャカルタ	-5.8333	106.8	ジャワ、スマトラ	Java & Sumatra	0	WIB	インドネシア西部時間		
+Asia/Pontianak	ID	0	  	ポンティアナック	ポンティアナック	0.0333	109.3333	西カリマンタン、中央カリマンタン	west & central Borneo	0	WIB	インドネシア西部時間		
+Asia/Makassar	ID	2	  	マカッサル	マカッサル	-4.8833	119.4	東カリマンタン、南カリマンタン、スラウェシ、バリ、ヌサ・トゥンガラ、西チモール	east & south Borneo, Celebes, Bali, Nusa Tengarra, west Timor	0	WITA	インドネシア中部時間		
+Asia/Jayapura	ID	3	  	ジャヤプラ	ジャヤプラ	-1.4667	140.7	マルク諸島、パプア	Irian Jaya & the Moluccas	0	WIT	インドネシア東部時間		
+Europe/Dublin	IE	1	  	ダブリン	ダブリン	53.3333	-5.75			1	GMT	グリニッジ標準時	IST	アイルランド夏時間
+Asia/Jerusalem	IL	1	  	エルサレム	エルサレム	31.7667	35.2333			1	IST	イスラエル時間	IDT	イスラエル夏時間
+Europe/Isle_of_Man	IM	1	  	マン島	マン島	54.15	-3.5333			1	GMT	グリニッジ標準時	BST	イギリス夏時間
+Asia/Kolkata	IN	1	  	コルカタ	コルカタ	22.5333	88.3667			0	IST	インド時間		
+Indian/Chagos	IO	1	  	チャゴス諸島	チャゴス諸島	-6.6667	72.4167			0	IOT	インド洋時間		
+Asia/Baghdad	IQ	1	  	バグダード	バグダード	33.35	44.4167			0	AST	アラビア時間		
+Asia/Tehran	IR	1	  	テヘラン	テヘラン	35.6667	51.4333			1	IRST	イラン時間	IRDT	イラン夏時間
+Atlantic/Reykjavik	IS	1	  	レイキャビク	レイキャヴィーク	64.15	-20.15			0	GMT	グリニッジ標準時		
+Europe/Rome	IT	1	  	ローマ	ローマ	41.9	12.4833			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Europe/Jersey	JE	1	  	ジャージー島	ジャージー島	49.2	-1.8833			1	GMT	グリニッジ標準時	BST	イギリス夏時間
+America/Jamaica	JM	1	  	ジャマイカ	ジャマイカ	18	-75.2			0	EST	アメリカ東部時間		
+Asia/Amman	JO	1	  	アンマン	アンマン	31.95	35.9333			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Asia/Tokyo	JP	1	  	東京	東京都	35.6544	139.7447			0	JST	日本時間		
+Africa/Nairobi	KE	1	  	ナイロビ	ナイロビ	-0.7167	36.8167			0	EAT	東アフリカ時間		
+Asia/Bishkek	KG	1	  	ビシュケク	ビシュケク	42.9	74.6			0	KGT	キルギス時間		
+Asia/Phnom_Penh	KH	1	  	プノンペン	プノンペン	11.55	104.9167			0	ICT	インドシナ時間		
+Pacific/Tarawa	KI	1	  	タラワ環礁	タラワ	1.4167	173	ギルバート諸島	Gilbert Islands	0	GILT	ギルバート諸島時間		
+Pacific/Enderbury	KI	2	  	エンダーバリ島	エンダーベリー島	-2.8667	-170.9167	フェニックス諸島	Phoenix Islands	0	PHOT	フェニックス諸島時間		
+Pacific/Kiritimati	KI	3	  	キリスィマスィ島	キリスィマスィ島	1.8667	-156.6667	ライン諸島	Line Islands	0	LINT	ライン諸島時間		
+Indian/Comoro	KM	1	  	コモロ	コモロ	-10.3167	43.2667			0	EAT	東アフリカ時間		
+America/St_Kitts	KN	1	  	セントクリストファー島	セントクリストファー島	17.3	-61.2833			0	AST	大西洋時間		
+Asia/Pyongyang	KP	1	  	平壌	平壌	39.0167	125.75			0	PYT	平壌時間		
+Asia/Seoul	KR	1	  	ソウル	ソウル特別市	37.55	126.9667			0	KST	韓国時間		
+Asia/Kuwait	KW	1	  	クウェート	クウェート (市)	29.3333	47.9833			0	AST	アラビア時間		
+America/Cayman	KY	1	  	ケイマン諸島	ケイマン諸島	19.3	-80.6167			0	EST	アメリカ東部時間		
+Asia/Almaty	KZ	1	  	アルマトイ	アルマトイ	43.25	76.95	大部分	most locations	0	ALMT	アルマトイ時間		
+Asia/Qyzylorda	KZ	0	  	クズルオルダ	クズロルダ	44.8	65.4667	クズロルダ州	Qyzylorda (Kyzylorda, Kzyl-Orda)	0	QYZT	クズルオルダ時間		
+Asia/Aqtobe	KZ	2	  	アクトベ	アクトベ	50.2833	57.1667	アクトベ州	Aqtobe (Aktobe)	0	AQTT	アクトベ時間		
+Asia/Aqtau	KZ	0	  	アクタウ	アクタウ	44.5167	50.2667	アティラウ州、マンギスタウ州	Mangghystau (Mankistau)	0	AQTT	アクトベ時間		
+Asia/Atyrau	KZ	0	  	アティラウ		0	0		Atyrau/Atirau/Gur'yev	0	AQTT	アクトベ時間		
+Asia/Oral	KZ	0	  	オラル	オラル	51.2167	51.35	西カザフスタン州	West Kazakhstan	0	ORAT	オラル時間		
+Asia/Vientiane	LA	1	  	ヴィエンチャン	ヴィエンチャン	17.9667	102.6			0	ICT	インドシナ時間		
+Asia/Beirut	LB	1	  	ベイルート	ベイルート	33.8833	35.5			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+America/St_Lucia	LC	1	  	セントルシア	セントルシア	14.0167	-61			0	AST	大西洋時間		
+Europe/Vaduz	LI	1	  	ファドゥーツ	ファドゥーツ	47.15	9.5167			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Asia/Colombo	LK	1	  	コロンボ	コロンボ	6.9333	79.85			0	IST	インド時間		
+Africa/Monrovia	LR	1	  	モンロビア	モンロビア	6.3	-9.2167			0	GMT	グリニッジ標準時		
+Africa/Maseru	LS	1	  	マセル	マセル	-28.5333	27.5			0	SAST	南アフリカ時間		
+Europe/Vilnius	LT	1	  	ビリニュス	ビリニュス	54.6833	25.3167			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Europe/Luxembourg	LU	1	  	ルクセンブルク	ルクセンブルク	49.6	6.15			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Europe/Riga	LV	1	  	リガ	リガ	56.95	24.1			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Africa/Tripoli	LY	1	  	トリポリ	トリポリ (リビア)	32.9	13.1833			0	EET	東ヨーロッパ時間		
+Africa/Casablanca	MA	1	  	カサブランカ	カサブランカ	33.65	-6.4167			0	CET	中央ヨーロッパ時間	WET	西ヨーロッパ時間
+Europe/Monaco	MC	1	  	モナコ	モナコ	43.7	7.3833			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Europe/Chisinau	MD	1	  	キシナウ	キシナウ	47	28.8333			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Europe/Podgorica	ME	1	  	ポドゴリツァ	ポドゴリツァ	42.4333	19.2667			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+America/Marigot	MF	1	  	マリゴ	マリゴ	18.0667	-62.9167			0	AST	大西洋時間		
+Indian/Antananarivo	MG	1	  	アンタナナリボ	アンタナナリボ	-17.0833	47.5167			0	EAT	東アフリカ時間		
+Pacific/Majuro	MH	1	  	マジュロ	マジュロ	7.15	171.2	主要部分	most locations	0	MHT	マーシャル諸島時間		
+Pacific/Kwajalein	MH	0	  	クェゼリン島	クェゼリン環礁	9.0833	167.3333	クェゼリン環礁	Kwajalein	0	MHT	マーシャル諸島時間		
+Europe/Skopje	MK	1	  	スコピエ	スコピエ	41.9833	21.4333			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Africa/Bamako	ML	1	  	バマコ	バマコ	12.65	-8			0	GMT	グリニッジ標準時		
+Asia/Yangon	MM	1	  	ヤンゴン	ヤンゴン	16.7833	96.1667			0	MMT	ミャンマー時間		
+Asia/Ulaanbaatar	MN	1	  	ウランバートル	ウランバートル	47.9167	106.8833	主要部分	most locations	0	ULAT	ウランバートル時間	ULAST	ウランバートル夏時間
+Asia/Hovd	MN	2	  	ホブド		48.0167	91.65	バヤン・ウルギー県、ゴビ・アルタイ県、ホブド県、オブス県、ザブハン県	Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan	0	HOVT	ホブド時間	HOVST	ホブド夏時間
+Asia/Choibalsan	MN	0	  	チョイバルサン	ドルノド県	48.0667	114.5	ドルノド県、スフバータル県	Dornod, Sukhbaatar	0	CHOT	チョイバルサン	CHOST	チョイバルサン夏時間
+Asia/Macau	MO	1	  	マカオ	マカオ	22.2333	113.5833			0	CST	北京時間		
+Pacific/Saipan	MP	1	  	サイパン島	サイパン島	15.2	145.75			0	ChST	チャモロ時間		
+America/Martinique	MQ	1	  	マルティニーク	マルティニーク	14.6	-60.9167			0	AST	大西洋時間		
+Africa/Nouakchott	MR	1	  	ヌアクショット	ヌアクショット	18.1	-14.05			0	GMT	グリニッジ標準時		
+America/Montserrat	MS	1	  	モントセラト	モントセラト	16.7167	-61.7833			0	AST	大西洋時間		
+Europe/Malta	MT	1	  	マルタ	マルタ	35.9	14.5167			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Indian/Mauritius	MU	1	  	モーリシャス	モーリシャス	-19.8333	57.5			0	MUT	モーリシャス時間		
+Indian/Maldives	MV	1	  	モルディブ	モルディブ	4.1667	73.5			0	MVT	モルディブ時間		
+Africa/Blantyre	MW	1	  	ブランタイヤ	ブランタイヤ	-14.2167	35			0	CAT	中央アフリカ時間		
+America/Mexico_City	MX	1	  	メキシコシティ	メキシコシティ	19.4	-98.85		Central Time - most locations	1	CST	中部時間	CDT	中部夏時間
+America/Cancun	MX	2	  	カンクン	カンクン	21.0833	-85.2333		Central Time - Quintana Roo	0	EST	東部時間		
+America/Merida	MX	0	  	メリダ	メリダ (ユカタン州)	20.9667	-88.3833		Central Time - Campeche, Yucatan	1	CST	中部時間	CDT	中部夏時間
+America/Monterrey	MX	0	  	モンテレー	モンテレー	25.6667	-99.6833		Mexican Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas away from US border	1	CST	中部時間	CDT	中部夏時間
+America/Matamoros	MX	0	  	マタモロス		25.8333	-96.5		US Central Time - Coahuila, Durango, Nuevo Leon, Tamaulipas near US border	1	CST	中部時間	CDT	中部夏時間
+America/Mazatlan	MX	3	  	マサトラン	マサトラン	23.2167	-105.5833		Mountain Time - S Baja, Nayarit, Sinaloa	1	MST	山岳部時間	MDT	山岳部夏時間
+America/Chihuahua	MX	0	  	チワワ	チワワ (チワワ州)	28.6333	-105.9167		Mexican Mountain Time - Chihuahua away from US border	1	MST	山岳部時間	MDT	山岳部夏時間
+America/Ojinaga	MX	0	  	オヒナガ		29.5667	-103.5833		US Mountain Time - Chihuahua near US border	1	MST	山岳部時間	MDT	山岳部夏時間
+America/Hermosillo	MX	4	  	エルモシージョ	エルモシージョ	29.0667	-109.0333		Mountain Standard Time - Sonora	0	MST	山岳部時間		
+America/Tijuana	MX	5	  	ティファナ	ティフアナ	32.5333	-116.9833		US Pacific Time - Baja California near US border	1	PST	太平洋時間	PDT	太平洋夏時間
+America/Santa_Isabel	MX	6	  	サンタイサベル		30.3	-113.1333		Mexican Pacific Time - Baja California away from US border	1	PST	太平洋時間	PDT	太平洋夏時間
+America/Bahia_Banderas	MX	0	  	バイーア・デ・バンデラス		0	0			1	CST	中部時間	CDT	中部夏時間
+Asia/Kuala_Lumpur	MY	1	  	クアラルンプール	クアラルンプール	3.1667	101.7	半島マレーシア	peninsular Malaysia	0	MYT	マレーシア時間		
+Asia/Kuching	MY	0	  	クチン	クチン	1.55	110.3333	サバ州、サラワク州	Sabah & Sarawak	0	MYT	マレーシア時間		
+Africa/Maputo	MZ	1	  	マプト	マプト	-24.0333	32.5833			0	CAT	中央アフリカ時間		
+Africa/Windhoek	NA	1	  	ウィントフック	ウィントフック	-21.4333	17.1			0	WAT	西アフリカ時間	WAST	西アフリカ夏時間
+Pacific/Noumea	NC	1	  	ヌメア	ヌメア	-21.7333	166.45			0	NCT	ニューカレドニア時間		
+Africa/Niamey	NE	1	  	ニアメ	ニアメ	13.5167	2.1167			0	WAT	西アフリカ時間		
+Pacific/Norfolk	NF	1	  	ノーフォーク島	ノーフォーク島	-28.95	167.9667			1	NFT	ノーフォーク時間	NFST	ノーフォーク夏時間
+Africa/Lagos	NG	1	  	ラゴス	ラゴス	6.45	3.4			0	WAT	西アフリカ時間		
+America/Managua	NI	1	  	マナグア	マナグア	12.15	-85.7167			0	CST	アメリカ中部時間		
+Europe/Amsterdam	NL	1	  	アムステルダム	アムステルダム	52.3667	4.9			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Europe/Oslo	NO	1	  	オスロ	オスロ	59.9167	10.75			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Asia/Kathmandu	NP	1	  	カトマンズ	カトマンズ	27.7167	85.3167			0	NPT	ネパール時間		
+Pacific/Nauru	NR	1	  	ナウル	ナウル	0.5167	166.9167			0	NRT	ナウル時間		
+Pacific/Niue	NU	1	  	ニウエ	ニウエ	-18.9833	-168.0833			0	NUT	ニウエ時間		
+Pacific/Auckland	NZ	1	  	オークランド	オークランド (ニュージーランド)	-35.1333	174.7667	主要部分	most locations	1	NZST	ニュージーランド時間	NZDT	ニュージーランド夏時間
+Pacific/Chatham	NZ	2	  	チャタム島	チャタム島	-42.05	-175.45	チャタム諸島	Chatham Islands	1	CHAST	チャタム時間	CHADT	チャタム夏時間
+Asia/Muscat	OM	1	  	マスカット	マスカット	23.6	58.5833			0	GST	湾岸時間		
+America/Panama	PA	1	  	パナマ	パナマ市	8.9667	-78.4667			0	EST	アメリカ東部時間		
+America/Lima	PE	1	  	リマ	リマ	-11.95	-76.95			0	PET	ペルー時間		
+Pacific/Tahiti	PF	1	  	タヒチ島	タヒチ島	-16.4667	-148.4333	ソシエテ諸島	Society Islands	0	TAHT	タヒチ時間		
+Pacific/Marquesas	PF	2	  	マルキーズ諸島	マルキーズ諸島	-9	-138.5	マルキーズ諸島	Marquesas Islands	0	MART	マルキーズ時間		
+Pacific/Gambier	PF	3	  	ガンビエ諸島	ガンビエ諸島	-22.8667	-133.05	ガンビエ諸島	Gambier Islands	0	GAMT	ガンビエ時間		
+Pacific/Port_Moresby	PG	1	  	ポートモレスビー	ポートモレスビー	-8.5	147.1667			0	PGT	パプアニューギニア時間		
+Pacific/Bougainville	PG	2	  	ブーゲンビル島	ブーゲンビル島	-6.216667	155.566667			0	BST	ブーゲンビル時間		
+Asia/Manila	PH	1	  	マニラ	マニラ	14.5833	121			0	PHT	フィリピン時間		
+Asia/Karachi	PK	1	  	カラチ	カラチ	24.8667	67.05			0	PKT	パキスタン時間		
+Europe/Warsaw	PL	1	  	ワルシャワ	ワルシャワ	52.25	21			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+America/Miquelon	PM	1	  	ミクロン島	サンピエール島・ミクロン島	47.05	-55.6667			1	PMST	ピエール・ミクロン時間	PMDT	
+Pacific/Pitcairn	PN	1	  	ピトケアン諸島	ピトケアン諸島	-24.9333	-129.9167			0	PST	ピトケアン時間		
+America/Puerto_Rico	PR	1	  	プエルトリコ	プエルトリコ	18.4683	-65.8939			0	AST	大西洋時間		
+Asia/Gaza	PS	1	  	ガザ	ガザ	31.5	34.4667			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Asia/Hebron	PS	0	  			0	0			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Europe/Lisbon	PT	1	  	リスボン	リスボン	38.7167	-8.8667	本土	mainland	1	WET	西ヨーロッパ時間	WEST	西ヨーロッパ夏時間
+Atlantic/Madeira	PT	2	  	マデイラ諸島	マデイラ諸島	32.6333	-15.1	マデイラ諸島	Madeira Islands	1	WET	西ヨーロッパ時間	WEST	西ヨーロッパ夏時間
+Atlantic/Azores	PT	3	  	アゾレス諸島	アゾレス諸島	37.7333	-24.3333	アゾレス諸島	Azores	1	AZOT	アゾレス時間	AZOST	アゾレス夏時間
+Pacific/Palau	PW	1	  	パラオ	パラオ	7.3333	134.4833			0	PWT	パラオ時間		
+America/Asuncion	PY	1	  	アスンシオン	アスンシオン	-24.7333	-56.3333			1	PYT	パラグアイ時間	PYST	パラグアイ夏時間
+Asia/Qatar	QA	1	  	カタール	カタール	25.2833	51.5333			0	AST	アラビア時間		
+Indian/Reunion	RE	1	  	レユニオン	レユニオン	-19.1333	55.4667			0	RET	レユニオン時間		
+Europe/Bucharest	RO	1	  	ブカレスト	ブカレスト	44.4333	26.1			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Europe/Belgrade	RS	1	  	ベオグラード	ベオグラード	44.8333	20.5			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Europe/Kaliningrad	RU	1	  	カリーニングラード	カリーニングラード	54.7167	20.5		Moscow-01 - Kaliningrad	0	EET	カリーニングラード時間		
+Europe/Moscow	RU	2	  	モスクワ	モスクワ	55.75	37.5833		Moscow+00 - west Russia	0	MSK	モスクワ時間		
+Europe/Volgograd	RU	0	  	ヴォルゴグラード	ヴォルゴグラード	48.7333	44.4167		Moscow+00 - Caspian Sea	0	MSK	モスクワ時間		
+Europe/Kirov	RU	0	  	キーロフ		0	0			0	MSK	モスクワ時間		
+Europe/Astrakhan	RU	0	  	アストラハン		0	0			0	MSK+1			
+Europe/Saratov	RU	0		サラトフ		0	0			0	MSK+1			
+Europe/Ulyanovsk	RU	0		ウリヤノフスク		0	0			0	MSK+1			
+Europe/Samara	RU	3	  	サマラ	サマーラ	53.2	50.15		Moscow - Samara, Udmurtia	0	SAMT	サマラ時間		
+Asia/Yekaterinburg	RU	4	  	エカテリンブルグ	エカテリンブルク	56.85	60.6		Moscow+02 - Urals	0	YEKT	エカテリンブルグ時間		
+Asia/Omsk	RU	5	  	オムスク	オムスク	55	73.4		Moscow+03 - west Siberia	0	OMST	オムスク時間		
+Asia/Novosibirsk	RU	0	  	ノヴォシビルスク	ノヴォシビルスク	55.0333	82.9167		Moscow+03 - Novosibirsk	0	NOVT	ノヴォシビルスク時間		
+Asia/Barnaul	RU	0		バルナウル		0	0			0	MSK+4			
+Asia/Tomsk	RU	0		トムスク		0	0			0	MSK+4			
+Asia/Novokuznetsk	RU	0	  	ノヴォクズネツク	ノヴォクズネツク	53.75	87.1167		Moscow+03 - Novokuznetsk	0	KRAT	クラスノヤルスク時間		
+Asia/Krasnoyarsk	RU	6	  	クラスノヤルスク	クラスノヤルスク	56.0167	92.8333		Moscow+04 - Yenisei River	0	KRAT	クラスノヤルスク時間		
+Asia/Irkutsk	RU	7	  	イルクーツク	イルクーツク	52.2667	104.3333		Moscow+05 - Lake Baikal	0	IRKT	イルクーツク時間		
+Asia/Chita	RU	0	  	チタ	チタ	52.05	113.466667		Moscow+06 (Moscow+05 after 2014-10-26) - Zabaykalsky	0	YAKT	ヤクーツク時間		
+Asia/Yakutsk	RU	8	  	ヤクーツク	ヤクーツク	62	129.6667		Moscow+06 - Lena River	0	YAKT	ヤクーツク時間		
+Asia/Khandyga	RU	0		ハンドゥイガ		0	0			0	YAKT	ヤクーツク時間		
+Asia/Vladivostok	RU	9	  	ウラジオストク	ウラジオストク	43.1667	131.9333		Moscow+07 - Amur River	0	VLAT	ウラジオストク時間		
+Asia/Ust-Nera	RU	0		ウスチ＝ネラ		0	0			0	VLAT	ウラジオストク時間		
+Asia/Sakhalin	RU	0	  	サハリン	樺太	46.9667	142.7		Moscow+07 - Sakhalin Island	0	SAKT	サハリン時間		
+Asia/Magadan	RU	10	  	マガダン	マガダン	59.5667	150.8		Moscow+08 - Magadan	0	MAGT	マガダン時間		
+Asia/Srednekolymsk	RU	0	  	スレドネコリムスク	スレドネコリムスク	67.45	153.683333		Moscow+08 - E Sakha, N Kuril Is	0	SRET	スレドネコリムスク時間		
+Asia/Kamchatka	RU	11	  	カムチャッカ	カムチャツカ地方	53.0167	158.65		Moscow+08 - Kamchatka	0	PETT	カムチャッカ時間		
+Asia/Anadyr	RU	0	  	アナディリ	アナディリ	64.75	177.4833		Moscow+08 - Bering Sea	0	ANAT	アナディリ時間		
+Africa/Kigali	RW	1	  	キガリ	キガリ	-0.05	30.0667			0	CAT	中央アフリカ時間		
+Asia/Riyadh	SA	1	  	リヤド	リヤド	24.6333	46.7167			0	AST	アラビア時間		
+Pacific/Guadalcanal	SB	1	  	ガダルカナル島	ガダルカナル島	-8.4667	160.2			0	SBT	ソロモン諸島時間		
+Indian/Mahe	SC	1	  	マヘ島	マヘ島	-3.3333	55.4667			0	SCT	セーシェル時間		
+Africa/Khartoum	SD	1	  	ハルツーム	ハルツーム	15.6	32.5333			0	CAT	中央アフリカ時間		
+Europe/Stockholm	SE	1	  	ストックホルム	ストックホルム	59.3333	18.05			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Asia/Singapore	SG	1	  	シンガポール	シンガポール	1.2833	103.85			0	SGT	シンガポール時間		
+Atlantic/St_Helena	SH	1	  	セントヘレナ	セントヘレナ	-14.0833	-4.3			0	GMT	グリニッジ標準時		
+Europe/Ljubljana	SI	1	  	リュブリャナ	リュブリャナ	46.05	14.5167			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Arctic/Longyearbyen	SJ	1	  	ロングイェールビーン	ロングイェールビーン	78	16			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Europe/Bratislava	SK	1	  	ブラチスラヴァ	ブラチスラヴァ	48.15	17.1167			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Africa/Freetown	SL	1	  	フリータウン	フリータウン	8.5	-12.75			0	GMT	グリニッジ標準時		
+Europe/San_Marino	SM	1	  	サンマリノ	サンマリノ	43.9167	12.4667			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+Africa/Dakar	SN	1	  	ダカール	ダカール	14.6667	-16.5667			0	GMT	グリニッジ標準時		
+Africa/Mogadishu	SO	1	  	モガディシュ	モガディシュ	2.0667	45.3667			0	EAT	東アフリカ時間		
+America/Paramaribo	SR	1	  	パラマリボ	パラマリボ	5.8333	-54.8333			0	SRT	スリナム時間		
+Africa/Juba	SS	1	  	ジュバ	ジュバ	4.85	31.6			0	EAT	東アフリカ時間		
+Africa/Sao_Tome	ST	1	  	サントメ	サントメ	0.3333	6.7333			0	WAT	西アフリカ時間		
+America/El_Salvador	SV	1	  	エルサルバドル	エルサルバドル	13.7	-88.8			0	CST	アメリカ中部時間		
+America/Lower_Princes	SX	1	  	シント・マールテン	シント・マールテン島	18.05139	-63.0472			0	AST	大西洋時間		
+Asia/Damascus	SY	1	  	ダマスカス	ダマスカス	33.5	36.3			1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Africa/Mbabane	SZ	1	  	ムババーネ	ムババーネ	-25.7	31.1			0	SAST	南アフリカ時間		
+America/Grand_Turk	TC	1	  	グランドターク島	タークス・カイコス諸島	21.4667	-70.8667			1	EST	東部時間	EDT	東部夏時間
+Africa/Ndjamena	TD	1	  	ンジャメナ	ンジャメナ	12.1167	15.05			0	WAT	西アフリカ時間		
+Indian/Kerguelen	TF	1	  	ケルゲレン諸島	ケルゲレン諸島	-48.6472	70.2175			0	TFT	フランス領南方・南極地域時間		
+Africa/Lome	TG	1	  	ロメ	ロメ	6.1333	1.2167			0	GMT	グリニッジ標準時		
+Asia/Bangkok	TH	1	  	バンコク	バンコク	13.75	100.5167			0	ICT	インドシナ時間		
+Asia/Dushanbe	TJ	1	  	ドゥシャンベ	ドゥシャンベ	38.5833	68.8			0	TJT	タジキスタン時間		
+Pacific/Fakaofo	TK	1	  	ファカオフォ島	トケラウ	-8.6333	-170.7667			0	TKT	トケラウ時間		
+Asia/Dili	TL	1	  	ディリ	ディリ	-7.45	125.5833			0	TLT	東チモール時間		
+Asia/Ashgabat	TM	1	  	アシガバート	アシガバート	37.95	58.3833			0	TMT	トルクメニスタン時間		
+Africa/Tunis	TN	1	  	チュニス	チュニス	36.8	10.1833			0	CET	中央ヨーロッパ時間		
+Pacific/Tongatapu	TO	1	  	トンガタプ島	トンガ	-20.8333	-174.8333			0	TOT	トンガ時間	TOST	トンガ夏時間
+Europe/Istanbul	TR	1	  	イスタンブル	イスタンブル	41.0167	28.9667			0	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+America/Port_of_Spain	TT	1	  	ポートオブスペイン	ポートオブスペイン	10.65	-60.4833			0	AST	大西洋時間		
+Pacific/Funafuti	TV	1	  	フナフティ島	フナフティ島	-7.4833	179.2167			0	TVT	ツバル時間		
+Asia/Taipei	TW	1	  	台北	台北市	25.05	121.5			0	CST	中国時間		
+Africa/Dar_es_Salaam	TZ	1	  	ダルエスサラーム	ダルエスサラーム	-5.2	39.2833			0	EAT	東アフリカ時間		
+Europe/Kiev	UA	1	  	キエフ	キエフ	50.4333	30.5167		most locations	1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Europe/Uzhgorod	UA	0	  	ウージュホロド	ウージュホロド	48.6167	22.3		Ruthenia	1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Europe/Zaporozhye	UA	0	  	ザポリージャ	ザポリージャ	47.8333	35.1667		Zaporozh'ye, E Lugansk / Zaporizhia, E Luhansk	1	EET	東ヨーロッパ時間	EEST	東ヨーロッパ夏時間
+Europe/Simferopol	UA	0	  	シンフェロポリ	シンフェロポリ	44.95	34.1		central Crimea	0	MSK	モスクワ時間		
+Africa/Kampala	UG	0	  	カンパラ	カンパラ	0.3167	32.4167			0	EAT	東アフリカ時間		
+Pacific/Johnston	UM	1		ジョンストン島	ジョンストン島	16.75	-168.4833	ジョンストン島	Johnston Atoll	0	HST	ハワイ時間		
+Pacific/Midway	UM	2	  	ミッドウェー島	ミッドウェー島	28.2167	-176.6333	ミッドウェー島	Midway Islands	0	SST	サモア時間		
+Pacific/Wake	UM	3	  	ウェーク島	ウェーク島	19.2833	166.6167	ウェーク島	Wake Island	0	WAKT	ウェーク島時間		
+America/New_York	US	1	NY	ニューヨーク	ニューヨーク	40.7142	-73.9936		Eastern Time	1	EST	東部時間	EDT	東部夏時間
+America/Detroit	US	0	MI	デトロイト	デトロイト	42.3314	-82.9542		Eastern Time - Michigan - most locations	1	EST	東部時間	EDT	東部夏時間
+America/Kentucky/Louisville	US	0	KY	ルイビル	ルイビル	38.2542	-84.2406		Eastern Time - Kentucky - Louisville area	1	EST	東部時間	EDT	東部夏時間
+America/Kentucky/Monticello	US	0	KY	モンティチェロ		36.8297	-83.1508		Eastern Time - Kentucky - Wayne County	1	EST	東部時間	EDT	東部夏時間
+America/Indiana/Indianapolis	US	0	IN	インディアナポリス	インディアナポリス	39.7683	-85.8419		Eastern Time - Indiana - most locations	1	EST	東部時間	EDT	東部夏時間
+America/Indiana/Vincennes	US	0	IN	ヴィンセンス		38.6772	-86.4714		Eastern Time - Indiana - Daviess, Dubois, Knox & Martin Counties	1	EST	東部時間	EDT	東部夏時間
+America/Indiana/Winamac	US	0	IN	ウィナマク		41.0514	-85.3969		Eastern Time - Indiana - Pulaski County	1	EST	東部時間	EDT	東部夏時間
+America/Indiana/Marengo	US	0	IN	マレンゴ		38.3756	-85.6553		Eastern Time - Indiana - Crawford County	1	EST	東部時間	EDT	東部夏時間
+America/Indiana/Petersburg	US	0	IN	ピーターズバーグ		38.4919	-86.7214		Eastern Time - Indiana - Pike County	1	EST	東部時間	EDT	東部夏時間
+America/Indiana/Vevay	US	0	IN	ベベイ		38.7478	-84.9328		Eastern Time - Indiana - Switzerland County	1	EST	東部時間	EDT	東部夏時間
+America/Chicago	US	2	IL	シカゴ	シカゴ	41.85	-86.35		Central Time	1	CST	中部時間	CDT	中部夏時間
+America/Indiana/Tell_City	US	0	IN	テルシティ		37.9531	-85.2386		Central Time - Indiana - Perry County	1	CST	中部時間	CDT	中部夏時間
+America/Indiana/Knox	US	0	IN	ノックス郡		41.2958	-85.375		Central Time - Indiana - Starke County	1	CST	中部時間	CDT	中部夏時間
+America/Menominee	US	0	MI	メノミニー		45.1078	-86.3858		Central Time - Michigan - Dickinson, Gogebic, Iron & Menominee Counties	1	CST	中部時間	CDT	中部夏時間
+America/North_Dakota/Center	US	0	ND	センター		47.1164	-100.7008		Central Time - North Dakota - Oliver County	1	CST	中部時間	CDT	中部夏時間
+America/North_Dakota/New_Salem	US	0	ND	ニューセイレム		46.845	-100.5892		Central Time - North Dakota - Morton County (except Mandan area)	1	CST	中部時間	CDT	中部夏時間
+America/North_Dakota/Beulah	US	0				0	0			1	CST	中部時間	CDT	中部夏時間
+America/Denver	US	3	CO	デンバー	デンバー	39.7392	-103.0158		Mountain Time	1	MST	山岳部時間	MDT	山岳部夏時間
+America/Boise	US	0	ID	ボイシ	ボイシ	43.6136	-115.7975		Mountain Time - south Idaho & east Oregon	1	MST	山岳部時間	MDT	山岳部夏時間
+America/Phoenix	US	4	AZ	フェニックス	フェニックス (アリゾナ州)	33.4483	-111.9267		Mountain Standard Time - Arizona	0	MST	山岳部時間		
+America/Los_Angeles	US	5	CA	ロサンゼルス	ロサンゼルス	34.0522	-117.7572		Pacific Time	1	PST	太平洋時間	PDT	太平洋夏時間
+America/Anchorage	US	6	AK	アンカレッジ	アンカレッジ	61.2181	-148.0997		Alaska Time	1	AKST	アラスカ時間	AKDT	アラスカ夏時間
+America/Juneau	US	0	AK	ジュノー	ジュノー (アラスカ州)	58.3019	-133.5803		Alaska Time - Alaska panhandle	1	AKST	アラスカ時間	AKDT	アラスカ夏時間
+America/Sitka	US	0		シトカ		0	0			1	AKST	アラスカ時間	AKDT	アラスカ夏時間
+America/Metlakatla	US	0		メトラカットラ		0	0			1	AKST	アラスカ時間	AKDT	アラスカ夏時間
+America/Yakutat	US	0	AK	ヤクタット		59.5469	-138.2728		Alaska Time - Alaska panhandle neck	1	AKST	アラスカ時間	AKDT	アラスカ夏時間
+America/Nome	US	0	AK	ノーム	ノーム (アラスカ州)	64.5011	-164.5936		Alaska Time - west Alaska	1	AKST	アラスカ時間	AKDT	アラスカ夏時間
+America/Adak	US	0	AK	アダック	アダック島	51.88	-175.3419		Aleutian Islands	1	HST	ハワイ・アリューシャン時間	HDT	ハワイ・アリューシャン夏時間
+Pacific/Honolulu	US	7	HI	ホノルル	ホノルル	21.3069	-156.1417		Hawaii	0	HST	ハワイ時間		
+America/Montevideo	UY	1	  	モンテビデオ	モンテビデオ	-33.1167	-55.8167			0	UYT	ウルグアイ時間		
+Asia/Samarkand	UZ	0	  	サマルカンド	サマルカンド	39.6667	66.8		west Uzbekistan	0	UZT	ウズベキスタン時間		
+Asia/Tashkent	UZ	1	  	タシュケント	タシュケント	41.3333	69.3		east Uzbekistan	0	UZT	ウズベキスタン時間		
+Europe/Vatican	VA	1	  	バチカン	バチカン	41.9022	12.4531			1	CET	中央ヨーロッパ時間	CEST	中央ヨーロッパ夏時間
+America/St_Vincent	VC	1	  	セントビンセント	セントビンセント島	13.15	-60.7667			0	AST	大西洋時間		
+America/Caracas	VE	1	  	カラカス	カラカス	10.5	-65.0667			0	VET	ベネズエラ時間		
+America/Tortola	VG	1	  	トルトラ島	トルトラ島	18.45	-63.3833			0	AST	大西洋時間		
+America/St_Thomas	VI	1	  	セント・トーマス島	セント・トーマス島	18.35	-63.0667			0	AST	大西洋時間		
+Asia/Ho_Chi_Minh	VN	1	  	ホーチミン	ホーチミン市	10.75	106.6667			0	ICT	インドシナ時間		
+Pacific/Efate	VU	1	  	エファテ島	エファテ島	-16.3333	168.4167			0	VUT	バヌアツ時間		
+Pacific/Wallis	WF	1	  	ウォリス島	ウォリス・フツナ	-12.7	-175.8333			0	WFT	ウォリス・フツナ時間		
+Pacific/Apia	WS	1	  	アピア	アピア	-12.1667	-170.2667			0	WSST	西サモア時間	WSDT	西サモア夏時間
+Asia/Aden	YE	1	  	アデン	アデン	12.75	45.2			0	AST	アラビア時間		
+Indian/Mayotte	YT	1	  	マヨット	マヨット	-11.2167	45.2333			0	EAT	東アフリカ時間		
+Africa/Johannesburg	ZA	1	  	ヨハネスブルグ	ヨハネスブルグ	-25.75	28			0	SAST	南アフリカ時間		
+Africa/Lusaka	ZM	1	  	ルサカ	ルサカ	-14.5833	28.2833			0	CAT	中央アフリカ時間		
+Africa/Harare	ZW	1	  	ハラレ	ハラレ	-16.1667	31.05			0	CAT	中央アフリカ時間		
+Etc/GMT-5	HM	1	  	ハード島とマクドナルド諸島		0	0			0	UTC+5			
+Etc/GMT+8	CP	1	  	クリッパートン島		0	0			0	UTC-8			
+GMT	BV	1	  	ブーベ島		0	0			0	GMT			

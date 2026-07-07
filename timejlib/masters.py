@@ -6,7 +6,8 @@ import csv
 import json
 from pathlib import Path
 
-APP_DATA = Path("/home/saki/dev/WorldTimeCore/WorldTimeCore/App_Data")
+# マスターは 2026-07-07 に旧リポジトリからリポジトリ内 masters/ へ取込済み
+APP_DATA = Path(__file__).resolve().parent.parent / "masters"
 
 AREA_NAMES = {
     "Africa": "アフリカ",
@@ -28,6 +29,18 @@ TZ_ALIASES = {
     "Asia/Chongqing": "Asia/Shanghai",
     "America/Godthab": "America/Nuuk",
     "Europe/Kiev": "Europe/Kyiv",
+    # tzdb 2022b で Kyiv に統合されたゾーン
+    "Europe/Uzhgorod": "Europe/Kyiv",
+    "Europe/Zaporozhye": "Europe/Kyiv",
+}
+
+
+# ja.wikipedia の記事改名への追随(2026-07 リンク検証で判明)
+WIKI_FIXES = {
+    "カイロ (エジプト)": "カイロ",
+    "クウェート (市)": "クウェート市",
+    "ダーウィン (オーストラリア)": "ダーウィン (ノーザンテリトリー)",
+    "トリポリ (リビア)": "トリポリ",
 }
 
 
@@ -116,7 +129,7 @@ def load_locations(countries):
             "alpha2": a2,
             "state": r["state"].strip(),
             "country": countries.get(a2, {}).get("name", ""),
-            "wikipedia": r["wikipedia"].strip(),
+            "wikipedia": WIKI_FIXES.get(r["wikipedia"].strip(), r["wikipedia"].strip()),
             "lat": _to_float(r["lat"]),
             "lng": _to_float(r["lng"]),
             "aiueo": r["aiueo"].strip(),
@@ -127,6 +140,8 @@ def load_locations(countries):
             "city_state": _to_int(r["citystate"]),
             "genzone": TZ_ALIASES.get(r["現ゾーン"].strip(), r["現ゾーン"].strip()),
             "wmo": r["wmo"].strip(),
+            "icao": r["観測値id"].strip() if _to_int(r["観測値"]) == 1 else "",
+            "forecast": _to_int(r["天気予報"]) in (1, 2, 3),
             "note": notes.get(pid, ""),
         })
     return locations

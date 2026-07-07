@@ -58,6 +58,19 @@
 </form>
 <p class="result" id="suncontent"></p>
 
+{% if place.icao %}
+<section id="wx-current" data-icao="{{ place.icao }}" hidden>
+<h2>現在の天気</h2>
+<div class="wx-body"></div>
+</section>
+{% endif %}
+{% if place.forecast %}
+<section id="wx-forecast" data-place="{{ place.id }}" hidden>
+<h2>天気予報</h2>
+<div class="wx-body"></div>
+</section>
+{% endif %}
+
 {% if climate %}
 <h2>気候(平均気温、平均降水量)</h2>
 <div class="scroll-x">
@@ -87,4 +100,7 @@
 {% endblock %}
 {% block scripts %}
 <script type="module" src="/assets/js/location.js?v={{ asset_ver }}"></script>
+{% if place.icao or place.forecast %}
+<script type="module" src="/assets/js/weather.js?v={{ asset_ver }}"></script>
+{% endif %}
 {% endblock %}

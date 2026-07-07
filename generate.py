@@ -16,7 +16,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 PUBLIC = ROOT / "public"
-OLD_WWWROOT = Path("/home/saki/dev/WorldTimeCore/WorldTimeCore/wwwroot")
+ASSETS_IMG = ROOT / "assets"
 
 def _asset_ver():
     """assets/ の内容ハッシュ(短縮)。変更時に URL が変わりキャッシュが切れる"""
@@ -188,6 +188,8 @@ def main():
 
     def render(template, path, **ctx):
         ctx.setdefault("asset_ver", ASSET_VER)
+        url = "https://www.time-j.net/" + path.removesuffix("index.html")
+        ctx.setdefault("canonical", url)
         out(path, env.get_template(template).render(**ctx))
 
     if PUBLIC.exists():
@@ -518,6 +520,35 @@ def main():
             ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8")
 
+    # ---- 世界の天気地図 ----
+    base_svg = (ROOT / "assets" / "img" / "worldmap-base.svg").read_text(encoding="utf-8")
+    markers = []
+    for l in locations:
+        if l["lat"] is None or l["lng"] is None:
+            continue
+        x = round((l["lng"] + 180) / 360 * 1000, 1)
+        y = round((90 - l["lat"]) / 180 * 500, 1)
+        label = (f'<text class="lbl" x="{x + 2.2}" y="{y - 1.4}">{l["name"]}</text>'
+                 if l["area_show"] > 0 else "")
+        markers.append(
+            f'<a href="/WorldTime/Location/{l["id"]}" data-p="{l["id"]}" '
+            f'data-x="{x}" data-y="{y}">'
+            f'<circle class="ct" cx="{x}" cy="{y}" r="1.5"/>'
+            f'<title>{l["name"]}({l["country"]})</title>{label}</a>')
+    map_svg = base_svg.replace('<g id="cities"></g>',
+                               '<g id="cities">' + "".join(markers) + "</g>")
+    render(
+        "map.html.j2",
+        "WorldTime/Map/index.html",
+        title=f"世界の天気地図 - 世界の都市の現在の気温 - {SITE}",
+        header="世界の天気地図",
+        description="世界の都市の現在の気温を地図上に表示。都市をクリックすると時差と現在時刻のページを開きます。",
+        breadcrumb=[{"label": "世界時計", "url": "/"},
+                    {"label": "世界の天気地図", "url": None}],
+        map_svg=map_svg,
+    )
+    n_pages += 1
+
     # ---- Uc 記事 ----
     for tmpl_name, url_path, title in UC_PAGES:
         body = (ROOT / "templates" / "pages" / "uc" / f"{tmpl_name}.html").read_text(encoding="utf-8")
@@ -559,6 +590,40 @@ def main():
         )
         n_pages += 1
 
+    # ---- 404(廃止ページの案内を兼ねる。Cloudflare Pages が自動で使用) ----
+    render(
+        "page.html.j2",
+        "404.html",
+        title=f"ページが見つかりません - {SITE}",
+        header="ページが見つかりません",
+        description="お探しのページは見つかりませんでした。",
+        breadcrumb=None,
+        canonical=None,
+        body=(
+            "<p>お探しのページは、移動したか、サイトのリニューアル(2026年)で廃止された可能性があります。"
+            "ブログ(/wp)、お問い合わせフォーム、ブログパーツ、METAR/TAF のページは廃止しました。</p>"
+            '<ul><li><a href="/">世界時計 トップ</a></li>'
+            '<li><a href="/Search">都市の検索</a></li>'
+            '<li><a href="/WorldTime/LocationIndex">都市一覧</a> / '
+            '<a href="/WorldTime/ListOfCountries">国一覧</a></li>'
+            '<li><a href="/WorldTime/Map">世界の天気地図</a></li></ul>'),
+    )
+    # /404.html は sitemap から除外するため n_pages に数えない
+
+    # ---- sitemap.xml / robots.txt ----
+    urls = sorted(
+        "https://www.time-j.net/" + str(p.relative_to(PUBLIC)).removesuffix("index.html")
+        for p in PUBLIC.rglob("index.html"))
+    sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    sm += [f"<url><loc>{u}</loc></url>" for u in urls]
+    sm.append("</urlset>")
+    (PUBLIC / "sitemap.xml").write_text("\n".join(sm), encoding="utf-8")
+    (PUBLIC / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\nSitemap: https://www.time-j.net/sitemap.xml\n",
+        encoding="utf-8")
+    print(f"sitemap.xml: {len(urls)} URL")
+
     # ---- 検索用データ ----
     search = [[l["name"], l["aiueo"], l["country"], l["id"]] for l in locations]
     (PUBLIC / "data").mkdir(parents=True, exist_ok=True)
@@ -575,18 +640,13 @@ def main():
         code = code.replace('"/assets/vendor/temporal-polyfill.global.min.js"',
                             f'"/assets/vendor/temporal-polyfill.global.min.js?v={ASSET_VER}"')
         js.write_text(code, encoding="utf-8")
-    if (OLD_WWWROOT / "favicon.ico").exists():
-        shutil.copy(OLD_WWWROOT / "favicon.ico", PUBLIC / "favicon.ico")
+    shutil.copy(ASSETS_IMG / "favicon.ico", PUBLIC / "favicon.ico")
     for img in ["uc/earth.png",
                 "DaylightSaving-World-Subdivisions7.png",
                 "DaylightSaving-World-Subdivisions5.png"]:
-        src = OLD_WWWROOT / "Images" / img
-        if src.exists():
-            dst = PUBLIC / "Images" / img
-            dst.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy(src, dst)
-        else:
-            print(f"警告: 画像 {img} が見つかりません")
+        dst = PUBLIC / "Images" / img
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy(ASSETS_IMG / "img" / img, dst)
 
     total = sum(1 for _ in PUBLIC.rglob("*") if _.is_file())
     print(f"ページ {n_pages} / 総ファイル {total} → public/")

@@ -1,0 +1,18 @@
+{% extends "base.html.j2" %}
+{% block content %}
+<p>世界の都市の現在の気温を地図上に表示しています。都市をクリックすると、その都市の時刻と時差のページを開きます。マウスホイールかボタンで拡大すると、都市名と気温の数字が表示されます。</p>
+<noscript><p class="noscript-warn">気温の表示には JavaScript が必要です(地図と都市リンクはそのまま使えます)。</p></noscript>
+<div class="mapwrap">
+  <div class="mapctl">
+    <button type="button" id="map-in" aria-label="拡大">+</button>
+    <button type="button" id="map-out" aria-label="縮小">−</button>
+    <button type="button" id="map-reset" aria-label="全体表示">全体</button>
+  </div>
+  {{ map_svg|safe }}
+</div>
+<p class="muted" id="map-updated"></p>
+<p class="muted">気温は各都市の空港の実測(METAR、出典: aviationweather.gov)。基図: Natural Earth(パブリックドメイン)。</p>
+{% endblock %}
+{% block scripts %}
+<script type="module" src="/assets/js/map.js?v={{ asset_ver }}"></script>
+{% endblock %}

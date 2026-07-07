@@ -3,10 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>{{ title }}</title>
 <meta name="description" content="{{ description }}">
 <link rel="stylesheet" href="/assets/css/site.css?v={{ asset_ver }}">
 <link rel="icon" href="/favicon.ico">
+{% if canonical %}
+<link rel="canonical" href="{{ canonical }}">
+<meta property="og:url" content="{{ canonical }}">
+{% endif %}
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="世界時計 - Time-j.net">
+<meta property="og:locale" content="ja_JP">
 {% block head %}{% endblock %}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NDMMVEGBQ4"></script>
 <script>

@@ -60,3 +60,11 @@ wrangler pages deploy public --project-name <プロジェクト名>
 | `data/`, `public/` | 生成物(Git 管理外) |
 
 設計方針・決定事項は [DESIGN.md](DESIGN.md) を参照してください。
+
+## 天気データ(Phase 4)
+
+- Location ページの「現在の天気」(METAR)と「天気予報」(met.no)は、**WeatherStatic 側が生成する `weather.time-j.net/data/world/` の静的 JSON** をブラウザが直接 fetch します(assets/js/weather.js)。worldtime のビルドには天気データは不要です。
+- 取得バッチは `/home/saki/dev/weather/WeatherStatic/fetch_world.py`(cron はそちらの運用)。スキーマは WeatherStatic の DATA_CONTRACT.md「world」節を参照。
+- **ローカルで天気欄を確認する場合**: weather.js は localhost では同一オリジンの `/data/world/` を見るので、
+  `cp -r ../weather/WeatherStatic/public/data/world public/data/world`
+  で最新データをコピーしてください(public/ は再生成で消えるため、必要なときに都度コピー)。

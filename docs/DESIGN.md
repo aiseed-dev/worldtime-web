@@ -178,7 +178,7 @@ WeatherStatic / eCitizenStatic と同じ二層分離 + クライアント層:
 - **Phase 2: ツール群・記事** — Meeting(会議時間計算)、Uc 一式(Dst、NewYear カウントダウン、GMT/UTC、World-Countries 等)、Country ページ
 - **Phase 3: (消滅)** — ブログは K4 で廃止決定(/wp/* は 410、発信は Facebook)
 - **Phase 4: 動的データ系** — 天気予報・METAR・為替。**weather.time-j.net 側の API 設計が決まってから検討(K3-2)**。それまで凍結
-- **Phase 5: 仕上げ** — `_redirects`、410 設定、sitemap.xml、404、GA4、OGP、本番切替(DNS)
+- **Phase 5: 仕上げ** — **実装完了(2026-07-07)**: sitemap.xml(753 URL)、robots.txt、404.html(廃止ページの案内兼用)、canonical+OGP 全ページ、Wikipedia リンク全516件検証(改名4件を WIKI_FIXES で修正)。**410 は Cloudflare Pages の _redirects が非対応のためカスタム 404 で代替**(インデックス除去効果は同等)。残るは本番切替のみ(ユーザー作業): Pages プロジェクト作成・両サイトデプロイ・DNS 切替・AdSense 自動広告オフ・weather cron 追加
 
 各フェーズ完了時に承認を得てから次へ(eCitizen と同運用)。
 
@@ -218,6 +218,7 @@ WeatherStatic / eCitizenStatic と同じ二層分離 + クライアント層:
 | **K8** | 2026-07-06 | Google AdSense は現行と同じ **`ca-pub-1546885182692889`** を継続使用。広告ユニットはレスポンシブ形式で作り直し、配置は Phase 1 テンプレート実装時に決定(D10)。旧サイトの 15 スロット ID は流用せず参考扱い |
 | **K9** | 2026-07-06 | **自動広告(Auto ads)は不使用。手動配置ユニットのみ**。自動広告の方が収益は大きい(実績: 自動 ¥40,460 vs 手動 ¥15,110)が、レイアウトへの割込みがひどく UX を損なうため、**減収を容認して手動配置を選択**(ユーザー判断)。実装時の注意: コードスニペット自体は共通のため、AdSense 管理画面側で time-j.net の自動広告をオフにする必要がある(ユーザー作業) |
 | **K10** | 2026-07-06 | 広告方針の方向性: **広告収益には依存しない。広告枠は自社サービスへの誘導(スマホアプリ worldtime、ecitizen.jp 等)に使う方が良い**(ユーザー発言)。D10 の配置検討では AdSense ユニットより自社誘導枠(アプリ紹介バナー等)を優先する |
+| **K11** | 2026-07-07 | **Phase 4 を案A で実装**(§13)。現在の天気=METAR実測(aviationweather.gov)、予報=met.no、いずれも WeatherStatic 側の fetch_world.py がローカル取得し weather.time-j.net/data/world/ から CORS 付き静的 JSON で配信、worldtime はクライアント fetch(失敗時は欄非表示)。為替は eCitizen 側検討(§13.4)。アプリは Open-Meteo 直接取得(§13.2.1) |
 
 ## 12. 実装記録
 
@@ -237,6 +238,15 @@ WeatherStatic / eCitizenStatic と同じ二層分離 + クライアント層:
 - バグ修正: sun.js の日の出計算が UTC 暦日基準のため UTC+14 圏(キリバス等)で1日ずれる問題(現地日付一致で暦日を探索する方式に修正)。アセットの キャッシュ更新は内容ハッシュ版数(`?v={md5}`)をページ参照とモジュール間 import の両方に付与して解決。
 - 検証済み: US(7ゾーン・都市グルーピング・フェニックス/ハワイの夏時間なし判定)、RU(11ゾーン)、EU(27カ国)、会議表(東京0:00=NY前日11:00=ロンドン前日16:00)、ニューイヤー(キリスィマスィ島が最先行・初日の出カウント正常)、Uc記事表示・画像。コンソールエラーなし。
 
+### Phase 4 完了(2026-07-07)
+
+- **weather 側**(WeatherStatic リポジトリ): `weatherlib/world.py` + `fetch_world.py` を新設。met.no locationforecast(112都市、UA 明示・0.3秒間隔)+ aviationweather.gov METAR(382 ICAO を100件ずつ4リクエスト)→ `data/world/` → `public/data/world/` 同期(461ファイル、全量2分30秒)。`public/_headers` に `/data/world/*` の CORS を自動保証。スキーマは WeatherStatic の DATA_CONTRACT.md「world」節(ソース中立)。都市マスター `master/world_cities.json` は worldtime 側 `tools/export_world_cities.py` が生成(391都市)。
+- **worldtime 側**: locations.json に icao/forecast を追加、Location テンプレートに「現在の天気」「天気予報」セクション(該当都市のみ、`hidden` 初期状態)、`assets/js/weather.js`(METAR→天気/気温/湿度(Magnus式)/風の日本語表示、met.no symbol_code→日本語マップ、日付は Temporal で現地時刻表示、出典表記付き、取得失敗時は欄非表示)。localhost では同一オリジン `/data/world/` を参照(ローカル検証用)。
+- 検証済み: ロンドン(METAR 快晴25°C+8日予報+出典表記)、東京(METAR のみ・予報欄なし)、コンソールエラーなし。
+- データ補正: Europe/Uzhgorod・Europe/Zaporozhye を Europe/Kyiv に正規化(tzdb 2022b の統合、システム tzdata に旧 ID が無くビルド失敗したため)。WeatherStatic の venv に tzdata パッケージを追加。
+- **世界の天気地図**(/WorldTime/Map、2026-07-07 ユーザー発案「マスターを置くだけでなく地図に」): 実装方式は点データ向きの「自前 SVG 基図+一括 map.json」を採用(タイルピラミッドは将来 ECMWF の面データを描く段階で)。基図は Natural Earth 由来のパブリックドメイン GeoJSON から `tools/build_worldmap.py` が生成(assets/img/worldmap-base.svg、121KB、コミット対象)。generate.py が516都市のマーカー(都市ページへのリンク+ズームで出る都市名ラベル)を焼き込み、map.js が weather 側 `/data/world/map.json`(fetch_world.py が組み立て、362都市)から気温を色分け表示。ホイール/ドラッグ/ボタンでズーム・パン。気温が取れなくても地図とリンクは機能する。
+- **運用(ユーザー作業)**: weather 側 cron に fetch_world.py を追加、weather と worldtime 両サイトのデプロイ。
+
 ### 旧サイトからの意図的な逸脱
 
 1. Area ページの現在時刻は自動更新に変更(旧は「再読込してください」の静的表示)。
@@ -250,7 +260,80 @@ WeatherStatic / eCitizenStatic と同じ二層分離 + クライアント層:
 9. カウントダウン ニューイヤーは年を JS で自動判定するエバーグリーンページに変更(旧は毎年手動更新)。
 10. ListOfCountries のモバイル用50音ページ分割(/WorldTime/ListOfCountries/x{n})は廃止し、レスポンシブな1ページに統合。
 
-## 13. 参照(現行コード)
+## 13. Phase 4 設計案(2026-07-07、承認待ち)
+
+### 13.1 前提(weather 側調査の結果)
+
+- WeatherStatic(weather.time-j.net)は**気象庁データによる日本国内専用**: 地点マスター1,286、予報=主要57都市(bosai JSON)、現在値(アメダス+推計気象分布)、平年値。ローカル cron(毎日5回)+ Cloudflare Pages の配信基盤が稼働済み。
+- **世界の都市の予報・METAR のデータは weather 側に存在しない**(旧 WorldTimeCore が独自に Met Norway を都度 fetch し、metar PostgreSQL DB を持っていた)。為替機能も無い。
+- worldtime の必要量: 天気予報 112都市(Met Norway 系の紐付けが有効な都市)、METAR 385都市(観測値id=ICAO)。
+
+### 13.2 提案: weather 側に「世界の天気」レイヤーを新設(案A、推奨)
+
+WeatherStatic の既存 cron・デプロイ基盤に世界向け取得層を追加し、worldtime はその静的 JSON を fetch する。
+
+```
+[weather 側・新設]
+fetch_world.py(ローカル cron、既存の1日5回に相乗り)
+  ├─ Met Norway locationforecast/2.0(compact)× 対象都市
+  │    サーバー側取得なので ToS の User-Agent 識別要件を満たせる
+  ├─ aviationweather.gov の METAR キャッシュ一括ファイル(全局分を1リクエスト)
+  │    → 385 ICAO 分を抽出(TAF も同様)
+  └─ 出力(weather の public/ に含めてデプロイ):
+       /data/world/forecast/{place}.json   (都市別・3〜7日予報、更新3〜4回/日)
+       /data/world/metar/{icao}.json       (最新 METAR/TAF、更新は cron 毎)
+       /data/world/index.json              (提供都市一覧・更新時刻)
+
+[配信]
+Cloudflare Pages の _headers で /data/world/* に Access-Control-Allow-Origin: *
+
+[worldtime 側]
+Location ページが weather.time-j.net/data/world/… をクライアント fetch
+  → 天気予報欄・現在の天気(METAR)欄を復活。取得失敗時は欄ごと非表示(時計機能に影響なし)
+```
+
+- 利点: データ処理はローカル原則(eCitizen で確立)を維持。met.no の UA 制約・レート制御もバッチ側で担保。worldtime は静的サイトのまま。気象データの責務が weather 側に一元化(K3-2 の構想どおり)。
+- 負荷見積り: met.no ~112〜516リクエスト/回 ×3〜4回/日(制限 20req/s に対し余裕)、METAR は一括キャッシュファイルで 1〜2リクエスト/回。
+- 対象都市は当面、旧サイトで有効だった 112都市(予報)+385都市(METAR)。将来 516都市全体に広げるかは運用後に判断。
+
+### 13.2.1 予報データソースの役割分担(2026-07-07 方針)
+
+| 用途 | ソース | 理由 |
+|---|---|---|
+| **現在の天気・気温(Web)** | **METAR 実測**(aviationweather.gov 一括キャッシュ → weather 側バッチ、2026-07-07 決定) | 実測値。気温・露点(→湿度)・風・視程・雲量・天気が揃う。旧サイトの「現在の天気」欄と同構成。対象385都市、ICAO の無い131都市は現在欄なし(予報のみ) |
+| **天気予報(Web)** | **met.no locationforecast**(weather 側バッチ経由、案A) | 完成品の予報+symbol_code(天気アイコン)。CC BY 4.0 で商用も明確。サーバー側取得で UA 要件を満たす。旧サイトの表示資産(yr.no 系)の再現も最短 |
+| **アプリ(worldtime、別リポ)** | **Open-Meteo を端末から直接取得**(ユーザー発案) | GPS・任意座標に強く、リクエストが端末に分散、キー不要・モバイル向き。met.no は多ユーザーアプリの直叩きを非推奨。**注意: 無料枠は非商用限定** — アプリに広告/課金を入れる場合は商用プラン要検討。登録済み都市は weather 側 JSON を使うハイブリッドも可 |
+| **将来の独自プロダクト** | ECMWF オープンデータ(IFS/AIFS、GRIB2、CC BY 4.0) | 世界の天気図等を weather.time-j.net で作る段階になったら。生データのため天気判定・GRIB 処理の実装が必要でコスト大。今回は見送り |
+
+**将来構想(2026-07-07 ユーザー発案): ECMWF オープンデータで天気図を描いて掲載する案。** 都市別予報と違い天気判定ロジックが不要で生データの強みが活きる(等圧線・降水・気温等の面データをそのまま描画)。weather 側 cron で GRIB 取得(インデックス経由で必要パラメータのみ)→ matplotlib/cartopy でビルド時描画 → 静的配信、という eCitizen のビルド時 SVG 方式と同型。CC BY 4.0 の帰属表示で商用可。世界天気図は差別化コンテンツになり、worldtime からの導線先(K10)にもなる。具体化は weather 側の設計で。
+
+- Open-Meteo は met.no 障害時の Web 側代替候補でもある(採用時はライセンス確認)。
+- weather 側 /data/world/ のスキーマはソース中立に設計し、ソース差し替えを可能にしておく。
+
+### 13.3 代替案
+
+- **案B: worldtime クライアントから外部 API を直接 fetch** — 予報は Open-Meteo(CORS・キー不要)へ置換、METAR は aviationweather.gov API を直接叩く(CORS 可否要検証)。バッチ不要だが、第三者 API への依存がクライアントに露出し、met.no は ToS 上使えない。データ処理ローカル原則からも外れる。
+- **案C: 非搭載継続** — 気候平年値のみ(現状)。実装ゼロ。
+
+### 13.4 為替レート
+
+weather ではなく **eCitizen(統計メモ帳)側で提供を検討する**(2026-07-07 ユーザー方針。為替は経済統計として eCitizen の守備範囲)。worldtime は当面非搭載とし、eCitizen 側で為替データ(静的 JSON)の提供が決まったら、天気と同じクライアント fetch 方式で通貨欄を復活させる。データ源の候補は frankfurter.app / ECB 等(eCitizen 側の設計で決定)。
+
+### 13.5 実装順(案A採用の場合)
+
+1. weather 側: fetch_world.py + DATA_CONTRACT(world スキーマ)+ _headers(CORS)— WeatherStatic リポジトリ側の作業
+2. worldtime 側: Location テンプレートに予報欄・METAR欄(データ属性で ICAO/place を焼き込み、weather.js が fetch・描画)
+3. 検証後、K3 を確定して §11 に記録
+
+### 13.6 検証結果(2026-07-07 実測)
+
+- **aviationweather.gov API は実測で良好**: `api/data/metar?ids={カンマ区切りICAO}&format=json` で複数局のデコード済み JSON(気温・露点・風・視程・雲量・fltCat+生電文)を一括取得(50局=0.9秒/18.8KB)。TAF も同形式。認証不要。
+- **全世界一括キャッシュ**: `data/cache/metars.cache.csv.gz`(245KB・毎分更新)で全空港分を1リクエスト取得可 → fetch_world.py はこれを使えば METAR 部分は極めて軽量。
+- **CORS ヘッダーなし**(実測)→ ブラウザ直接 fetch(案B)は METAR では不可。案Aの根拠。
+- 通報の無い局がある(50局中7局欠け、アフリカ等)→ worldtime 側は「データなし」表示を前提に。
+- 残る未検証: met.no 予報の現行 API 確認(座標指定なので旧 天気予報id は不要の見込み)、旧 METAR 表示(天気アイコン・日本語文)の再現範囲。
+
+## 14. 参照(現行コード)
 
 - ルーティング: `WorldTimeCore/Startup.cs`
 - 初期化・マスター読込: `WorldTimeCore/Models/AppIni.cs`

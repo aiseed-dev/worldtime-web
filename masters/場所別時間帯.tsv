@@ -1,0 +1,517 @@
+場所	alpha2	state	名前	wikipedia	時間帯	国別表示	地域別表示	lat	lng	aiueo	area	area表示	area備考	wmo	metar	citystate	現ゾーン	天気予報	天気予報id	天気予報の場所	観測値	観測値id	観測地の場所	wunderid	gmap_query
+Africa/Abidjan	CI		アビジャン	アビジャン	Africa/Abidjan	1	1	5.31667	-4.03333	あひしやん	Africa	1			DIAP	0		5			1	DIAP			アビジャン+コートジボワール
+Africa/Accra	GH		アクラ	アクラ	Africa/Accra	1	1	5.55	-0.21667	あくら	Africa	1		151/c00921	DGAA	0		5			1	DGAA			アクラ+ガーナ
+Africa/Addis_Ababa	ET		アディスアベバ	アディスアベバ	Africa/Addis_Ababa	1	1	9.03333	38.7	あていすあへは	Africa	1		060/c00162		0		0			0				アディスアベバ+エチオピア
+Africa/Algiers	DZ		アルジェ	アルジェ	Africa/Algiers	1	1	36.78333	3.05	あるしえ	Africa	1		122/c00242		0		3	lat=36.7525;lon=3.0420;msl=224	Algeria/Alger/Algiers/	1	DAAG			アルジェ+アルジェリア
+Africa/Asmara	ER		アスマラ	アスマラ	Africa/Asmara	1	1	15.33333	38.88333	あすまら	Africa	1		042/c00155		0		0			0				アスマラ+エリトリア
+Africa/Bamako	ML		バマコ	バマコ	Africa/Bamako	1	1	12.65	-8.0	はまこ	Africa	1		034/c00129	GABS	0		5			1	GABS			バマコ+マリ
+Africa/Bangui	CF		バンギ	バンギ	Africa/Bangui	1	1	4.36667	18.58333	はんき	Africa	1			FEFF	0		5			1	FEFF			バンギ+中央アフリカ
+Africa/Banjul	GM		バンジュール	バンジュール	Africa/Banjul	1	1	13.46667	-16.65	はんしゆうる	Africa	1		036/c00140	GBYD	0		5			1	GBYD			バンジュール+ガンビア
+Africa/Bissau	GW		ビサウ	ビサウ	Africa/Bissau	1	1	11.85	-15.58333	ひさう	Africa	1		064/c00346	GGOV	0		5			1	GGOV			ビサウ+ギニアビサウ
+Africa/Blantyre	MW		ブランタイヤ	ブランタイヤ	Africa/Blantyre	1	1	-15.78333	35.0	ふらんたいや	Africa	1		073/c00262		0		0			0				ブランタイヤ+マラウイ
+Africa/Brazzaville	CG		ブラザビル	ブラザヴィル	Africa/Brazzaville	1	1	-4.26667	15.28333	ふたさひる	Africa	1			FCBB	0		5			1	FCBB			ブラザビル+コンゴ共和国
+Africa/Bujumbura	BI		ブジュンブラ	ブジュンブラ	Africa/Bujumbura	1	1	-3.38333	29.36667	ふしゆんふら	Africa	1				0		0			0				ブジュンブラ+ブルンジ
+Africa/Cairo	EG		カイロ	カイロ (エジプト)	Africa/Cairo	1	1	30.05	31.25	かいろ	Africa	1		059/c00248		0		3	lat=30.0626;lon=31.2497;msl=21	Egypt/Cairo/Cairo/	1	HECA			カイロ+エジプト
+Africa/Cape_Town	ZA		ケープタウン	ケープタウン	Africa/Johannesburg	101	1	-33.916667	18.416667	けえふたうん	Africa	0		035/c00138	FACT	0		5			1	FACT			ケープタウン+南アフリカ
+Africa/Casablanca	MA		カサブランカ	カサブランカ	Africa/Casablanca	1	1	33.65	-7.58333	かさふらんか	Africa	1		045/c00179		0		3	lat=33.5928;lon=-7.6192;msl=12	Morocco/Grand_Casablanca/Casablanca/	1	GMMN			カサブランカ+モロッコ
+Africa/Ceuta	ES		セウタ	セウタ	Africa/Ceuta	2	0	35.88333	-5.31667	せうた	Africa	1	セウタ・メリリャ 			0		3	lat=35.8893;lon=-5.3198;msl=86	Spain/Ceuta/Ceuta/	0				セウタ+スペイン
+Africa/Conakry	GN		コナクリ	コナクリ	Africa/Conakry	1	1	9.51667	-13.71667	こなくり	Africa	1		124/c00245		0		0			0				コナクリ+ギニア
+Africa/Dakar	SN		ダカール	ダカール	Africa/Dakar	1	1	14.66667	-17.43333	たかある	Africa	1		048/c00244	GOOY	0		5			1	GOOY			ダカール+セネガル
+Africa/Dar_es_Salaam	TZ		ダルエスサラーム	ダルエスサラーム	Africa/Dar_es_Salaam	1	1	-6.8	39.28333	たるえすさらあむ	Africa	1		049/c00252		0		0			0				ダルエスサラーム+タンザニア
+Africa/Djibouti	DJ		ジブチ	ジブチ市	Africa/Djibouti	1	1	11.6	43.15	しふち	Africa	1		126/c00250		1		0			0				ジブチ市+ジブチ
+Africa/Douala	CM		ドゥアラ	ドゥアラ	Africa/Douala	1	1	4.05	9.7	とうあら	Africa	1		055/c00257	FKKD	0		5			1	FKKD			ドゥアラ+カメルーン
+Africa/El_Aaiun	EH		アイウン	アイウン	Africa/El_Aaiun	1	1	27.15	-13.2	あいうん	Africa	1				0		3	lat=27.1622;lon=-13.2032;msl=72	Western_Sahara/Other/El_Aaiún/	1	GMML			アイウン+西サハラ
+Africa/Freetown	SL		フリータウン	フリータウン	Africa/Freetown	1	1	8.5	-13.25	ふりいたうん	Africa	1		125/c00246		0		0			0				フリータウン+シエラレオネ
+Africa/Gaborone	BW		ハボローネ	ハボローネ	Africa/Gaborone	1	1	-24.65	25.91667	はほろうね	Africa	1			FBSK	0		5			1	FBSK			ハボローネ+ボツワナ
+Africa/Harare	ZW		ハラレ	ハラレ	Africa/Harare	1	1	-17.83333	31.05	はられ	Africa	1		130/c00263	FVHA	0		5			1	FVHA			ハラレ+ジンバブエ
+Africa/Johannesburg	ZA		ヨハネスブルグ	ヨハネスブルグ	Africa/Johannesburg	1	1	-26.25	28.0	よはねすふるく	Africa	1		035/c00139	FAOR	0		5			1	FAOR			ヨハネスブルグ+南アフリカ
+Africa/Juba	SS		ジュバ	ジュバ	Africa/Juba	1	1	4.85	31.6	しゆは	Africa	1				0		0			0				ジュバ+南スーダン
+Africa/Kampala	UG		カンパラ	カンパラ	Africa/Kampala	1	1	0.31667	32.41667	かんはら	Africa	1		168/c01328		0		0			0				カンパラ+ウガンダ
+Africa/Khartoum	SD		ハルツーム	ハルツーム	Africa/Khartoum	1	1	15.6	32.53333	はるつうむ	Africa	1		085/c00249	HSSS	0		5			1	HSSS			ハルツーム+スーダン
+Africa/Kigali	RW		キガリ	キガリ	Africa/Kigali	1	1	-1.95	30.06667	きかり	Africa	1		127/c00254	HRYR	0		5			1	HRYR			キガリ+ルワンダ
+Africa/Kinshasa	CD		キンシャサ	キンシャサ	Africa/Kinshasa	1	1	-4.3	15.3	きんしやさ	Africa	1	西部		FZAA	0		5			1	FZAA			キンシャサ+コンゴ民主共和国
+Africa/Lagos	NG		ラゴス	ラゴス	Africa/Lagos	1	1	6.45	3.4	らこす	Africa	1		075/c00258	DNMM	0		5			1	DNMM			ラゴス+ナイジェリア
+Africa/Libreville	GA		リーブルヴィル	リーブルヴィル	Africa/Libreville	1	1	0.38333	9.45	りいふるういる	Africa	1		128/c00255	FOOL	0		5			1	FOOL			リーブルヴィル+ガボン
+Africa/Lome	TG		ロメ	ロメ	Africa/Lome	1	1	6.13333	1.21667	ろめ	Africa	1		091/c00260	DXXX	0		5			1	DXXX			ロメ+トーゴ
+Africa/Luanda	AO		ルアンダ	ルアンダ	Africa/Luanda	1	1	-8.838333	13.234444	るあんた	Africa	1		129/c00261		0		0			0				ルアンダ+アンゴラ
+Africa/Lubumbashi	CD		ルブンバシ	ルブンバシ	Africa/Lubumbashi	2	1	-11.66667	27.46667	るふんはし	Africa	2	東部			0		0			0				ルブンバシ+コンゴ民主共和国
+Africa/Lusaka	ZM		ルサカ	ルサカ	Africa/Lusaka	1	1	-15.41667	28.28333	るさか	Africa	1		040/c00150	FLKK	0		5			1	FLKK			ルサカ+ザンビア
+Africa/Luxor	EG		ルクソール	ルクソール	Africa/Cairo	101	1	25.683333	32.65	るくそうる	Africa	0		059/c01271		0		3	lat=25.6989;lon=32.6421;msl=81	Egypt/Luxor~/Luxor/	1	HELX			ルクソール+エジプト
+Africa/Malabo	GQ		マラボ	マラボ	Africa/Malabo	1	1	3.75	8.78333	まらほ	Africa	1			FGSL	0		5			1	FGSL			マラボ+赤道ギニア
+Africa/Maputo	MZ		マプト	マプト	Africa/Maputo	1	1	-25.96667	32.58333	まふと	Africa	1		033/c00128	FQMA	0		5			1	FQMA			マプト+モザンビーク
+Africa/Maseru	LS		マセル	マセル	Africa/Maseru	1	1	-29.46667	27.5	ませる	Africa	1				0		0			0				マセル+レソト
+Africa/Mbabane	SZ		ムババーネ	ムババーネ	Africa/Mbabane	1	1	-26.3	31.1	むははあね	Africa	1		166/c00912		0		0			0				ムババーネ+スワジランド
+Africa/Mogadishu	SO		モガディシュ	モガディシュ	Africa/Mogadishu	1	1	2.06667	45.36667	もかでいしゆ	Africa	1				0		0			0				モガディシュ+ソマリア
+Africa/Monrovia	LR		モンロビア	モンロビア	Africa/Monrovia	1	1	6.3	-10.78333	もんろひあ	Africa	1			GLRB	0		5			1	GLRB			モンロビア+リベリア
+Africa/Nairobi	KE		ナイロビ	ナイロビ	Africa/Nairobi	1	1	-1.28333	36.81667	ないろひ	Africa	1		071/c00251	HKJK	0		5			1	HKJK			ナイロビ+ケニア
+Africa/Ndjamena	TD		ンジャメナ	ンジャメナ	Africa/Ndjamena	1	1	12.11667	15.05	んしやめな	Africa	1		088/c00256	FTTJ	0		5			1	FTTJ			ンジャメナ+チャド
+Africa/Niamey	NE		ニアメ	ニアメ	Africa/Niamey	1	1	13.51667	2.11667	にあめ	Africa	1		074/c00327	DRRN	0		5			1	DRRN			ニアメ+ニジェール
+Africa/Nouakchott	MR		ヌアクショット	ヌアクショット	Africa/Nouakchott	1	1	18.1	-15.95	ぬあくしよつと	Africa	1			GQNN	0		5			1	GQNN			ヌアクショット+モーリタニア
+Africa/Ouagadougou	BF		ワガドゥグー	ワガドゥグー	Africa/Ouagadougou	1	1	12.36667	-1.51667	わかとうくう	Africa	1			DFFD	0		5			1	DFFD			ワガドゥグー+ブルキナファソ
+Africa/Porto-Novo	BJ		ポルトノボ	ポルトノボ	Africa/Porto-Novo	1	1	6.48333	2.61667	ほるとのほ	Africa	1		170/c00259	DBBB	0		5			1	DBBB			ポルトノボ+ベナン
+Africa/Sao_Tome	ST		サントメ	サントメ	Africa/Sao_Tome	1	1	0.33333	6.73333	さんとめ	Africa	1			FPST	0		5			1	FPST			サントメ+サントメ・プリンシペ
+Africa/Tripoli	LY		トリポリ	トリポリ (リビア)	Africa/Tripoli	1	1	32.9	13.18333	とりほり	Africa	1		157/c01179		0		3	lat=32.8752;lon=13.1875;msl=10	Libya/Tripoli/Tripoli/	1	HLLT			トリポリ+リビア
+Africa/Tunis	TN		チュニス	チュニス	Africa/Tunis	1	1	36.8	10.18333	ちゆにす	Africa	1		123/c00243		0		3	lat=36.8190;lon=10.1658;msl=40	Tunisia/Tunis/Tunis/	1	DTTA			チュニス+チュニジア
+Africa/Windhoek	NA		ウィントフック	ウィントフック	Africa/Windhoek	1	1	-22.56667	17.1	ういんとふつく	Africa	1		161/c01830	FYWH	0		5			1	FYWH			ウィントフック+ナミビア
+America/Adak	US	AK	アダック	アダック島	America/Adak	101	0	51.86667	-176.65	あたつく	NorthAmerica	7	アリューシャン西部		PADK	0		5			1	PADK			アダック+アメリカ+アラスカ州
+America/Anchorage	US	AK	アンカレッジ（アラスカ）	アンカレッジ	America/Anchorage	6	1	61.21667	-149.9	あんかれつし	NorthAmerica	6	アラスカ	093/c00716	PANC	0		5			1	PANC			アンカレッジ（アラスカ）+アメリカ+アラスカ州
+America/Anguilla	AI		アンギラ	アンギラ	America/Anguilla	1	0	18.220556	-63.068611	あんきら	NorthAmerica	1			TQPF	1		5			1	TQPF			アンギラ+アンギラ
+America/Antigua	AG		アンティグア島	アンティグア島	America/Antigua	1	0	17.116667	-61.85	あんていくあ	NorthAmerica	1		041/c00151	TAPA	0		5			1	TAPA			アンティグア島+アンティグア・バーブーダ
+America/Araguaina	BR	TO	アラグアイーナ		America/Araguaina	103	0	-7.2	-48.2	あらくあいいな	SouthAmerica	0				0	America/Belem	0			0				アラグアイーナ+ブラジル+トカンティンス州 
+America/Argentina/Buenos_Aires	AR	BA	ブエノスアイレス	ブエノスアイレス	America/Argentina/Buenos_Aires	1	1	-34.61	-58.369997	ふえのすあいれす	SouthAmerica	1		050/c00294	SAEZ	0		5			1	SAEZ			ブエノスアイレス+アルゼンチン+ブエノスアイレス州
+America/Argentina/Catamarca	AR	CA	カタマルカ	カタマルカ州	America/Argentina/Catamarca	107	0	-28.4996	-65.7565	かたまるか	SouthAmerica	0				0		0			0				カタマルカ+アルゼンチン+カタマルカ州
+America/Argentina/Cordoba	AR	CD	コルドバ	コルドバ (アルゼンチン)	America/Argentina/Cordoba	101	1	-31.41647	-64.1689	こるとは	SouthAmerica	0		050/c00855	SACO	0		5			1	SACO			コルドバ+アルゼンチン+コルドバ州
+America/Argentina/Jujuy	AR	PJ	フフイ	フフイ州	America/Argentina/Jujuy	106	0	-24.19887	-65.28955	ふふい	SouthAmerica	0				0		0			0				フフイ+アルゼンチン+フフイ州
+America/Argentina/La_Rioja	AR	LR	ラ・リオハ	ラ・リオハ州 (アルゼンチン)	America/Argentina/La_Rioja	108	0	-29.43577	-66.86169	らりおは	SouthAmerica	0				0		0			0				ラ・リオハ+アルゼンチン+ラ・リオハ州
+America/Argentina/Mendoza	AR	MD	メンドーサ	メンドーサ	America/Argentina/Mendoza	105	1	-32.90126	-68.83099	めんとおさ	SouthAmerica	0		050/c00856		0		0			0				メンドーサ+アルゼンチン+メンドーサ州
+America/Argentina/Rio_Gallegos	AR	SC	リオ・ガジェゴス	パタゴニア	America/Argentina/Rio_Gallegos	131	0	-51.63745	-69.199	りおかしゆうこす	SouthAmerica	0			SAWG	0		5			1	SAWG			リオ・ガジェゴス+アルゼンチン+サンタクルス州
+America/Argentina/Salta	AR	SA	サルタ	サルタ州	America/Argentina/Salta	103	1	-24.82014	-65.406	さるた	SouthAmerica	0			SASA	0		5			1	SASA			サルタ+アルゼンチン+サルタ州
+America/Argentina/San_Juan	AR	SJ	サンフアン	サンフアン州 (アルゼンチン)	America/Argentina/San_Juan	104	0	-31.55138	-68.52612	さんふあん	SouthAmerica	0				0		0			0				サンフアン+アルゼンチン+サンフアン州
+America/Argentina/San_Luis	AR	SL	サンルイス	サンルイス州	America/Argentina/San_Luis	130	0	-33.32777	-66.3387	さんるいす	SouthAmerica	0				0		0			0				サンルイス+アルゼンチン+サンルイス州
+America/Argentina/Tucuman	AR	TU	トゥクマン	サン・ミゲル・デ・トゥクマン	America/Argentina/Tucuman	102	0	-26.88679	-65.18847	つうくまん	SouthAmerica	0				0		0			0				トゥクマン+アルゼンチン+トゥクマン州
+America/Argentina/Ushuaia	AR	TF	ウシュアイア	ウシュアイア	America/Argentina/Ushuaia	132	0	-54.8	-68.3	うしゆあいあ	SouthAmerica	0		050/c00859	SAWH	0		5			1	SAWH			ウシュアイア+アルゼンチン+ティエラ・デル・フエゴ州
+America/Aruba	AW		アルバ	アルバ	America/Aruba	1	0	12.519	-70.037	あるは	SouthAmerica	1		181/c01829	TNCA	1		5			1	TNCA			Aruba+AW
+America/Asuncion	PY		アスンシオン	アスンシオン	America/Asuncion	1	1	-25.26667	-57.66667	あすんしおん	SouthAmerica	1		138/c00292	SGAS	0		5			1	SGAS			アスンシオン+パラグアイ
+America/Atikokan	CA	ON	アティコカン		America/Atikokan	101	0	48.75	-91.61667	あていこかん	NorthAmerica	0				0		0			0				atikokan+ontario+canada
+America/Atlanta	US	GA	アトランタ	アトランタ	America/New_York	101	1	33.755	-84.39	あとらんた	NorthAmerica	0		093/c00268	KATL	0		5			1	KATL			アトランタ+アメリカ+ジョージア州
+America/Bahia	BR	BA	バイーア（サルバドール）	サルヴァドール	America/Bahia	102	1	-12.98333	-38.51667	はいいあ	SouthAmerica	0			SBSV	0	America/Belem	5			1	SBSV			バイーア（サルバドール）+ブラジル+バイーア州 
+America/Barbados	BB		バルバドス	バルバドス	America/Barbados	1	1	13.1	-59.61667	はるはとす	NorthAmerica	1			TBPB	1		5			1	TBPB			バルバドス
+America/Belem	BR	PA	ベレン	ベレン (パラー州)	America/Belem	101	0	-1.45	-48.48333	へれん	SouthAmerica	2	ブラジル時間	136/c01061	SBBE	0		5			1	SBBE			ベレン+ブラジル+パラー州 
+America/Belize	BZ		ベリーズシティ	ベリーズシティ	America/Belize	1	1	17.5	-88.2	へりいす	NorthAmerica	1		038/c00148	MZBZ	0		5			1	MZBZ			ベリーズシティ+ベリーズ
+America/Belo_Horizonte	BR	MG	ベロオリゾンテ	ベロオリゾンテ	America/Sao_Paulo	103	1	-19.916667	-43.933333	へろおりそんて	SouthAmerica	0		136/c01062	SBCF	0	America/Sao_Paulo	5			1	SBCF			ベロオリゾンテ+ブラジル+ミナス・ジェライス州 
+America/Blanc-Sablon	CA	QC	ブラン・サブロン		America/Blanc-Sablon	101	0	51.41667	-57.11667	ふらんさふろん	NorthAmerica	0				0		0			0				ブラン・サブロン+カナダ+ケベック州
+America/Boa_Vista	BR	RR	ボア・ヴィスタ	ロライマ州	America/Boa_Vista	103	1	2.81667	-60.66667	ほあういすた	SouthAmerica	0			SBBV	0	America/Manaus	5			1	SBBV			ボア・ヴィスタ+ブラジル+ロライマ州 
+America/Bogota	CO		ボゴタ	ボゴタ	America/Bogota	1	1	4.6	-74.08333	ほこた	SouthAmerica	1		057/c00157	SKBO	0		5			1	SKBO			ボゴタ+コロンビア
+America/Boise	US	ID	ボイシ	ボイシ	America/Boise	101	0	43.6	-116.2	ほいし	NorthAmerica	0		093/c00725		0		0			0				ボイシ+アメリカ+アイダホ州
+America/Boston	US	MA	ボストン	ボストン	America/New_York	101	1	42.357778	-71.061667	ほすとん	NorthAmerica	0		093/c00273	KBOS	0		5			1	KBOS			ボストン+アメリカ+マサチューセッツ州
+America/Brasilia	BR	DF	ブラジリア	ブラジリア	America/Sao_Paulo	101	1	-15.798889	-47.866667	ふらしりあ	SouthAmerica	0		136/c00290	SBBR	0		5			1	SBBR			ブラジリア+ブラジル+ブラジリア連邦直轄区
+America/Calgary	CA	AB	カルガリー	カルガリー	America/Edmonton	101	1	51.045	-114.0572	かるかりい	NorthAmerica	0		056/c00622	CYYC	0		5			1	CYYC			カルガリー+カナダ+アルバータ州
+America/Cambridge_Bay	CA	NU	ケンブリッジベイ		America/Cambridge_Bay	101	0	69.1	-105.05	けんふりつしへい	NorthAmerica	0				0		0			0				ケンブリッジベイ+カナダ+ヌナブト準州
+America/Campo_Grande	BR	MS	カンポ・グランデ	カンポ・グランデ (マットグロッソ・ド・スル州)	America/Campo_Grande	101	0	-20.45	-54.61667	かんほくらんて	SouthAmerica	3	アマゾン時間	136/c01064	SBCG	0		5			1	SBCG			カンポ・グランデ+ブラジル+マット・グロッソ・ド・スル州 
+America/Cancun	MX		カンクン	カンクン	America/Cancun	2	1	21.08333	-86.76667	かんくん	NorthAmerica	2	東部時間	179/c01209	MMUN	0		5			1	MMUN			カンクン+メキシコ
+America/Caracas	VE		カラカス	カラカス	America/Caracas	1	1	10.5	-66.93333	からかす	SouthAmerica	1		135/c00288	SVMI	0		5			1	SVMI			カラカス+ベネズエラ
+America/Cayenne	GF		カイエンヌ	カイエンヌ	America/Cayenne	1	0	4.93333	-52.33333	かいえんぬ	SouthAmerica	1		187/c00305	SOCA	0		5			1	SOCA			カイエンヌ+フランス領ギアナ
+America/Cayman	KY		ケイマン諸島	ケイマン諸島	America/Cayman	1	0	19.3	-81.38333	けいまん	NorthAmerica	1		024/c00096	MWCR	1		5			1	MWCR			ケイマン諸島
+America/Chicago	US	IL	シカゴ	シカゴ	America/Chicago	2	1	41.85	-87.65	しかこ	NorthAmerica	2	中部時間	093/c00274	KORD	0		5			1	KORD			シカゴ+アメリカ+イリノイ州
+America/Chihuahua	MX		チワワ	チワワ (チワワ州)	America/Chihuahua	101	1	28.63333	-106.08333	ちわわ	NorthAmerica	3	山岳部時間	179/c01279	MMCU	0	America/Mazatlan	5			1	MMCU			チワワ市+メキシコ
+America/Costa_Rica	CR		サンホセ	サンホセ (コスタリカ)	America/Costa_Rica	1	1	9.93333	-84.08333	さんほせ	NorthAmerica	1		171/c01113	MROC	0		5			1	MROC			サンホセ+コスタリカ
+America/Cuiaba	BR	MT	クイアバ	クイアバ	America/Cuiaba	101	1	-15.58333	-56.08333	くいあは	SouthAmerica	0		136/c01065	SBCY	0	America/Campo_Grande	5			1	SBCY			クイアバ+ブラジル+マット・グロッソ州 
+America/Curacao	CW		キュラソー	キュラソー島	America/Curacao	1	0	12.1833	-69.0	きゆらそ	SouthAmerica	1		181/c00286	TNCC	1		5			1	TNCC			キュラソー+キュラソー
+America/Curitiba	BR	PR	クリチバ	クリチバ	America/Sao_Paulo	104	1	-25.416667	-49.25	くりちは	SouthAmerica	0		136/c01066	SBCT	0	America/Sao_Paulo	5			1	SBCF			クリチバ+ブラジル+パラナ州 
+America/Dallas	US	TX	ダラス	ダラス	America/Chicago	101	1	32.782778	-96.803889	たらす	NorthAmerica	0		093/c00745	KDFW	0		5			1	KDFW			ダラス+アメリカ+テキサス州
+America/Danmarkshavn	GL		デンマークシャウン		America/Danmarkshavn	2	0	76.76667	-18.66667	てんまあくしやうん	NorthAmerica	2	デンマークシャウン			0		0			0				Danmarkshavn+Greenland
+America/Dawson	CA	YT	ドーソン・シティ	ドーソン・シティ	America/Dawson	102	0	64.06667	-139.41667	とおそんしてい	NorthAmerica	0				0	America/Vancouver	0			0				ドーソン・シティ+カナダ+ユーコン準州
+America/Dawson_Creek	CA	BC	ドーソン・クリーク		America/Dawson_Creek	101	0	55.75953	-120.2294	とおそんくりいく	NorthAmerica	0				0		0			0				ドーソン・クリーク+カナダ+ブリティッシュコロンビア州
+America/Denver	US	CO	デンバー	デンバー	America/Denver	3	1	39.73333	-104.98333	てんはあ	NorthAmerica	3	山岳部時間	093/c00271	KDEN	0		5			1	KDEN			デンバー+アメリカ+コロラド州
+America/Detroit	US	MI	デトロイト	デトロイト	America/Detroit	101	1	42.31667	-83.03333	てとろいと	NorthAmerica	0		093/c00275	KDTW	0	America/New_York	5			1	KDTW			デトロイト+アメリカ+ミシガン州
+America/Dominica	DM		ドミニカ島	ドミニカ国	America/Dominica	1	1	15.3	-61.4	とみにか	NorthAmerica	1		134/c00287	TDCF	1		5			1	TDCF			ロゾー+ドミニカ国
+America/Edmonton	CA	AB	エドモントン	エドモントン	America/Edmonton	6	1	53.55	-113.46667	えどもんとん	NorthAmerica	6	山岳部時間	056/c00621	CYEG	0		5			1	CYEG			エドモントン+カナダ+アルバータ州
+America/Eirunepe	BR	AM	エイルネペ		America/Eirunepe	104	0	-6.66667	-69.86667	えいるねへ	SouthAmerica	0				0	America/Manaus	0			0				エイルネペ+ブラジル+アマゾナス州 
+America/El_Paso	US	TX	エル・パソ	エル・パソ_(テキサス州)	America/Denver	101	1	31.790278	-106.423333	えるはそ	NorthAmerica	0		093/c00750	KELP	0		5			1	KELP			エル・パソ+アメリカ+テキサス州
+America/El_Salvador	SV		サンサルバドル	サンサルバドル	America/El_Salvador	1	1	13.7	-89.2	えるさるはとる	NorthAmerica	1		174/c00282	MSLP	0		5			1	MSLP			サンサルバドル+エルサルバドル
+America/Fairbanks	US	AK	フェアバンクス	フェアバンクス	America/Anchorage	101	0	64.843611	-147.723056	ふえはんくす	NorthAmerica	0		093/c00755	PAFA	0		5			1	PAFA			フェアバンクス+アメリカ+アラスカ州
+America/Fort_Nelson	CA	BC	フォート・ネルソン		America/Fort_Nelson	101	0	58.8057352	-122.696922	ふおおとねるそん	NorthAmerica	0				0		0			0				フォート・ネルソン+カナダ+ブリティッシュコロンビア州
+America/Fortaleza	BR	CE	フォルタレザ	フォルタレザ	America/Fortaleza	101	1	-3.71667	-38.5	ふおるたれさ	SouthAmerica	0			SBFZ	0	America/Belem	5			1	SBFZ			フォルタレザ+ブラジル+セアラ州 
+America/Glace_Bay	CA	NS	グレースベイ		America/Glace_Bay	101	0	46.2	-59.95	くれいすへい	NorthAmerica	0				0	America/Halifax	0			0				グレースベイ+カナダ+ノバスコシア州
+America/Godthab	GL		ヌーク	ヌーク	America/Godthab	1	1	64.18333	-51.73333	ぬうく	NorthAmerica	1	主要部分	173/c00583	BGGH	0		5			1	BGGH			ヌーク+グリーンランド
+America/Goose_Bay	CA	NL	ハッピーバレー・グースベイ		America/Goose_Bay	101	0	53.33333	-60.41667	はつぴいはれいくうすへい	NorthAmerica	0		056/c00640		0	America/Halifax	0			0				ハッピーバレー・グースベイ+カナダ+ニューファンドランド・ラブラドール州
+America/Grand_Turk	TC		グランドターク島	タークス・カイコス諸島	America/Grand_Turk	1	0	21.46667	-71.13333	くらんとたあく	NorthAmerica	1			MBPV	0		5			1	MBPV			グランドターク島+タークス・カイコス諸島
+America/Grenada	GD		グレナダ	グレナダ	America/Grenada	1	1	12.05	-61.75	くれなた	NorthAmerica	1			TGPY	1		5			1	TGPY			グレナダ+グレナダ
+America/Guadalajara	MX		グアダラハラ	グアダラハラ_(メキシコ)	America/Mexico_City	101	1	20.666714	-103.350342	くあたらはら	NorthAmerica	0		179/c01206	MMGL	0		5			1	MMGL			グアダラハラ+メキシコ
+America/Guadeloupe	GP		グアドループ	グアドループ	America/Guadeloupe	1	0	16.23333	-61.53333	くあとるうふ	NorthAmerica	1		188/c00306	TFFR	1		5			1	TFFR			グアドループ+グアドループ
+America/Guatemala	GT		グアテマラシティ	グアテマラシティ	America/Guatemala	1	1	14.63333	-90.51667	くあまてら	NorthAmerica	1		152/c00906	MGGT	0		5			1	MGGT			グアテマラシティ+グアテマラ
+America/Guayaquil	EC		グアヤキル	グアヤキル	America/Guayaquil	1	1	-2.16667	-79.83333	くあきやる	SouthAmerica	1	本土	137/c00291	SEGU	0		5			1	SEGU			グアヤキル+エクアドル
+America/Guyana	GY		ジョージタウン	ジョージタウン (ガイアナ)	America/Guyana	1	1	6.8	-58.16667	しようしたうん	SouthAmerica	1		065/c00289	SYCJ	0		5			1	SYCJ			ジョージタウン+ガイアナ
+America/Halifax	CA	NS	ハリファックス	ハリファックス	America/Halifax	2	1	44.65	-63.6	はりはあつくす	NorthAmerica	2	大西洋時間	056/c00637	CYHZ	0		5			1	CYHZ			ハリファックス+カナダ+ノバスコシア州
+America/Havana	CU		ハバナ	ハバナ	America/Havana	1	1	23.13333	-82.36667	ははな	NorthAmerica	1		131/c00280	MUHA	0		5			1	MUHA			ハバナ+キューバ
+America/Hermosillo	MX		エルモシージョ	エルモシージョ	America/Hermosillo	4	0	29.06667	-110.96667	えるもしいしよ	NorthAmerica	0	山岳部時間（夏時間なし）	179/c01283	MMHO	0		5			1	MMHO			エルモシージョ+メキシコ
+America/Houston	US	TX	ヒューストン	ヒューストン	America/Chicago	101	1	29.7628	-95.383056	ひゆうすとん	NorthAmerica	0		093/c00770	KIAH	0		5			1	KIAH			ヒューストン+アメリカ+テキサス州
+America/Indiana/Indianapolis	US	IN	インディアナポリス	インディアナポリス	America/Indiana/Indianapolis	101	1	39.76667	-86.15	いんていあなほりす	NorthAmerica	0		093/c00772	KIND	0	America/New_York	5			1	KIND			インディアナポリス+アメリカ+インディアナ州
+America/Indiana/Knox	US	IN	ノックス郡		America/Indiana/Knox	101	0	41.28333	-86.61667	のつくす	NorthAmerica	0				0		0			0				Knox+County+Indiana+USA
+America/Indiana/Marengo	US	IN	マレンゴ		America/Indiana/Marengo	101	0	38.36667	-86.33333	まれんこ	NorthAmerica	0				0		0			0				マレンゴ+アメリカ+インディアナ州
+America/Indiana/Petersburg	US	IN	ピーターズバーグ		America/Indiana/Petersburg	101	0	38.48333	-87.26667	ひいたあすはあく	NorthAmerica	0				0		0			0				ピーターズバーグ+アメリカ+インディアナ州
+America/Indiana/Tell_City	US	IN	テルシティ		America/Indiana/Tell_City	101	0	37.95	-86.75	てるしてい	NorthAmerica	0				0		0			0				Tell+City+Indiana+USA
+America/Indiana/Vevay	US	IN	ベベイ		America/Indiana/Vevay	101	0	38.73333	-85.06667	へへい	NorthAmerica	0				0		0			0				ベベイ+アメリカ+インディアナ州
+America/Indiana/Vincennes	US	IN	ヴィンセンス		America/Indiana/Vincennes	101	0	38.66667	-87.51667	うぃんせんす	NorthAmerica	0				0		0			0				ヴィンセンス+アメリカ+インディアナ州
+America/Indiana/Winamac	US	IN	ウィナマク		America/Indiana/Winamac	101	0	41.05	-86.6	ういなまく	NorthAmerica	0				0		0			0				ウィナマク+アメリカ+インディアナ州
+America/Inuvik	CA	NT	イヌヴィック	イヌヴィック	America/Inuvik	103	0	68.33333	-133.71667	いぬひつく	NorthAmerica	0		056/c00643	CYEV	0	America/Edmonton	5			1	CYEV			Inuvik+NT+CA
+America/Iqaluit	CA	NU	イカルイト	イカルイト	America/Iqaluit	104	1	63.73333	-68.46667	いかるいと	NorthAmerica	0		056/c00613	CYFB	0	America/Toronto	5			1	CYFB			イカルイト+カナダ+ヌナブト準州
+America/Jamaica	JM		キングストン	キングストン (ジャマイカ)	America/Jamaica	1	1	18.0	-76.8	きんくすとん	NorthAmerica	1		026/c00098	MKJP	0		5			1	MKJP			キングストン+ジャマイカ
+America/Juneau	US	AK	ジュノー	ジュノー (アラスカ州)	America/Juneau	101	0	58.3	-134.41667	しゆのお	NorthAmerica	0		093/c00775	PAJA	0		5			1	PAJA			ジュノー+アメリカ+アラスカ州
+America/Kansas_City	US	MO	カンザスシティ	カンザスシティ (ミズーリ州)	America/Chicago	101	1	39.1	-94.58	かんさすしてい	NorthAmerica	0		093/c00776	KMCI	0		5			1	KMCI			カンザスシティ+アメリカ+ミズーリ州
+America/Kentucky/Louisville	US	KY	ルイビル	ルイビル	America/Kentucky/Louisville	101	1	38.25	-85.75	るいひる	NorthAmerica	0		093/c00785	KSDF	0	America/New_York	5			1	KSDF			ルイビル+アメリカ+ケンタッキー州
+America/Kentucky/Monticello	US	KY	モンティチェロ		America/Kentucky/Monticello	101	0	36.81667	-84.83333	もんていちえろ	NorthAmerica	0				0		0			0				モンティチェロ+アメリカ+ケンタッキー州
+America/Kralendijk	BQ		ボネール島	ボネール島	America/Kralendijk	1	0	12.1507	-68.2767	ほねえる	SouthAmerica	1				0		0			0				ボネール島+ボネール、シント・ユースタティウス及びサバ
+America/La_Paz	BO		ラパス	ラパス	America/La_Paz	1	1	-16.5	-68.15	らはす	SouthAmerica	1			SLLP	0		5			1	SLLP			ラパス+ボリビア
+America/Las_Vegas	US	NV	ラスベガス	ラスベガス	America/Los_Angeles	101	1	36.176	-115.137	らすへかす	NorthAmerica	0		093/c00781	KLAS	0		5			1	KLAS			ラスベガス+アメリカ+ネバダ州
+America/Lima	PE		リマ	リマ	America/Lima	1	1	-12.05	-77.05	りま	SouthAmerica	1		029/c00108	SPIM	0		5			1	SPIM			リマ+ペルー
+America/Los_Angeles	US	CA	ロサンゼルス	ロサンゼルス	America/Los_Angeles	5	1	34.05	-118.23333	ろさんせるす	NorthAmerica	5	太平洋時間	093/c00269	KLAX	0		7			1	KLAX		CA/Los_Angeles	ロサンゼルス+アメリカ+カリフォルニア州
+America/Lower_Princes	SX		シント・マールテン	シント・マールテン	America/Lower_Princes	1	0	18.0237	-63.0458	しんとまあるてん	NorthAmerica	1			TNCM	1		5			1	TNCM			シント・マールテン+シント・マールテン
+America/Maceio	BR	AL	マセイオ	マセイオ	America/Maceio	104	1	-9.66667	-35.71667	ませいお	SouthAmerica	0		136/c01072	SBMO	0	America/Belem	5			1	SBMO			マセイオ+ブラジル+アラゴアス州 
+America/Managua	NI		マナグア	マナグア	America/Managua	1	1	12.15	-86.28333	まなくあ	NorthAmerica	1		182/c00284	MNMG	0		5			1	MNMG			マナグア+ニカラグア
+America/Manaus	BR	AM	マナウス	マナウス	America/Manaus	4	1	-3.13333	-60.01667	まなうす	SouthAmerica	4	アマゾン時間	136/c01073	SBEG	0		5			1	SBEG			マナウス+ブラジル+アマゾナス州 
+America/Marigot	MF		マリゴ	マリゴ	America/Marigot	1	0	18.06667	-63.08333	まりこ	NorthAmerica	1				0		5			0				マリゴ+サン・マルタン
+America/Martinique	MQ		マルティニーク	マルティニーク	America/Martinique	1	0	14.6	-61.08333	まるていにいく	NorthAmerica	1		062/c00307	TFFF	1		5			1	TFFF			マルティニーク+マルティニーク
+America/Matamoros	MX		マタモロス		America/Matamoros	105	0	25.83333	-97.5	またもろす	NorthAmerica	0				0	America/Mexico_City	0			0				マタモロス+メキシコ
+America/Mazatlan	MX		マサトラン	マサトラン	America/Mazatlan	3	0	23.21667	-106.41667	まさとらん	NorthAmerica	0	山岳部時間	179/c01289	MMMZ	0		5			1	MMMZ			マサトラン+メキシコ
+America/Memphis	US	TN	メンフィス	メンフィス (テネシー州)	America/Chicago	101	1	35.1175	-89.971111	めんふいす	NorthAmerica	0		093/c00790	KMEM	0		5			1	KMEM			メンフィス+アメリカ+テネシー州
+America/Menominee	US	MI	メノミニー		America/Menominee	101	0	45.1	-87.6	めのみにい	NorthAmerica	0				0		0			0				Menominee+Michigan+USA
+America/Merida	MX		メリダ	メリダ (ユカタン州)	America/Merida	103	1	20.96667	-89.61667	めりた	NorthAmerica	0		179/c01290	MMMD	0	America/Mexico_City	5			1	MMMD			メリダ+メキシコ
+America/Mexico_City	MX		メキシコシティ	メキシコシティ	America/Mexico_City	1	1	19.4	-99.15	めきしこしてい	NorthAmerica	1	中部時間（ほとんどの部分）	179/c00279	MMMX	0		5			1	MMMX			メキシコシティ+メキシコ
+America/Miami	US	FL	マイアミ	マイアミ	America/New_York	101	1	25.787676	-80.224145	まいあみ	NorthAmerica	0		093/c00267	KMIA	0		5			1	KMIA			マイアミ+アメリカ+フロリダ州
+America/Minneapolis	US	MN	ミネアポリス	ミネアポリス	America/Chicago	101	1	44.983333	-93.266667	みねあほりす	NorthAmerica	0		093/c00276	KMSP	0		5			1	KMSP			ミネアポリス+アメリカ+ミネソタ州
+America/Miquelon	PM		サンピエール	サンピエール	America/Miquelon	1	0	46.777778	-56.177778	みくろん	NorthAmerica	1			LFVP	0		5			1	LFVP			サンピエール+サンピエール島・ミクロン島
+America/Moncton	CA	NB	モンクトン	モンクトン	America/Moncton	101	0	46.1	-64.78333	もんくとん	NorthAmerica	0			CYQM	0	America/Halifax	5			1	CYQM			モンクトン+カナダ+ニューブランズウィック州
+America/Monterrey	MX		モンテレー	モンテレー	America/Monterrey	104	1	25.66667	-100.31667	もんてれえ	NorthAmerica	0		179/c01208	MMMY	0	America/Mexico_City	5			1	MMMY			モンテレー+メキシコ
+America/Montevideo	UY		モンテビデオ	モンテビデオ	America/Montevideo	1	1	-34.88333	-56.18333	もんてひてお	SouthAmerica	1		094/c00293	SUMU	0		5			1	SUMU			モンテビデオ+ウルグアイ
+America/Montreal	CA	QC	モントリオール	モントリオール	America/Toronto	101	1	45.51667	-73.56667	もんとりおおる	NorthAmerica	0	東部時間	056/c00634	CYUL	0	America/Toronto	5			1	CYUL			モントリオール+カナダ+ケベック州
+America/Montserrat	MS		モントセラト	モントセラト	America/Montserrat	1	0	16.71667	-62.21667	もんとせらと	NorthAmerica	1				1		5			0				モントセラト+モントセラト
+America/Nassau	BS		ナッソー	ナッソー	America/Nassau	1	1	25.08333	-77.35	なつそお	NorthAmerica	1		025/c00097	MYNN	0		5			1	MYNN			ナッソー+バハマ
+America/Natal	BR	RN	ナタール	ナタール	America/Fortaleza	106	1	-5.766667	-35.2	なたある	SouthAmerica	0			SBNT	0	America/Belem	5			1	SBNT			ナタール+ブラジル+リオグランデ・ド・ノルテ州
+America/New_York	US	NY	ニューヨーク	ニューヨーク	America/New_York	1	1	40.7	-74.0	にゆうよおく	NorthAmerica	1	東部時間	093/c00278	KJFK	0		7			1	KJFK		NY/New_York	ニューヨーク+アメリカ+ニューヨーク州
+America/Nipigon	CA	ON	ニピゴン		America/Nipigon	101	0	49.01667	-88.26667	にひこん	NorthAmerica	0				0		0			0				ニピゴン+カナダ+オンタリオ州
+America/Nome	US	AK	ノーム	ノーム (アラスカ州)	America/Nome	101	0	64.5	-165.4	のおむ	NorthAmerica	0				0		0			0				ノーム+アメリカ+アラスカ州
+America/Noronha	BR	PE	フェルナンド・デ・ノローニャ島	フェルナンド・デ・ノローニャ	America/Noronha	6	0	-3.85	-32.41667	ふえるなんとてのろおにや	SouthAmerica	6	フェルナンド・デ・ノローニャ島			0		0			0				フェルナンド・デ・ノローニャ島+ブラジル+ペルナンブーコ州 
+America/North_Dakota/Center	US	ND	センター		America/North_Dakota/Center	101	0	47.1	-101.28333	せんたあ	NorthAmerica	0				0		0			0				センター+アメリカ+ノースダコタ州
+America/North_Dakota/New_Salem	US	ND	ニューセイレム		America/North_Dakota/New_Salem	101	0	46.83333	-101.4	にゆうせいれむ	NorthAmerica	0				0		0			0				New+Salem+North+Dakota+USA
+America/Ojinaga	MX		オヒナガ		America/Ojinaga	102	0	29.56667	-104.41667	おひなか	NorthAmerica	0				0	America/Mazatlan	0			0				オヒナガ+メキシコ
+America/Oklahoma_City	US	OK	オクラホマシティ	オクラホマシティ	America/Chicago	101	1	35.471654	-97.521324	おくらほましてい	NorthAmerica	0		093/c00799	KOKC	0		5			1	KOKC			オクラホマシティ+アメリカ+オクラホマ州
+America/Ottawa	CA	ON	オタワ	オタワ	America/Toronto	102	1	45.417	-75.7	おたわ	NorthAmerica	0		056/c00265	CYOW	0	America/Toronto	5			1	CYOW			オタワ+カナダ+オンタリオ州
+America/Panama	PA		パナマ市	パナマ市	America/Panama	1	1	8.96667	-79.53333	はなま	NorthAmerica	1		076/c01221	MPTO	0		5			1	MPTO			パナマ市+パナマ
+America/Pangnirtung	CA	NU	パングナータング		America/Pangnirtung	105	0	66.13333	-65.73333	はんくなあたんく	NorthAmerica	0				0	America/Toronto	0			0				パングナータング+カナダ+ヌナブト準州
+America/Paramaribo	SR		パラマリボ	パラマリボ	America/Paramaribo	1	1	5.83333	-55.16667	はらまりほ	SouthAmerica	1			SMJP	0		5			1	SMJP			パラマリボ+スリナム 
+America/Philadelphia	US	PA	フィラデルフィア	フィラデルフィア	America/New_York	101	1	39.9533	-75.17	ふいらてるふいあ	NorthAmerica	0		093/c00805	KPHL	0		5			1	KPHL			フィラデルフィア+アメリカ+ペンシルバニア州
+America/Phoenix	US	AZ	フェニックス	フェニックス (アリゾナ州)	America/Phoenix	4	1	33.43333	-112.06667	ふえにくす	NorthAmerica	4	山岳部時間（夏時間なし）	093/c00806	KPHX	0		5			1	KPHX			フェニックス+アメリカ+アリゾナ州
+America/Port-au-Prince	HT		ポルトープランス	ポルトープランス	America/Port-au-Prince	1	1	18.53333	-72.33333	ほるとうふらんす	NorthAmerica	1			MTPP	0		5			0				ポルトープランス+ハイチ
+America/Port_of_Spain	TT		ポートオブスペイン	ポートオブスペイン	America/Port_of_Spain	1	1	10.65	-61.51667	ほおとおふすへいん	SouthAmerica	1		027/c00100	TTPP	0		5			1	TTPP			ポートオブスペイン+トリニダード・トバゴ
+America/Portland	US	OR	ポートランド	ポートランド (オレゴン州)	America/Los_Angeles	101	1	45.52	-122.681944	ほおとらんと	NorthAmerica	0		093/c00810	KPDX	0		5			1	KPDX			ポートランド+アメリカ+オレゴン州
+America/Porto_Alegre	BR	RS	ポルト・アレグレ	ポルト・アレグレ	America/Sao_Paulo	105	1	-30.033056	-51.23	ほれとあれくれ	SouthAmerica	0		136/c01076	SBPA	0	America/Sao_Paulo	5			1	SBCF			ポルト・アレグレ+ブラジル+リオグランデ・ド・スル州
+America/Porto_Velho	BR	RO	ポルト・ベーリョ	ロンドニア州	America/Porto_Velho	102	0	-8.76667	-63.9	ほるとへえりよ	SouthAmerica	0		136/c01077	SBPV	0	America/Manaus	5			1	SBPV			ポルト・ベーリョ+ブラジル+ロンドニア州 
+America/Puerto_Rico	PR		サンフアン	サンフアン (プエルトリコ)	America/Puerto_Rico	1	1	18.46667	-66.1	さんふあん	NorthAmerica	1		093/c00850	TJSJ	0		5			1	TJSJ			サンフアン+プエルトリコ
+America/Punta_Arenas	CL		プンタ・アレーナス	プンタ・アレーナス	America/Punta_Arenas	2	0	-53.16265	-70.90804	ふんたあれえなす	SouthAmerica	2	マガジャネス地方		SCCI	0		0			1	SCCI			プンタ・アレーナス+チリ
+America/Quito	EC		キト	キト	America/Guayaquil	101	1	-0.216667	-78.516667	きと	SouthAmerica	0		137/c00291	SEQU	0		5			1	SEQU			キト+エクアドル
+America/Rainy_River	CA	ON	レイニーリバー		America/Rainy_River	102	0	48.71667	-94.56667	れいにいりはあ	NorthAmerica	0				0	America/Winnipeg	0			0				レイニーリバー+カナダ+オンタリオ州
+America/Rankin_Inlet	CA	NU	ランキンインレット		America/Rankin_Inlet	101	0	62.81667	-92.06667	らんきんいんれつと	NorthAmerica	0				0	America/Winnipeg	0			0				ランキンインレット+カナダ+ヌナブト準州
+America/Recife	BR	PE	レシフェ	レシフェ	America/Recife	102	1	-8.05	-34.9	れしふえ	SouthAmerica	0		136/c01078	SBRF	0	America/Belem	5			1	SBRF			レシフェ+ブラジル+ペルナンブーコ州 
+America/Regina	CA	SK	レジャイナ	レジャイナ	America/Regina	5	1	50.4	-104.65	れしやいな	NorthAmerica	5	中部時間（夏時間なし）	056/c00629	CYQR	0		5			1	CYQR			レジャイナ+カナダ+サスカチュワン州
+America/Resolute	CA	NU	レゾリュート	レゾリュート	America/Resolute	103	0	74.68333	-94.81667	れそりゆうと	NorthAmerica	0				0	America/Winnipeg	0			0				レゾリュート+カナダ+ヌナブト準州
+America/Rio_Branco	BR	AC	リオブランコ	リオブランコ (アクレ州)	America/Rio_Branco	5	1	-9.96667	-67.8	りおふらんこ	SouthAmerica	5	アクレ時間	136/c01079	SBRB	0	America/Rio_Branco	5			1	SBRB			リオブランコ+ブラジル+アクレ州 
+America/Rio_de_Janeiro	BR	RJ	リオデジャネイロ	リオデジャネイロ市	America/Sao_Paulo	101	1	-22.908333	-43.196389	りおてしやねいろ	SouthAmerica	0		136/c01080	SBRJ	0		5			1	SBRJ		zmw:00000.1.83755	リオデジャネイロ+ブラジル+リオデジャネイロ州 
+America/Salt_Lake_City	US	UT	ソルトレイクシティ	ソルトレイクシティ	America/Denver	101	1	40.75	-111.883333	そるとれいくしてい	NorthAmerica	0		093/c00823	KSLC	0		5			1	KSLC			ソルトレイクシティ+アメリカ+ユタ州
+America/San_Francisco	US	CA	サンフランシスコ	サンフランシスコ	America/Los_Angeles	101	1	37.7793	-122.4192	さんふらんしすこ	NorthAmerica	0		093/c00272	KSFO	0		7			1	KSFO		CA/San_Francisco	サンフランシスコ+アメリカ+カリフォルニア州
+America/Santarem	BR	PA	サンタレン	サンタレン (ブラジル)	America/Santarem	105	0	-2.43333	-54.86667	さんたれん	SouthAmerica	0			SBSN	0	America/Belem	5			1	SBSN			サンタレン+ブラジル+パラー州 
+America/Santiago	CL		サンティアゴ	サンティアゴ (チリ)	America/Santiago	1	1	-33.45	-70.66667	さんていあこ	SouthAmerica	1	主要部	028/c00103	SCEL	0		5			1	SCEL			サンティアゴ+チリ
+America/Santo_Domingo	DO		サントドミンゴ	サントドミンゴ	America/Santo_Domingo	1	1	18.46667	-69.9	さんととみんこ	NorthAmerica	1		132/c00281	MDSD	0		5			1	MDSD			サントドミンゴ+ドミニカ共和国
+America/Sao_Paulo	BR	SP	サンパウロ	サンパウロ市	America/Sao_Paulo	1	1	-23.53333	-46.61667	さんはうろ	SouthAmerica	1	ブラジル時間	136/c01083	SBGR	0		5			1	SBGR			サンパウロ+ブラジル+サンパウロ州 
+America/Scoresbysund	GL		イトコルトルミット		America/Scoresbysund	3	0	70.48333	-21.96667	いとこるとるみつと	NorthAmerica	3	南東部		BGCO	0		5			1	BGCO			イトコルトルミット+グリーンランド
+America/Seattle	US	WA	シアトル	シアトル	America/Los_Angeles	101	1	47.609722	-122.333056	しあとる	NorthAmerica	0		093/c00277	KSEA	0		7			1	KSEA		WA/Seattle	シアトル+アメリカ+ワシントン州
+America/Shiprock	US	NM	シップロック		America/Denver	101	0	36.78333	-108.68333	しつぷろつく	NorthAmerica	0				0		0			0				シップロック+アメリカ+ニューメキシコ州
+America/St_Barthelemy	BL		サン・バルテルミー島	サン・バルテルミー島	America/St_Barthelemy	1	0	17.88333	-62.85	さんはるてるみい	NorthAmerica	1				1		0			0				サン・バルテルミー島+サン・バルテルミー島
+America/St_Johns	CA	NL	セント・ジョンズ	セントジョンズ (ニューファンドランド・ラブラドール州)	America/St_Johns	1	1	47.56667	-52.71667	せんとしよんす	NorthAmerica	1	ニューファンドランド時間	056/c00642	CYYT	0		5			1	CYYT			セント・ジョンズ+カナダ+ニューファンドランド・ラブラドール州
+America/St_Kitts	KN		セントクリストファー島	セントクリストファー島	America/St_Kitts	1	1	17.3	-62.71667	せんとくりすとふああ	NorthAmerica	1			TKPK	0		5			1	TKPK			セントクリストファー島+セントクリストファー・ネービス
+America/St_Lucia	LC		セントルシア	セントルシア	America/St_Lucia	1	1	14.01667	-61.0	せんとるしあ	NorthAmerica	1		164/c01248	TLPL	1		5			1	TLPL			セントルシア+セントルシア
+America/St_Thomas	VI		セント・トーマス島	セント・トーマス島	America/St_Thomas	1	0	18.35	-64.93333	せんととおます	NorthAmerica	1			TIST	0		5			1	TIST			セント・トーマス島+アメリカ領ヴァージン諸島
+America/St_Vincent	VC		セントビンセント	セントビンセント島	America/St_Vincent	1	1	13.15	-61.23333	せんとひんせんと	NorthAmerica	1			TVSV	0		5			1	TVSV			セントビンセント+セントビンセントおよびグレナディーン諸島
+America/Swift_Current	CA	SK	スウィフトカレント		America/Swift_Current	101	0	50.28333	-107.83333	すういふとかれんと	NorthAmerica	0				0		0			0				スウィフトカレント+カナダ+サスカチュワン州
+America/Tegucigalpa	HN		テグシガルパ	テグシガルパ	America/Tegucigalpa	1	1	14.1	-87.21667	てくしかるは	NorthAmerica	1		133/c00283	MHTG	0		5			1	MHTG			テグシガルパ+ホンジュラス
+America/Thule	GL		チューレ	チューレ空軍基地	America/Thule	4	0	76.56667	-68.78333	ちゆうれ	NorthAmerica	4	チューレ		BGQQ	0		5			1	BGQQ			チューレ空軍基地+グリーンランド
+America/Thunder_Bay	CA	ON	サンダー・ベイ	サンダーベイ (オンタリオ州)	America/Thunder_Bay	103	0	48.38333	-89.25	さんたへい	NorthAmerica	0		056/c00631		0	America/Toronto	0			0				サンダー・ベイ+カナダ+オンタリオ州
+America/Tijuana	MX		ティファナ	ティフアナ	America/Tijuana	5	1	32.53333	-117.01667	ていふあな	NorthAmerica	4	太平洋時間	179/c01299	MMTJ	0		5			1	MMTJ			ティファナ+メキシコ
+America/Toronto	CA	ON	トロント	トロント	America/Toronto	3	1	43.65	-79.38333	とろんと	NorthAmerica	3	東部時間	056/c00264	CYYZ	0		5			1	CYYZ			トロント+カナダ+オンタリオ州
+America/Tortola	VG		トルトラ島	トルトラ島	America/Tortola	1	0	18.45	-64.61667	とるとら	NorthAmerica	1			TUPJ	0		5			1	TUPJ			トルトラ島+イギリス領ヴァージン諸島
+America/Vancouver	CA	BC	バンクーバー	バンクーバー (ブリティッシュコロンビア州)	America/Vancouver	7	1	49.26667	-123.11667	はんくうはあ	NorthAmerica	7	太平洋時間	056/c00266	CYVR	0		7			1	CYVR		zmw:00000.1.71892	バンクーバー+カナダ+ブリティッシュコロンビア州
+America/Washington_DC	US		ワシントンD.C.	ワシントンD.C.	America/New_York	101	1	38.8951	-77.0367	わしんとん	NorthAmerica	0		093/c00270	KIAD	0		5			1	KIAD			ワシントンD.C.+アメリカ
+America/Whitehorse	CA	YT	ホワイトホース	ホワイトホース (ユーコン準州)	America/Whitehorse	101	1	60.71667	-135.05	ほわいとほおす	NorthAmerica	0		056/c00614	CYXY	0	America/Vancouver	5			1	CYXY			ホワイトホース+カナダ+ユーコン準州
+America/Winnipeg	CA	MB	ウィニペグ	ウィニペグ	America/Winnipeg	4	1	49.88333	-97.15	ういにへく	NorthAmerica	4	中部時間	056/c00630	CYWG	0		5			1	CYWG			ウィニペグ+カナダ+マニトバ州
+America/Yakutat	US	AK	ヤクタット		America/Yakutat	101	0	59.53333	-139.71667	やくたつと	NorthAmerica	0				0		0			0				ヤクタット+アメリカ+アラスカ州
+America/Yellowknife	CA	NT	イエローナイフ	イエローナイフ	America/Yellowknife	102	1	62.45	-114.35	いえろおないふ	NorthAmerica	0		056/c00615	CYZF	0	America/Edmonton	5			1	CYZF			イエローナイフ+カナダ+ノースウエスト準州
+Antarctica/Casey	AQ		ケーシー基地		Antarctica/Casey	7	0	-66.28333	110.51667	けえしい	Antarctica	7	ケーシー基地			0		0			0				ケーシー基地+南極
+Antarctica/Davis	AQ		デービス基地		Antarctica/Davis	6	0	-68.58333	77.96667	てえひす	Antarctica	6	デービス基地			0		0			0				デービス基地+南極
+Antarctica/DumontDUrville	AQ		デュモン・デュルヴィル基地		Antarctica/DumontDUrville	9	0	-66.66667	140.01667	てゆもんてゆる	Antarctica	9	デュモン・デュルヴィル基地			0		0			0				Dumont+d'Urville+Station+Antarctica
+Antarctica/Macquarie	AU		マッコーリー島		Antarctica/Macquarie	101	0	-54.5	158.95	まつこおりい	Antarctica	0	マッコーリー島			0		0			0				マッコーリー島+オーストラリア
+Antarctica/Mawson	AQ		モーソン基地		Antarctica/Mawson	5	0	-67.6	62.88333	もおそん	Antarctica	5	モーソン基地			0		0			0				Mawson+Station+Antarctica
+Antarctica/McMurdo	AQ		マクマード基地	マクマード基地	Antarctica/McMurdo	1	0	-77.85	166.666667	まくまあと	Antarctica	1	マクマード基地		NZPG	0		0			0				マクマード基地+南極
+Antarctica/Palmer	AQ		パーマー基地		Antarctica/Palmer	4	0	-64.8	-64.1	ぱあまあ	Antarctica	4	パーマー基地			0		0			0				Palmer+Station+Antarctica
+Antarctica/Rothera	AQ		ロゼラ基地		Antarctica/Rothera	3	0	-67.56667	-68.13333	ろせら	Antarctica	3	ロゼラ基地			0		0			0				Rothera+Research+Station+AQ
+Antarctica/South_Pole	AQ		アムンゼン・スコット基地	アムンゼン・スコット基地	Antarctica/South_Pole	2	0	-90.0	0.0	あむんせん	Antarctica	2	アムンゼン・スコット基地		NZSP	0		0			0				Amundsen–Scott+South+Pole+Station+Antarctica
+Antarctica/Syowa	AQ		昭和基地	昭和基地	Antarctica/Syowa	10	0	-69.006111	39.59	しようわ	Antarctica	10	昭和基地			0		0			0				昭和基地+南極
+Antarctica/Troll	AQ		トロール基地		Antarctica/Troll	11	0	-72.01139	2.535	とろうる	Antarctica	11	トロール基地			0		0			0				Troll+Station+Antarctica
+Antarctica/Vostok	AQ		ボストーク基地	ボストーク基地	Antarctica/Vostok	8	0	-78.4	106.9	ほすとおく	Antarctica	8	ボストーク基地			0		0			0				ボストーク基地+南極
+Arctic/Longyearbyen	SJ		ロングイェールビーン	ロングイェールビーン	Arctic/Longyearbyen	1	0	78.223102	15.642652	ろんくいええるひいん	Arctic	1			ENSB	0		2	lat=78.2222;lon=15.6315	Norway/Svalbard/Longyearbyen/	1	ENSB			ロングイェールビーン+スヴァールバル諸島・ヤンマイエン島
+Asia/Abu_Dhabi	AE		アブダビ	アブダビ	Asia/Dubai	101	1	24.466667	54.366667	あふたひ	Asia	0		117/c00222	OMAA	0		3	lat=24.4667;lon=54.3667;msl=14	/United_Arab_Emirates/Abu_Dhabi/Abu_Dhabi/	1	OMAA			アブダビ市+アラブ首長国連邦
+Asia/Aden	YE		アデン	アデン	Asia/Aden	1	1	12.75	45.2	あてん	Asia	1			OYAA	0		5			1	OYAA			アデン+イエメン
+Asia/Almaty	KZ		アルマトイ	アルマトイ	Asia/Almaty	1	1	43.25	76.95	あるとまい	Asia	1	主要部分	070/c00152	UAAA	0		5			1	UAAA			アルマトイ+カザフスタン
+Asia/Amman	JO		アンマン	アンマン	Asia/Amman	1	1	31.95	35.93333	あんまん	Asia	1		069/c00215	OJAI	0		3	lat=31.9552;lon=35.9450;msl=735	Jordan/Amman/Amman/	1	OJAI			アンマン+ヨルダン
+Asia/Anadyr	RU		アナディリ	アナディリ	Asia/Anadyr	102	0	64.75	177.48333	あなていり	Asia	0		107/c00975	UHMA	0	Asia/Kamchatka	5			1	UHMA			アナディリ+ロシア
+Asia/Ankara	TR		アンカラ	アンカラ	Europe/Istanbul	101	1	39.875	32.8333	あんから	Asia	1		014/c00048	LTAC	0		3	lat=39.9199;lon=32.8543;msl=850	Turkey/Ankara/Ankara/	1	LTAC			アンカラ+トルコ
+Asia/Aqtau	KZ		アクタウ	アクタウ	Asia/Aqtau	103	0	43.635021	51.17564	あくたう	Asia	0				0	Asia/Aqtobe	0			0				アクタウ+カザフスタン
+Asia/Aqtobe	KZ		アクトベ	アクトベ	Asia/Aqtobe	2	0	50.28333	57.16667	あくとへ	Asia	1	西部		UATT	0		0			0				アクトベ+カザフスタン
+Asia/Ashgabat	TM		アシガバート	アシガバート	Asia/Ashgabat	1	1	37.95	58.38333	あしかはあと	Asia	1		111/c00212	UTAA	0		5			1	UTAA			アシガバート+トルクメニスタン
+Asia/Astana	KZ		アスタナ	アスタナ	Asia/Almaty	101	1	51.1807	71.461	あすたな	Asia	0		070/c00153	UACC	0		5			1	UACC			アスタナ+カザフスタン
+Asia/Baghdad	IQ		バグダッド	バグダード	Asia/Baghdad	1	1	33.35	44.41667	はくたあと	Asia	1		154/c01464	ORBI	0		5			1	ORBI			バグダッド+イラク
+Asia/Bahrain	BH		マナーマ	マナーマ	Asia/Bahrain	1	1	26.38333	50.58333	まなあま	Asia	1		051/c00220	OBBI	0		5			1	OBBI			マナーマ+バーレーン
+Asia/Baku	AZ		バクー	バクー	Asia/Baku	1	1	40.38333	49.85	はくう	Asia	1		007/c00018	UBBB	0		5			1	UBBB			バクー+アゼルバイジャン
+Asia/Bali	ID		バリ島	バリ島	Asia/Makassar	101	1	-8.65	115.216667	はり	Asia	2	中部時間	043/c00649	WADD	0		7			1	WADD		zmw:00000.1.97230	バリ島+インドネシア
+Asia/Bangalore	IN		バンガロール	バンガロール	Asia/Kolkata	103	1	12.966667	77.566667	はんかろおる	Asia	0		066/c00523	VOBL	0		5			1	VOBL			バンガロール+インド
+Asia/Bangkok	TH		バンコク	バンコク	Asia/Bangkok	1	1	13.75	100.51667	はんこく	Asia	1		089/c00233	VTBS	0		3	lat=13.7500;lon=100.5167;msl=2	Thailand/Bangkok/Bangkok/	1	VTBS			バンコク+タイ
+Asia/Beijing	CN		北京	北京市	Asia/Shanghai	101	1	39.913889	116.391667	へきん	Asia	0		001/c00237	ZBAA	0		7			1	ZBAA		zmw:00000.1.54511	北京+中国
+Asia/Beirut	LB		ベイルート	ベイルート	Asia/Beirut	1	1	33.88333	35.5	へいるうと	Asia	1		112/c00214	OLBA	0		3	lat=33.8889;lon=35.4944;msl=105	Lebanon/Beirut/Beirut/	1	OLBA			ベイルート+レバノン
+Asia/Bishkek	KG		ビシュケク	ビシュケク	Asia/Bishkek	1	1	42.9	74.6	ひしゆけく	Asia	1		177/c00210	UAFM	0		5			1	UAFM			ビシュケク+キルギス
+Asia/Brunei	BN		ブルネイ	ブルネイ	Asia/Brunei	1	1	4.93333	114.91667	ふるねい	Asia	1		023/c00095	WBSB	0		5			1	WBSB			ブルネイ
+Asia/Busan	KR		釜山	釜山広域市	Asia/Seoul	101	1	35.179444	129.075556	ふさん	Asia	0		095/c00336	RKPK	0		5			1	RKPK			釜山+韓国
+Asia/Cebu	PH		セブ島	セブ島	Asia/Manila	101	1	10.283333	123.9	せふ	Asia	0			RPVM	0		7			1	RPVM		zmw:00000.1.98646	セブ島+フィリピン
+Asia/Chengdu	CN		成都	成都市	Asia/Chongqing	106	1	30.659722	104.063333	せいと	Asia	0		001/c00547	ZUUU	0		5			1	ZUUU			成都+中国
+Asia/Chennai	IN		チェンナイ	チェンナイ	Asia/Kolkata	104	1	13.083889	80.27	ちえんない	Asia	0		066/c00527	VOMM	0		5			1	VOMM			チェンナイ+インド
+Asia/Chita	RU		チタ	チタ	Asia/Chita	101	1	52.05	113.466667	ちた	Asia	0			UIAA	0	Asia/Yakutsk	5			1	UIAA			チタ+ロシア
+Asia/Choibalsan	MN		チョイバルサン	ドルノド県	Asia/Choibalsan	101	0	48.06667	114.5	ちよいはるさん	Asia	0				0	Asia/Ulaanbaatar	0			0				チョイバルサン+モンゴル
+Asia/Chongqing	CN		重慶	重慶市	Asia/Shanghai	102	1	29.56667	106.58333	しゆけい	Asia	0		001/c00349	ZUCK	0		5			1	ZUCK			重慶+中国
+Asia/Colombo	LK		コロンボ	コロンボ	Asia/Colombo	1	1	6.93333	79.85	ころんほ	Asia	1		084/c00227	VCBI	0		5			1	VCBI			コロンボ+スリランカ
+Asia/Dalian	CN		大連	大連市	Asia/Shanghai	109	1	38.920833	121.639167	たいれん	Asia	0		001/c00560	ZYTL	0		7			1	ZYTL		zmw:00000.1.54662	大連+中国
+Asia/Damascus	SY		ダマスカス	ダマスカス	Asia/Damascus	1	1	33.5	36.3	たますかす	Asia	1		099/c00213	OSDI	0		3	lat=33.5102;lon=36.2913;msl=686	Syria/Damacus/Damascus/	1	OSDI			ダマスカス+シリア
+Asia/Delhi	IN		ニューデリー	ニューデリー	Asia/Kolkata	101	1	28.61	77.23	にゆうてりい	Asia	0		066/c00224	VIDP	0		5			1	VIDP			ニューデリー+インド
+Asia/Dhaka	BD		ダッカ	ダッカ	Asia/Dhaka	1	1	23.71667	90.41667	たつか	Asia	1		141/c01163	VGHS	0		5			1	VGHS			ダッカ+バングラデシュ
+Asia/Dili	TL		ディリ	ディリ	Asia/Dili	1	1	-8.55	125.58333	ていり	Asia	1				0		5			0				ディリ+東ティモール
+Asia/Dubai	AE		ドバイ	ドバイ	Asia/Dubai	1	1	25.3	55.3	とはい	Asia	1		117/c01190	OMDB	0		3	lat=25.2582;lon=55.3047;msl=12	United_Arab_Emirates/Dubai/Dubai/	1	OMDB			ドバイ+アラブ首長国連邦
+Asia/Dushanbe	TJ		ドゥシャンベ	ドゥシャンベ	Asia/Dushanbe	1	1	38.58333	68.8	とうしやんへ	Asia	1		110/c00211	UTDD	0		5			1	UTDD			ドゥシャンベ+タジキスタン
+Asia/Famagusta	CY		ファマグスタ	ファマグスタ	Asia/Famagusta	101	0	35.121	33.93879	ふあまくすた	Asia	0	北キプロス			0		0			0				ファマグスタ+キプロス
+Asia/Gaza	PS		ガザ	ガザ	Asia/Gaza	1	1	31.5	34.46667	かさ	Asia	1				0		3	lat=31.5000;lon=34.4667;msl=35	Palestinian_Territory/Gaza_Strip/Gaza/	0				ガザ+パレスチナ
+Asia/Guangzhou	CN		広州	広州市	Asia/Shanghai	103	1	23.108889	113.264722	こうしゆう	Asia	0		001/c00241	ZGGG	0		5			1	ZGGG			広州+中国
+Asia/Hanoi	VN		ハノイ	ハノイ	Asia/Ho_Chi_Minh	101	1	21.03333	105.85	はのい	Asia	0		082/c00308	VVNB	0		5			1	VVNB			ハノイ+ベトナム 
+Asia/Harbin	CN		ハルビン	ハルビン市	Asia/Shanghai	110	1	45.75	126.68333	はるひん	Asia	0		001/c00540	ZYCC	0		5			1	ZYCC			ハルビン+中国
+Asia/Hebron	PS		ヨルダン川西岸地区	ヨルダン川西岸地区	Asia/Hebron	101	0	31.53281	35.0983	よるたんかわ	Asia	0				0	Asia/Gaza	0			0				ヨルダン川西岸地区+パレスチナ
+Asia/Ho_Chi_Minh	VN		ホーチミン	ホーチミン市	Asia/Ho_Chi_Minh	1	1	10.75	106.66667	ほおちみん	Asia	1		082/c00309	VVTS	0		5			1	VVTS			ホーチミン+ベトナム 
+Asia/Hong_Kong	HK		香港	香港	Asia/Hong_Kong	1	1	22.28333	114.15	ほんこん	Asia	1		002/c00001	VHHH	1		5			1	VHHH			Hong+Kong
+Asia/Hovd	MN		ホブド		Asia/Hovd	2	0	48.01667	91.65	ほふと	Asia	2	西部	119/c01137		0		0			0				ホブド+モンゴル
+Asia/Irkutsk	RU		イルクーツク	イルクーツク	Asia/Irkutsk	7	1	52.26667	104.33333	いるくうつく	Asia	7	イルクーツク時間	107/c00662	UIII	0		5			1	UIII			イルクーツク+ロシア
+Asia/Jakarta	ID		ジャカルタ	ジャカルタ	Asia/Jakarta	1	1	-6.16667	106.8	しやかるた	Asia	1	西部時間	043/c00310	WIII	0		5			1	WIII			ジャカルタ+インドネシア
+Asia/Jayapura	ID		ジャヤプラ	ジャヤプラ	Asia/Jayapura	3	0	-2.53333	140.7	しややふら	Asia	3	東部時間			0		5			0				ジャヤプラ+インドネシア
+Asia/Jeddah	SA		ジッダ	ジッダ	Asia/Riyadh	101	1	21.543333	39.172778	しつた	Asia	0		079/c00699	OEJN	0		3	lat=21.5169;lon=39.2192;msl=34	Saudi_Arabia/Mekka/Jeddah/	1	OEJN			ジッダ+サウジアラビア
+Asia/Jeju	KR		済州島	済州島	Asia/Seoul	102	1	33.5	126.516667	さいしゆうとう	Asia	0		095/c00337	RKPC	0		5			1	RKPC			済州島+韓国
+Asia/Jerusalem	IL		エルサレム	エルサレム	Asia/Jerusalem	1	1	31.76667	35.23333	えれされむ	Asia	1		013/c00043	LLBG	0		3	lat=31.7790;lon=35.2253;msl=795	Israel/Jerusalem/Jerusalem/	1	LLBG			エルサレム+イスラエル
+Asia/Kabul	AF		カブール	カーブル	Asia/Kabul	1	1	34.5167	69.2	かふうる	Asia	1		115/c00219	OAKB	0		5			1	OAKB			カブール+アフガニスタン
+Asia/Kamchatka	RU		カムチャッカ	カムチャツカ地方	Asia/Kamchatka	11	1	53.01667	158.65	かむちやつか	Asia	11	カムチャッカ時間	107/c00665	UHPP	0		5			1	UHPP			ペトロパブロフスク‐カムチャツキー+ロシア
+Asia/Karachi	PK		カラチ	カラチ	Asia/Karachi	1	1	24.86667	67.05	からち	Asia	1		047/c00892	OPKC	0		5			1	OPKC			カラチ+パキスタン
+Asia/Kashgar	CN		カシュガル	カシュガル市	Asia/Urumqi	113	1	39.48333	75.98333	かしゆかる	Asia	0			ZWSH	0		5			1	ZWSH			カシュガル+中国
+Asia/Kathmandu	NP		カトマンズ	カトマンズ	Asia/Kathmandu	1	1	27.71667	85.31667	かとまんす	Asia	1		031/c00114	VNKT	0		5			1	VNKT			カトマンズ+ネパール
+Asia/Kolkata	IN		コルカタ	コルカタ	Asia/Kolkata	1	1	22.53333	88.36667	こるかた	Asia	1		066/c00225	VECC	0		5			1	VECC			コルカタ+インド
+Asia/Krasnoyarsk	RU		クラスノヤルスク	クラスノヤルスク	Asia/Krasnoyarsk	6	0	56.01667	92.83333	くらすのやるすく	Asia	6	クラスノヤルスク時間	107/c00661	UNKL	0		5			1	UNKL			クラスノヤルスク+ロシア
+Asia/Kuala_Lumpur	MY		クアラルンプール	クアラルンプール	Asia/Kuala_Lumpur	1	1	3.16667	101.7	くあらるんふうる	Asia	1		020/c00082	WMKK	0		5			1	WMKK			クアラルンプール+マレーシア
+Asia/Kuching	MY		クチン	クチン	Asia/Kuching	101	1	1.55	110.33333	くちん	Asia	0		020/c00080	WBGG	0		5			1	WBGG			クチン+マレーシア
+Asia/Kuwait	KW		クウェート	クウェート (市)	Asia/Kuwait	1	1	29.33333	47.98333	くうええと	Asia	1		113/c01498	OKBK	0		5			1	OKBK			クウェート市
+Asia/Lahore	PK		ラホール	ラホール	Asia/Karachi	101	1	31.549722	74.343611	らほおる	Asia	0		047/c00891	OPLA	0		5			1	OPLA			ラホール+パキスタン
+Asia/Macau	MO		マカオ	マカオ	Asia/Macau	1	1	22.23333	113.58333	まかお	Asia	1		072/c00156	VMMC	1		5			1	VMMC			マカオ+マカオ
+Asia/Magadan	RU		マガダン	マガダン	Asia/Magadan	10	1	59.56667	150.8	まかたん	Asia	0	マガダン時間	107/c00918	UHMM	0		5			1	UHMM			マガダン+ロシア
+Asia/Makassar	ID		マカッサル	マカッサル	Asia/Makassar	2	0	-5.11667	119.4	まかつさる	Asia	0	中部時間	043/c00650	WAAA	0		5			1	WAAA			マカッサル+インドネシア
+Asia/Manila	PH		マニラ	マニラ	Asia/Manila	1	1	14.58333	121.0	まにら	Asia	1		021/c00092	RPLL	0		5			1	RPLL			マニラ+フィリピン
+Asia/Mecca	SA		メッカ	メッカ	Asia/Riyadh	102	1	21.416667	39.816667	めつか	Asia	0		079/c00700	OEMK	0		3	lat=21.4267;lon=39.8261;msl=307	Saudi_Arabia/Mekka/Mecca/	1	OEMK			メッカ+サウジアラビア
+Asia/Mumbai	IN		ムンバイ	ムンバイ	Asia/Kolkata	102	1	18.975	72.825833	むんはい	Asia	0		066/c00226	VABB	0		5			1	VABB			ムンバイ+インド
+Asia/Muscat	OM		マスカット	マスカット	Asia/Muscat	1	1	23.6	58.58333	ますかつと	Asia	1		030/c00112	OOMS	0		5			1	OOMS			マスカット+オマーン
+Asia/Nicosia	CY		ニコシア	ニコシア	Asia/Nicosia	1	1	35.16667	33.36667	にこしあ	Asia	1		104/c01441	LCLK	0		3	lat=35.1667;lon=33.3667;msl=128	Cyprus/Nikosia/Nicosia/	1	LCLK			ニコシア+キプロス
+Asia/Novokuznetsk	RU		ノヴォクズネツク	ノヴォクズネツク	Asia/Novokuznetsk	102	0	53.75	87.11667	のうおくすねつく	Asia	0			UNWW	0	Asia/Krasnoyarsk	5			1	UNWW			ノヴォクズネツク+ロシア
+Asia/Novosibirsk	RU		ノヴォシビルスク	ノヴォシビルスク	Asia/Novosibirsk	101	1	55.03333	82.91667	のうおひるすく	Asia	0		107/c01007	UNNT	0	Asia/Omsk	5			1	UNNT			ノヴォシビルスク+ロシア
+Asia/Omsk	RU		オムスク	オムスク	Asia/Omsk	5	1	55.0	73.4	おむすく	Asia	5	オムスク時間	107/c00660	UNOO	0		5			1	UNOO			オムスク+ロシア
+Asia/Oral	KZ		オラル	オラル	Asia/Oral	104	0	51.21667	51.35	おらる	Asia	0				0	Asia/Aqtobe	0			0				オラル+カザフスタン
+Asia/Phnom_Penh	KH		プノンペン	プノンペン	Asia/Phnom_Penh	1	1	11.55	104.91667	ふのんへん	Asia	1		145/c00348	VDPP	0		5			1	VDPP			プノンペン+カンボジア
+Asia/Phuket	TH		プーケット島	プーケット県	Asia/Bangkok	101	1	7.888056	98.3975	ふうけつと	Asia	0		089/c00579	VTSP	0		7			1	VTSP		zmw:00000.1.48564	プーケット島+タイ
+Asia/Pontianak	ID		ポンティアナック	ポンティアナック	Asia/Pontianak	102	0	-0.03333	109.33333	ほんていあなつく	Asia	0	西カリマンタン、中央カリマンタン	043/c00653	WIOO	0	Asia/Jakarta	5			1	WIOO			ポンティアナック+インドネシア
+Asia/Pyeongchang	KR		平昌	平昌郡	Asia/Seoul	103	1	37.667222	128.706111	ひよんちやん	Asia	0				0		0			0				平昌+韓国
+Asia/Pyongyang	KP		平壌	平壌	Asia/Pyongyang	1	1	39.01667	125.75	ひよんやん	Asia	1		120/c00230		0		5			0				平壌+北朝鮮
+Asia/Qatar	QA		ドーハ	ドーハ	Asia/Qatar	1	1	25.28333	51.53333	とおは	Asia	1		116/c00221	OTBD	0		3	lat=25.2793;lon=51.5225;msl=13	Qatar/Doha/Doha/	1	OTBD			ドーハ+カタール
+Asia/Qingdao	CN		青島	青島市	Asia/Shanghai	108	1	36.066667	120.383333	ちんたお	Asia	0		001/c00542	ZSQD	0		5			1	ZSQD			青島+中国
+Asia/Qyzylorda	KZ		クズルオルダ	クズロルダ	Asia/Qyzylorda	102	0	44.8	65.46667	くするおるた	Asia	0				0	Asia/Almaty	0			0				クズルオルダ+カザフスタン
+Asia/Riyadh	SA		リヤド	リヤド	Asia/Riyadh	1	1	24.63333	46.71667	りやと	Asia	1		079/c00216	OERK	0		3	lat=24.6877;lon=46.7219;msl=600	Saudi_Arabia/Riyadh/Riyadh/	1	OERK			リヤド+サウジアラビア
+Asia/Sakhalin	RU		サハリン	ユジノサハリンスク	Asia/Sakhalin	101	1	46.96667	142.7	さはりん	Asia	0			UHSS	0	Asia/Magadan	5			1	UHSS			ユジノ・サハリンスク+ロシア
+Asia/Samarkand	UZ		サマルカンド	サマルカンド	Asia/Samarkand	101	1	39.66667	66.8	さまるかんと	Asia	0		032/c00116	UTSS	0		5			1	UTSS			サマルカンド+ウズベキスタン
+Asia/Sanya	CN		三亜（ハイナン島）	三亜市	Asia/Shanghai	111	1	18.253333	109.503611	さんあ	Asia	0		001/c00559	ZJSY	0		5			1	ZJSY			三亜（ハイナン島）+中国
+Asia/Seoul	KR		ソウル	ソウル特別市	Asia/Seoul	1	1	37.55	126.96667	そうる	Asia	1		095/c00231	RKSI	0		7			1	RKSS		zmw:00000.1.47117	ソウル+韓国
+Asia/Shanghai	CN		上海	上海市	Asia/Shanghai	1	1	31.23333	121.46667	しやんはい	Asia	1		001/c00240	ZSPD	0		7			1	ZSSS		zmw:00000.1.58362	上海+中国
+Asia/Singapore	SG		シンガポール	シンガポール	Asia/Singapore	1	1	1.28333	103.85	しんかほおる	Asia	1		081/c00234	WSSS	1		5			1	WSSS			シンガポール
+Asia/Srednekolymsk	RU		スレドネコリムスク	スレドネコリムスク	Asia/Srednekolymsk	102	0	67.45	153.683333	すれとねこりむすく	Asia	10	スレドネコリムスク時間			0	Asia/Magadan	0			0				スレドネコリムスク+ロシア
+Asia/Taipei	TW		台北	台北市	Asia/Taipei	1	1	25.05	121.5	たいぺい	Asia	1		001/c00354	RCTP	0		7			1	RCTP		zmw:00000.1.58968	台北+台湾
+Asia/Tashkent	UZ		タシュケント	タシュケント	Asia/Tashkent	1	1	41.33333	69.3	たしゆけんと	Asia	1		032/c00115	UTTT	0		5			1	UTTT			タシュケント+ウズベキスタン
+Asia/Tbilisi	GE		トビリシ	トビリシ	Asia/Tbilisi	1	1	41.71667	44.81667	とひりし	Asia	1		109/c00209	UGTB	0		5			1	UGTB			トビリシ+ジョージア
+Asia/Tehran	IR		テヘラン	テヘラン	Asia/Tehran	1	1	35.66667	51.43333	てへらん	Asia	1		114/c00218	OIII	0		5			1	OIII			テヘラン+イラン
+Asia/Tel_Aviv	IL		テルアビブ	テルアビブ	Asia/Jerusalem	101	1	32.066667	34.783333	てるあひふ	Asia	0		013/c00044	LLBG	0		3	lat=32.0809;lon=34.7806;msl=18	Israel/Tel_Aviv/Tel_Aviv_Yaffo/	1	LLBG			テルアビブ+イスラエル
+Asia/Thimphu	BT		ティンプー	ティンプー	Asia/Thimphu	1	1	27.46667	89.65	ていんふう	Asia	1		191/c01273		0		5			0				ティンプー+ブータン
+Asia/Tianjin	CN		天津	天津市	Asia/Shanghai	104	1	39.133333	117.183333	てんしん	Asia	0		001/c00353	ZBTJ	0		5			1	ZBTJ			天津+中国
+Asia/Tokyo	JP		東京	東京都	Asia/Tokyo	1	1	35.65	139.73333	とうきよう	Asia	1		068/c00183		0		0			1	RJTT			東京+日本
+Asia/Ulaanbaatar	MN		ウランバートル	ウランバートル	Asia/Ulaanbaatar	1	1	47.91667	106.88333	うらんはあとる	Asia	1	主要部分	119/c00229	ZMUB	0		5			1	ZMUB			ウランバートル+モンゴル
+Asia/Urumqi	CN		ウルムチ	ウルムチ市	Asia/Urumqi	112	1	43.8	87.58333	うるむち	Asia	0		001/c00543	ZWWW	0		5			1	ZWWW			ウルムチ+中国
+Asia/Vientiane	LA		ヴィエンチャン	ヴィエンチャン	Asia/Vientiane	1	1	17.96667	102.6	ういえんちやん	Asia	1		121/c00235	VLVT	0		5			1	VLVT			ヴィエンチャン+ラオス
+Asia/Vladivostok	RU		ウラジオストク	ウラジオストク	Asia/Vladivostok	9	1	43.16667	131.93333	うらしおすとく	Asia	9	ウラジオストク時間	107/c00664	UHWW	0		5			1	UHWW			ウラジオストク+ロシア
+Asia/Wuhan	CN		武漢	武漢市	Asia/Shanghai	105	1	30.5725	114.279167	ふかん	Asia	0		001/c00351	ZHHH	0		5			1	ZHHH			武漢+中国
+Asia/Xian	CN		西安	西安市	Asia/Chongqing	107	1	34.266667	108.9	せいあん	Asia	0		001/c00239	ZLXY	0		5			1	ZLXY			西安+中国
+Asia/Yakutsk	RU		ヤクーツク	ヤクーツク	Asia/Yakutsk	8	1	62.0	129.66667	やくうつく	Asia	8	ヤクーツク時間	107/c00917	UEEE	0		5			1	UEEE			ヤクーツク+ロシア
+Asia/Yangon	MM		ヤンゴン	ヤンゴン	Asia/Yangon	1	1	16.78333	96.16667	やんこん	Asia	1		180/c00232	VYYY	0		5			1	VYYY			ヤンゴン+ミャンマー
+Asia/Yekaterinburg	RU		エカテリンブルグ	エカテリンブルク	Asia/Yekaterinburg	4	1	56.85	60.6	えかてりんふるく	Asia	4	エカテリンブルグ時間	107/c00916	USSS	0		5			1	USSS			エカテリンブルグ+ロシア
+Asia/Yerevan	AM		エレバン	エレバン	Asia/Yerevan	1	1	40.1833	44.5	えれはん	Asia	1		018/c00066	UDYZ	0		5			1	UDYZ			エレバン+アルメニア
+Atlantic/Ascension	SH		アセンション島 	アセンション島 	Atlantic/St_Helena	101	0	-7.9333	-14.4167	あせんしよん	Atlantic	0			FHAW	0		5			1	FHAW			アセンション島 +セントヘレナ、アセンション及びトリスタン・ダ・クーニャ
+Atlantic/Azores	PT		アゾレス諸島	アゾレス諸島	Atlantic/Azores	3	0	37.73333	-25.66667	あそれす	Atlantic	1	アゾレス諸島	003/c00006	LPPD	0		3	lat=37.7333;lon=-25.6667;msl=-4	Portugal/Azores/Ponta_Delgada/	1	LPPD			アゾレス諸島+ポルトガル
+Atlantic/Bermuda	BM		バミューダ諸島	バミューダ諸島	Atlantic/Bermuda	1	0	32.28333	-64.76667	はみゆうた	Atlantic	1			TXKF	1		5			1	TXKF			バミューダ諸島
+Atlantic/Bouvet	BV		ブーベ島	ブーベ島	GMT	1	0	-54.4333	3.4	ふうへ	Atlantic	1				1		0			0				ブーベ島
+Atlantic/Canary	ES		グラン・カナリア島	カナリア諸島	Atlantic/Canary	3	0	28.1	-15.4	かなりあ	Atlantic	1	カナリア諸島	186/c01234	GCLP	0		3	lat=28.0997;lon=-15.4134;msl=114	Spain/Canary_Islands/Las_Palmas_de_Gran_Canaria/	1	GCLP			グラン・カナリア島+スペイン
+Atlantic/Cape_Verde	CV		プライア	プライア	Atlantic/Cape_Verde	1	1	14.91667	-23.51667	ふらいあ	Atlantic	1		100/c00196	GVNP	0		5			1	GVNP			プライア+カーボベルデ
+Atlantic/Faroe	FO		フェロー諸島	フェロー諸島	Atlantic/Faroe	1	0	62.01667	-6.76667	ふえろお	Atlantic	1			EKVG	1		3	lat=62.0097;lon=-6.7716;msl=1	Faroe_Islands/Streymoy/Tórshavn/	1	EKVG			フェロー諸島
+Atlantic/Madeira	PT		マデイラ諸島	マデイラ諸島	Atlantic/Madeira	2	0	32.63333	-16.9	まていら	Atlantic	1	マデイラ諸島	003/c00005	LPMA	0		3	lat=32.6333;lon=-16.9000;msl=13	Portugal/Madeira/Funchal/	1	LPMA			マデイラ諸島+ポルトガル
+Atlantic/Reykjavik	IS		レイキャビク	レイキャヴィーク	Atlantic/Reykjavik	1	1	64.15	-21.85	れいきやひく	Atlantic	1		097/c00189	BIKF	0		3	lat=64.1355;lon=-21.8954;msl=37	Iceland/Capital_Region/Reykjavik/	1	BIKF			レイキャビク+アイスランド
+Atlantic/South_Georgia	GS		サウスジョージア島	サウスジョージア・サウスサンドウィッチ諸島	Atlantic/South_Georgia	1	0	-54.26667	-36.53333	さうすしゆうしあ	Atlantic	1				0		0			0				サウスジョージア島+サウスジョージア・サウスサンドウィッチ諸島
+Atlantic/St_Helena	SH		セントヘレナ	セントヘレナ	Atlantic/St_Helena	1	0	-15.91667	-5.7	せんとへれな	Atlantic	1				0		5			0				セントヘレナ+セントヘレナ、アセンション及びトリスタン・ダ・クーニャ
+Atlantic/Stanley	FK		スタンリー	スタンリー (フォークランド諸島)	Atlantic/Stanley	1	0	-51.7	-57.85	すたんりい	Atlantic	1			EGYP	0		5			1	EGYP			スタンリー+フォークランド諸島
+Atlantic/Tristan_da_Cunha	SH		トリスタン・ダ・クーニャ	トリスタン・ダ・クーニャ	Atlantic/St_Helena	102	0	-37.066667	-12.316667	とりすたんたくうにや	Atlantic	0				0		0			0				トリスタン・ダ・クーニャ+セントヘレナ、アセンション及びトリスタン・ダ・クーニャ
+Australia/Adelaide	AU	SA	アデレード	アデレード	Australia/Adelaide	3	1	-34.91667	138.58333	あてれえと	Australia	3	中部時間（夏時間あり）	185/c00315	YPAD	0		5			1	YPAD			アデレード+オーストラリア+南オーストラリア州
+Australia/Alice_Springs	AU	NT	アリススプリングス	アリススプリングス	Australia/Darwin	105	1	-23.7	133.87	ありすすふりんくす	Australia	0		185/c00323	YBAS	0		5			1	YBAS			アリススプリングス+オーストラリア+ノーザンテリトリー
+Australia/Brisbane	AU	QL	ブリスベン	ブリスベン	Australia/Brisbane	2	1	-27.46667	153.03333	ふるすへん	Australia	4	東部時間（夏時間なし）	185/c00320	YBBN	0		5			1	YBBN			ブリスベン+オーストラリア+クイーンズランド州
+Australia/Broken_Hill	AU	NS	ブロークンヒル	ブロークンヒル	Australia/Broken_Hill	101	0	-31.95	141.45	ふろおくんひる	Australia	0		185/c00373		0	Australia/Adelaide	0			0				ブロークンヒル+オーストラリア+ニューサウスウェールズ州
+Australia/Cairns	AU	QL	ケアンズ	ケアンズ	Australia/Brisbane	101	1	-16.925556	145.775278	けあんす	Australia	0		185/c00299	YBCS	0		5			1	YBCS			ケアンズ+オーストラリア+クイーンズランド州
+Australia/Canberra	AU	AC	キャンベラ	キャンベラ	Australia/Sydney	101	1	-35.3075	149.124417	きやんへら	Australia	0		185/c00302	YSCB	0		5			1	YSCB			キャンベラ+オーストラリア+オーストラリア首都特別地域
+Australia/Currie	AU	TS	カレー（キング島）	キング島	Australia/Currie	104	0	-39.93333	143.86667	かれえ	Australia	0				0	Australia/Sydney	0			0				カレー（キング島）+オーストラリア+タスマニア州
+Australia/Darwin	AU	NT	ダーウィン	ダーウィン (オーストラリア)	Australia/Darwin	4	1	-12.46667	130.83333	たあういん	Australia	2	中部時間（夏時間なし）	185/c00322	YPDN	0		5			1	YPDN			ダーウィン+オーストラリア+ノーザンテリトリー
+Australia/Eucla	AU	WA	ユークラ		Australia/Eucla	101	0	-31.71667	128.86667	ゆうくら	Australia	0		185/c00400		0		0			0				ユークラ+オーストラリア+西オーストラリア州
+Australia/Hobart	AU	TS	ホバート	ホバート	Australia/Hobart	103	1	-42.88333	147.31667	ほばあと	Australia	0		185/c00316	YMHB	0	Australia/Sydney	5			1	YMHB			ホバート+オーストラリア+タスマニア州
+Australia/Lindeman	AU	QL	ハミルトン島	ハミルトン島	Australia/Lindeman	102	0	-20.26667	149.0	はみるとん	Australia	0		185/c00370		0	Australia/Brisbane	0			0				ハミルトン島+オーストラリア+クイーンズランド州
+Australia/Lord_Howe	AU	NS	ロード・ハウ島	ロード・ハウ島	Australia/Lord_Howe	6	0	-31.55	159.08333	ろおとはう	Australia	6	ロード・ハウ島	185/c00442		0		0			0				ロード・ハウ島+オーストラリア+ニューサウスウェールズ州
+Australia/Melbourne	AU	VI	メルボルン	メルボルン	Australia/Melbourne	102	1	-37.81667	144.96667	めるほるん	Australia	0		185/c00301	YMML	0	Australia/Sydney	5			1	YMML			メルボルン+オーストラリア+ビクトリア州
+Australia/Perth	AU	WA	パース	パース (西オーストラリア州)	Australia/Perth	5	1	-31.95	115.85	はあす	Australia	1	西部時間	185/c00314	YPPH	0		5			1	YPPH			パース+オーストラリア+西オーストラリア州
+Australia/Sydney	AU	NS	シドニー	シドニー	Australia/Sydney	1	1	-33.86667	151.21667	しとにい	Australia	5	東部時間（夏時間あり）	185/c00300	YSSY	0		5			1	YSSY			シドニー+オーストラリア+ニューサウスウェールズ州
+Europe/Amsterdam	NL		アムステルダム	アムステルダム	Europe/Amsterdam	1	1	52.36667	4.9	あむすてるたむ	Europe	1		037/c00143	EHAM	0		3	lat=52.3740;lon=4.8897;msl=-2	Netherlands/North_Holland/Amsterdam/	1	EHAM			アムステルダム+オランダ
+Europe/Andorra	AD		アンドラ	アンドラ	Europe/Andorra	1	0	42.5	1.5167	あんとら	Europe	1				1		3	lat=42.5078;lon=1.5211;msl=1073	Andorra/Andorra_la_Vella/Andorra_la_Vella/	0				アンドラ
+Europe/Athens	GR		アテネ	アテネ	Europe/Athens	1	1	37.96667	23.71667	あてね	Europe	1		063/c00177	LGAV	0		3	lat=37.9795;lon=23.7162;msl=70	Greece/Attica/Athens/	1	LGAV			アテネ+ギリシャ
+Europe/Barcelona	ES		バルセロナ	バルセロナ	Europe/Madrid	101	1	41.383333	2.183333	はるせろな	Europe	0		083/c01232	LEBL	0		3	lat=41.3888;lon=2.1590;msl=15	Spain/Catalonia/Barcelona/	1	LEBL			バルセロナ+スペイン
+Europe/Belfast	GB		ベルファスト	ベルファスト	Europe/London	107	1	54.6	-5.916667	へるふあすと	Europe	0		010/c00038	EGAA	0		1	350347		1	EGAC			ベルファスト+イギリス
+Europe/Belgrade	RS		ベオグラード	ベオグラード	Europe/Belgrade	1	1	44.83333	20.5	へおくらあと	Europe	1		101/c00198	LYBE	0		3	lat=44.8040;lon=20.4651;msl=149	Serbia/Central_Serbia/Belgrade/	1	LYBE			ベオグラード+セルビア
+Europe/Berlin	DE		ベルリン	ベルリン	Europe/Berlin	1	1	52.5	13.36667	へるりん	Europe	1		016/c00059	EDDT	0		3	lat=52.5244;lon=13.4105;msl=74	Germany/Berlin/Berlin/	1	EDDT			ベルリン+ドイツ
+Europe/Birmingham	GB		バーミンガム	バーミンガム	Europe/London	102	1	52.4796	-1.903	はあみんかむ	Europe	0		010/c00028	EGBB	0		1	350446		1	EGBB			バーミンガム+イギリス
+Europe/Bordeaux	FR		ボルドー	ボルドー	Europe/Paris	106	1	44.838611	-0.578333	ほるとお	Europe	0		062/c01050	LFBD	0		3	lat=44.8404;lon=-0.5805;msl=9	France/Aquitaine/Bordeaux/	1	LFBD			ボルドー+フランス
+Europe/Bratislava	SK		ブラチスラヴァ	ブラチスラヴァ	Europe/Bratislava	1	1	48.15	17.11667	ふらちすらうあ	Europe	1		011/c00041	LZIB	0		3	lat=48.1482;lon=17.1067;msl=145	Slovakia/Bratislava/Bratislava/	1	LZIB			ブラチスラヴァ+スロバキア
+Europe/Brussels	BE		ブリュッセル	ブリュッセル	Europe/Brussels	1	1	50.83333	4.33333	ふりゆつせる	Europe	1		053/c00191	EBBR	0		3	lat=50.8505;lon=4.3488;msl=20	Belgium/Brussels/Brussels/	1	EBBR			ブリュッセル+ベルギー
+Europe/Bucharest	RO		ブカレスト	ブカレスト	Europe/Bucharest	1	1	44.43333	26.1	ふかれすと	Europe	1		183/c00200	LROP	0		3	lat=44.4323;lon=26.1063;msl=71	Romania/Bucuresti/Bucharest/	1	LROP			ブカレスト+ルーマニア
+Europe/Budapest	HU		ブダペスト	ブダペスト	Europe/Budapest	1	1	47.5	19.08333	ふたへすと	Europe	1		017/c00060	LHBP	0		3	lat=47.4980;lon=19.0399;msl=75	Hungary/Budapest/Budapest/	1	LHBP			ブダペスト+ハンガリー
+Europe/Cardiff	GB		カーディフ	カーディフ	Europe/London	106	1	51.485278	-3.186667	かあていふ	Europe	0		010/c00036	EGFF	0		1	350758		1	EGFF			カーディフ+イギリス
+Europe/Chisinau	MD		キシナウ	キシナウ	Europe/Chisinau	1	1	47.0	28.83333	きしなう	Europe	1		108/c00208	LUKK	0		3	lat=47.0056;lon=28.8575;msl=52	Moldova/Chisinau/Chişinău/	1	LUKK			キシナウ+モルドバ
+Europe/Cologne	DE		ケルン	ケルン	Europe/Berlin	105	1	50.95	6.966667	けるん	Europe	0		016/c00056	EDDK	0		3	lat=50.9333;lon=6.9500;msl=46	Germany/North_Rhine-Westphalia/Cologne/	1	EDDK			ケルン+ドイツ
+Europe/Copenhagen	DK		コペンハーゲン	コペンハーゲン	Europe/Copenhagen	1	1	55.66667	12.58333	こぺんはあけん	Europe	1		173/c00190	EKCH	0		2	lat=55.6759;lon=12.5655;msl=5	Denmark/Capital/Copenhagen/	1	EKCH			コペンハーゲン+デンマーク
+Europe/Dresden	DE		ドレスデン	ドレスデン	Europe/Berlin	108	1	51.033333	13.733333	とれすてん	Europe	0		016/c01343	EDDC	0		3	lat=51.0509;lon=13.7383;msl=110	Germany/Saxony/Dresden/	1	EDDC			ドレスデン+ドイツ
+Europe/Dublin	IE		ダブリン	ダブリン	Europe/Dublin	1	1	53.33333	-6.25	たふりん	Europe	1		067/c00188	EIDW	0		3	lat=53.3440;lon=-6.2672;msl=4	Ireland/Leinster/Dublin/	1	EIDW			ダブリン+アイルランド
+Europe/Edinburgh	GB		エディンバラ	エディンバラ	Europe/London	104	1	55.953056	-3.188889	えていんはら	Europe	0		010/c00033	EGPH	0		1	351351		1	EGPH			エディンバラ+イギリス
+Europe/Florence	IT		フィレンツェ	フィレンツェ	Europe/Rome	104	1	43.783333	11.25	ふいれんつえ	Europe	0		176/c00602	LIRQ	0		3	lat=43.7667;lon=11.2500;msl=87	Italy/Tuscany/Florence/	1	LIRQ			フィレンツェ+イタリア 
+Europe/Frankfurt	DE		フランクフルト	フランクフルト・アム・マイン	Europe/Berlin	101	1	50.110278	8.682222	ふらんくふると	Europe	0		016/c00057	EDDF	0		3	lat=50.1167;lon=8.6833;msl=119	Germany/Hesse/Frankfurt_am_Main/	1	EDDF			フランクフルト+ドイツ
+Europe/Geneva	CH		ジュネーヴ	ジュネーヴ	Europe/Zurich	101	1	46.2	6.15	しゆねえう	Europe	0		087/c00193	LSGG	0		3	lat=46.2022;lon=6.1457;msl=375	Switzerland/Genève/Geneva/	1	LSGG			ジュネーヴ+スイス
+Europe/Gibraltar	GI		ジブラルタル	ジブラルタル	Europe/Gibraltar	1	1	36.13333	-5.35	しふらるたる	Europe	1				1		0			0				ジブラルタル+ジブラルタル
+Europe/Glasgow	GB		グラスゴー	グラスゴー	Europe/London	105	1	55.858	-4.259	くらすこお	Europe	0			EGPF	0		1	310009		1	EGPF			グラスゴー+イギリス
+Europe/Guernsey	GG		ガーンジー島	ガーンジー島	Europe/Guernsey	1	0	49.45	-2.53333	かあんしい	Europe	1		010/c01373	EGJB	1		1	353333		1	EGJB			Guernsey
+Europe/Hamburg	DE		ハンブルク	ハンブルク	Europe/Berlin	104	1	53.550278	9.992778	はんふるく	Europe	0		016/c00055	EDDH	0		3	lat=53.5500;lon=10.0000;msl=3	Germany/Hamburg/Hamburg/	1	EDDH			ハンブルク+ドイツ
+Europe/Hanover	DE		ハノーファー	ハノーファー	Europe/Berlin	106	1	52.374444	9.738611	はのおふああ	Europe	0		016/c01347	EDDV	0		3	lat=52.3705;lon=9.7332;msl=54	Germany/Lower_Saxony/Hanover/	1	EDDV			ハノーファー+ドイツ
+Europe/Helsinki	FI		ヘルシンキ	ヘルシンキ	Europe/Helsinki	1	1	60.16667	24.96667	へるしんき	Europe	1		061/c00168	EFHK	0		2	lat=60.1695;lon=24.9355;msl=26	Finland/Southern_Finland/Helsinki/	1	EFHK			ヘルシンキ+フィンランド
+Europe/Isle_of_Man	IM		マン島	マン島	Europe/Isle_of_Man	1	0	54.15	-4.46667	まん	Europe	1		010/c01374	EGNS	1		1	310060		1	EGNS			マン島
+Europe/Istanbul	TR		イスタンブル	イスタンブル	Europe/Istanbul	1	1	41.01667	28.96667	いすたんふる	Europe	1		014/c00047	LTBA	0		3	lat=41.0138;lon=28.9497;msl=28	Turkey/Istanbul/Istanbul/	1	LTBA			イスタンブル+トルコ
+Europe/Jersey	JE		ジャージー島	ジャージー島	Europe/Jersey	1	0	49.2	-2.11667	しやあしい	Europe	1		010/c01372	EGJJ	1		1	353003		1	EGJJ			ジャージー島
+Europe/Kaliningrad	RU		カリーニングラード	カリーニングラード	Europe/Kaliningrad	1	1	54.71667	20.5	かりいにんくらあと	Europe	1	カリーニングラード時間	107/c00977	UMKK	0		3	lat=54.7065;lon=20.5110;msl=9	Russia/Kaliningrad/Kaliningrad/	1	UMKK			カリーニングラード+ロシア
+Europe/Kazan	RU		カザン	カザン	Europe/Moscow	105	1	55.783	49.1667	かさん	Europe	0		107/c00986	UWKD	0		3	lat=55.7887;lon=49.1221;msl=83	Russia/Tatarstan/Kazan/	1	UWKD			カザン+ロシア
+Europe/Kiev	UA		キエフ	キエフ	Europe/Kiev	1	1	50.43333	30.51667	きえふ	Europe	1		092/c00207	UKBB	0		3	lat=50.4547;lon=30.5238;msl=136	Ukraine/Kiev/Kyiv/	1	UKBB			キエフ+ウクライナ
+Europe/Lille	FR		リール	リール (フランス)	Europe/Paris	103	1	50.6346	3.0629	りいる	Europe	0		062/c01053	LFQQ	0		3	lat=50.6330;lon=3.0586;msl=23	France/Nord-Pas-de-Calais/Lille/	1	LFQQ			リール+フランス
+Europe/Lisbon	PT		リスボン	リスボン	Europe/Lisbon	1	1	38.71667	-9.13333	りすほん	Europe	1	本土	003/c00002	LPPT	0		3	lat=38.7167;lon=-9.1333;msl=56	Portugal/Lisboa/Lisbon/	1	LPPT			リスボン+ポルトガル
+Europe/Liverpool	GB		リヴァプール	リヴァプール	Europe/London	103	1	53.4	-3.0	りはふうる	Europe	0			EGGP	0		1	352317		1	EGGP			リヴァプール+イギリス
+Europe/Ljubljana	SI		リュブリャナ	リュブリャナ	Europe/Ljubljana	1	1	46.05	14.51667	りゆふりやな	Europe	1		015/c00054	LJLJ	0		3	lat=46.0511;lon=14.5051;msl=291	Slovenia/Ljubljana/Ljubljana/	1	LJLJ			リュブリャナ+スロベニア
+Europe/London	GB		ロンドン	ロンドン	Europe/London	1	1	51.5	-0.11667	ろんとん	Europe	1		010/c00032	EGLL	0		1	350929		1	EGLC			ロンドン+イギリス
+Europe/Luxembourg	LU		ルクセンブルク	ルクセンブルク	Europe/Luxembourg	1	1	49.6	6.15	るくせんふるく	Europe	1		098/c00192	ELLX	1		3	lat=49.6117;lon=6.1300;msl=259	Luxembourg/Luxembourg/Luxembourg/	1	ELLX			ルクセンブルク
+Europe/Lyon	FR		リヨン	リヨン	Europe/Paris	101	1	45.759723	4.842223	りよん	Europe	0		062/c01054	LFLL	0		3	lat=45.7485;lon=4.8467;msl=173	France/Rhône-Alpes/Lyon/	1	LFLY			リヨン+フランス
+Europe/Madrid	ES		マドリード	マドリード	Europe/Madrid	1	1	40.4	-3.68333	まとりいと	Europe	1	本土	083/c00195	LEMD	0		3	lat=40.4165;lon=-3.7026;msl=638	Spain/Madrid/Madrid/	1	LEMD			マドリード+スペイン
+Europe/Malta	MT		マルタ	マルタ	Europe/Malta	1	1	35.9	14.51667	まるた	Europe	1		012/c00042	LMML	1		3	lat=35.8997;lon=14.5147;msl=90	Malta/Other/Valletta/	1	LMML			マルタ
+Europe/Manchester	GB		マンチェスター	マンチェスター	Europe/London	101	1	53.4667	-2.2333	まんちえすたあ	Europe	0		010/c00031	EGCC	0		1	310013		1	EGCC			マンチェスター+イギリス
+Europe/Mariehamn	AX		マリエハムン	マリエハムン	Europe/Mariehamn	1	0	60.1	19.95	まりえはむん	Europe	1			EFMA	0		2	lat=60.0973;lon=19.9348;msl=11	Åland_Islands/Mariehamn/Mariehamn/	1	EFMA			マリエハムン+オーランド諸島
+Europe/Marseille	FR		マルセイユ	マルセイユ	Europe/Paris	102	1	43.2975	5.377222	まるせいゆ	Europe	0		062/c01055	LFML	0		3	lat=43.2970;lon=5.3811;msl=40	France/Provence-Alpes-Côte_d’Azur/Marseille/	1	LFML			マルセイユ+フランス
+Europe/Milano	IT		ミラノ	ミラノ	Europe/Rome	101	1	45.464167	9.190278	みらの	Europe	0		176/c00201	LIMC	0		3	lat=45.4643;lon=9.1895;msl=120	Italy/Lombardy/Milan/	1	LIMC			ミラノ+イタリア 
+Europe/Minsk	BY		ミンスク	ミンスク	Europe/Minsk	1	1	53.9	27.56667	みんすく	Europe	1		106/c00205	UMMS	0		3	lat=53.9000;lon=27.5667;msl=199	Belarus/Horad_Minsk/Minsk/	1	UMMS			ミンスク+ベラルーシ
+Europe/Monaco	MC		モナコ	モナコ	Europe/Monaco	1	1	43.7	7.38333	もなこ	Europe	1				1		3	lat=43.7333;lon=7.4167;msl=28	Monaco/Other/Monaco/	0				モナコ+モナコ
+Europe/Moscow	RU		モスクワ	モスクワ	Europe/Moscow	2	1	55.75	37.58333	もすくわ	Europe	2	モスクワ時間	107/c00206	UUEE	0		3	lat=55.7522;lon=37.6156;msl=151	Russia/Moscow/Moscow/	1	UUEE			モスクワ+ロシア
+Europe/Munich	DE		ミュンヘン	ミュンヘン	Europe/Berlin	101	1	48.133333	11.566667	みゆんへん	Europe	0		016/c00058	EDDM	0		3	lat=48.1374;lon=11.5755;msl=512	Germany/Bavaria/Munich/	1	EDDM			ミュンヘン+ドイツ
+Europe/Nantes	FR		ナント	ナント	Europe/Paris	107	1	47.21806	-1.55278	なんと	Europe	0		062/c01056	LFRS	0		3	lat=47.2173;lon=-1.5534;msl=16	France/Loire/Nantes/	1	LFRS			ナント+フランス
+Europe/Nice	FR		ニース	ニース	Europe/Paris	105	1	43.702778	7.269167	にいす	Europe	0		062/c00902	LFMN	0		3	lat=43.7031;lon=7.2661;msl=25	France/Provence-Alpes-Côte_d’Azur/Nice/	1	LFMN			ニース+フランス
+Europe/Nizhny_Novgorod	RU		ニジニ・ノヴゴロド	ニジニ・ノヴゴロド	Europe/Moscow	104	1	56.33	44.0	にしにのうころと	Europe	0		107/c00988	UWGG	0		3	lat=56.3287;lon=44.0021;msl=135	Russia/Nizhny_Novgorod/Nizhniy_Novgorod/	1	UWGG			ニジニ・ノヴゴロド+ロシア
+Europe/Oslo	NO		オスロ	オスロ	Europe/Oslo	1	1	59.91667	10.75	おすろ	Europe	1		008/c00021	ENGM	0		2	lat=59.9127;lon=10.7461	Norway/Oslo/Oslo/Oslo/	1	ENGM			オスロ+ノルウェー
+Europe/Paris	FR		パリ	パリ	Europe/Paris	1	1	48.86667	2.33333	はり	Europe	1		062/c00194	LFPG	0		3	lat=48.8534;lon=2.3488;msl=30	France/Île-de-France/Paris/	1	LFPG			パリ+フランス
+Europe/Podgorica	ME		ポドゴリツァ	ポドゴリツァ	Europe/Podgorica	1	1	42.43333	19.26667	ほとこりつあ	Europe	1		193/c01378	LYPG	0		3	lat=42.4411;lon=19.2636;msl=58	Montenegro/Podgorica/Podgorica/	1	LYPG			ポドゴリツァ+モンテネグロ
+Europe/Prague	CZ		プラハ	プラハ	Europe/Prague	1	1	50.08333	14.43333	ふらは	Europe	1		172/c00197	LKPR	0		3	lat=50.0880;lon=14.4208;msl=198	Czech_Republic/Prague/Prague/	1	LKPR			プラハ+チェコ
+Europe/Riga	LV		リガ	リガ	Europe/Riga	1	1	56.95	24.1	りか	Europe	1		044/c00175	EVRA	0		3	lat=56.9460;lon=24.1059;msl=9	Latvia/Riga/Riga/	1	EVRA			リガ+ラトビア
+Europe/Rome	IT		ローマ	ローマ	Europe/Rome	1	1	41.9	12.48333	ろうま	Europe	1		176/c00201	LIRF	0		3	lat=41.8947;lon=12.4839;msl=15	Italy/Lazio/Rome/	1	LIRA			ローマ+イタリア 
+Europe/Rostov-on-Don	RU		ロストフ・ナ・ドヌ	ロストフ・ナ・ドヌ	Europe/Moscow	101	1	47.216667	39.716667	ろすとふ	Europe	0				0		3	lat=47.2314;lon=39.7233;msl=74	Russia/Rostov/Rostov-on-Don/	0				ロストフ・ナ・ドヌ+ロシア
+Europe/Rovaniemi	FI		ロヴァニエミ	ロヴァニエミ	Europe/Helsinki	101	0	66.5	25.733333	ろばにえみ	Europe	0		061/c00172	EFRO	0		2	lat=66.5000;lon=25.7167;msl=92	Finland/Laponia/Rovaniemi/	1	EFRO			ロヴァニエミ+フィンランド
+Europe/Saint_Petersburg	RU		サンクトペテルブルク	サンクトペテルブルク	Europe/Moscow	101	1	59.657175	30.342169	さんくとへてるふるく	Europe	0		107/c00203	ULLI	0		3	lat=59.8944;lon=30.2642;msl=5	Russia/St. Petersburg/Saint-Petersburg/	1	ULLI			サンクトペテルブルク+ロシア
+Europe/Samara	RU		サマーラ	サマーラ	Europe/Samara	3	1	53.2	50.15	さまあら	Europe	3	サマラ時間	107/c01005	UWWW	0		3	lat=53.2000;lon=50.1500;msl=128	Russia/Samara/Kuibyshev/	1	UWWW			サマーラ+ロシア
+Europe/San_Marino	SM		サンマリノ	サンマリノ	Europe/San_Marino	1	1	43.91667	12.46667	さんまりの	Europe	1				1		0			0				サンマリノ
+Europe/Sarajevo	BA		サラエヴォ	サラエヴォ	Europe/Sarajevo	1	1	43.86667	18.41667	さらえぼ	Europe	1		005/c00013	LQSA	0		3	lat=43.8486;lon=18.3564;msl=518	Bosnia_and_Herzegovina/Federation_of_BiH/Sarajevo/	1	LQSA			サラエヴォ+ボスニア・ヘルツェゴビナ
+Europe/Saransk	RU		サランスク	サランスク	Europe/Moscow	101	1	54.183333	45.183333	さらんすく	Europe	0				0		3	lat=54.1838;lon=45.1749;msl=173	Russia/Mordovia/Saransk/	0				サランスク+ロシア
+Europe/Simferopol	UA		シンフェロポリ	シンフェロポリ	Europe/Simferopol	103	0	44.95	34.1	しんふえろほり	Europe	0			UKFF	0		3	lat=44.9572;lon=34.1108;msl=256	Ukraine/Crimea/Simferopol/	1	UKFF			シンフェロポリ+ウクライナ
+Europe/Skopje	MK		スコピエ	スコピエ	Europe/Skopje	1	1	41.98333	21.43333	すこひえ	Europe	1		090/c00199	LWSK	0		3	lat=42.0000;lon=21.4333;msl=246	Macedonia/Karpoš/Skopje/	1	LWSK			スコピエ+マケドニア共和国
+Europe/Sochi	RU		ソチ	ソチ	Europe/Volgograd	103	1	43.585278	39.720278	そち	Europe	0			URSS	0	Europe/Moscow	3	lat=43.5992;lon=39.7257;msl=65	Russia/Krasnodar/Sochi/	1	URSS			ソチ+ロシア
+Europe/Sofia	BG		ソフィア	ソフィア (ブルガリア)	Europe/Sofia	1	1	42.68333	23.31667	そふいあ	Europe	1		103/c00303	LBSF	0		3	lat=42.6975;lon=23.3242;msl=558	Bulgaria/Sofia/Sofia/	1	LBSF			ソフィア+ブルガリア
+Europe/Stockholm	SE		ストックホルム	ストックホルム	Europe/Stockholm	1	1	59.33333	18.05	すとつくほるむ	Europe	1		096/c00187	ESSA	0		2	lat=59.3326;lon=18.0649;msl=20	Sweden/Stockholm/Stockholm/	1	ESSB			ストックホルム+スウェーデン
+Europe/Stuttgart	DE		シュトゥットガルト	シュトゥットガルト	Europe/Berlin	107	1	48.778611	9.179444	しゆとうつとかると	Europe	0		016/c01357	EDDS	0		3	lat=48.7823;lon=9.1770;msl=255	Germany/Baden-Württemberg/Stuttgart/	1	EDDS			シュトゥットガルト+ドイツ
+Europe/Tallinn	EE		タリン	タリン	Europe/Tallinn	1	1	59.41667	24.75	たりん	Europe	1		039/c00149	EETN	0		3	lat=59.4370;lon=24.7535;msl=22	Estonia/Harjumaa/Tallinn/	1	EETN			タリン+エストニア
+Europe/Tirane	AL		ティラナ	ティラナ	Europe/Tirane	1	1	41.3333	19.8333	ていらな	Europe	1			LATI	0		3	lat=41.3275;lon=19.8189;msl=103	Albania/Tirana/Tirana/	1	LATI			ティラナ+アルバニア
+Europe/Toulouse	FR		トゥールーズ	トゥールーズ	Europe/Paris	104	1	43.604503	1.444026	とうるうす	Europe	0		062/c01058	LFBO	0		3	lat=43.6043;lon=1.4437;msl=146	France/Midi-Pyrénées/Toulouse/	1	LFBO			トゥールーズ+フランス
+Europe/Tromuso	NO		トロムソ	トロムソ	Europe/Oslo	101	0	69.682778	18.942778	とろむそ	Europe	0		008/c00023	ENTC	0		2	lat=69.6489;lon=18.9551	/Norway/Troms/Tromsø/Tromsø/	1	ENTC			トロムソ+ノルウェー
+Europe/Uzhgorod	UA		ウージュホロド	ウージュホロド	Europe/Uzhgorod	101	0	48.61667	22.3	ううしゆほろと	Europe	0				0		0			0				ウージュホロド+ウクライナ
+Europe/Vaduz	LI		ファドゥーツ	ファドゥーツ	Europe/Vaduz	1	1	47.15	9.51667	ふあとううつ	Europe	1				0		0			0				ファドゥーツ+リヒテンシュタイン
+Europe/Vatican	VA		バチカン	バチカン	Europe/Vatican	1	1	41.9	12.45	はちかん	Europe	1				1		0			0				バチカン+バチカン 
+Europe/Vienna	AT		ウィーン	ウィーン	Europe/Vienna	1	1	48.21667	16.33333	ういいん	Europe	1		006/c00017	LOWW	0		3	lat=48.2085;lon=16.3721;msl=171	Austria/Vienna/Vienna/	1	LOWW			ウィーン+オーストリア
+Europe/Vilnius	LT		ビリニュス	ビリニュス	Europe/Vilnius	1	1	54.68333	25.31667	ひりにゆす	Europe	1		105/c00204	EYVI	0		3	lat=54.6892;lon=25.2798;msl=119	Lithuania/Vilnius/Vilnius/	1	EYVI			ビリニュス+リトアニア
+Europe/Volgograd	RU		ヴォルゴグラード	ヴォルゴグラード	Europe/Volgograd	102	1	48.73333	44.41667	うおるこくらあと	Europe	0		107/c01022	URWW	0	Europe/Moscow	3	lat=48.7194;lon=44.5018;msl=85	Russia/Volgograd/Volgograd/	1	URWW			ヴォルゴグラード+ロシア
+Europe/Warsaw	PL		ワルシャワ	ワルシャワ	Europe/Warsaw	1	1	52.25	21.0	わるしやわ	Europe	1		009/c00024	EPWA	0		3	lat=52.2298;lon=21.0118;msl=110	Poland/Mazovia/Warsaw/	1	EPWA			ワルシャワ+ポーランド
+Europe/Zagreb	HR		ザグレブ	ザグレブ	Europe/Zagreb	1	1	45.8	15.96667	さくれふ	Europe	1		019/c00070	LDZA	0		3	lat=45.8144;lon=15.9780;msl=110	Croatia/Grad_Zagreb/Zagreb/	1	LDZA			ザグレブ+クロアチア
+Europe/Zaporozhye	UA		ザポリージャ	ザポリージャ	Europe/Zaporozhye	102	0	47.83333	35.16667	さほりいしや	Europe	0			UKDE	0		3	lat=47.8229;lon=35.1903;msl=111	Ukraine/Zaporizjzja/Zaporozhye/	1	UKDE			ザポリージャ+ウクライナ
+Europe/Zurich	CH		チューリッヒ	チューリッヒ	Europe/Zurich	1	1	47.38333	8.53333	ちゆうりつひ	Europe	1		087/c00312	LSZH	0		3	lat=47.3667;lon=8.5500;msl=472	Switzerland/Zürich/Zurich/	1	LSZH			チューリッヒ+スイス
+Indian/Antananarivo	MG		アンタナナリボ	アンタナナリボ	Indian/Antananarivo	1	1	-18.91667	47.51667	あんたななりほ	Indian	1		004/c00007	FMMI	0		5			1	FMMI			アンタナナリボ+マダガスカル
+Indian/Chagos	IO		チャゴス諸島	チャゴス諸島	Indian/Chagos	1	0	-7.33333	72.41667	ちやこす	Indian	1			FJDG	0		5			1	FJDG			チャゴス諸島+イギリス領インド洋地域
+Indian/Christmas	CX		クリスマス島	クリスマス島 (オーストラリア)	Indian/Christmas	1	0	-10.41667	105.71667	くりすます	Indian	1		185/c00681	YPXM	1		5			1	YPXM			クリスマス島
+Indian/Cocos	CC		ココス諸島	ココス諸島	Indian/Cocos	1	0	-12.16667	96.91667	ここす	Indian	1		185/c00683	YPCC	1		5			1	YPCC			ココス諸島
+Indian/Comoro	KM		モロニ	モロニ	Indian/Comoro	1	1	-11.68333	43.26667	こもろ	Indian	1		058/c00311	FMCH	0		5			1	FMCH			モロニ+コモロ
+Indian/Heard_Island	HM		ハード島	ハード島とマクドナルド諸島	Etc/GMT-5	1	0	-53.1	73.516667	はあと	Indian	1				0		0			0				ハード島+ハード島・マクドナルド諸島
+Indian/Kerguelen	TF		ケルゲレン諸島	ケルゲレン諸島	Indian/Kerguelen	1	0	-49.35	70.21667	けるけれん	Indian	1				0		0			0				ケルゲレン諸島+フランス領南方・南極地域
+Indian/Mahe	SC		マヘ島	マヘ島	Indian/Mahe	1	1	-4.66667	55.46667	まへ	Indian	1		080/c00253	FSIA	0		5			1	FSIA			マヘ島+セーシェル
+Indian/Maldives	MV		マレ島	マレ島	Indian/Maldives	1	1	4.16667	73.5	まれ	Indian	1		118/c00228	VRMM	0		5			1	VRMM			マレ島+モルディブ
+Indian/Mauritius	MU		ポートルイス	ポートルイス	Indian/Mauritius	1	1	-20.16667	57.5	ほおとるいす	Indian	1		178/c01219	FIMP	0		5			1	FIMP			ポートルイス+モーリシャス
+Indian/Mayotte	YT		マヨット	マヨット	Indian/Mayotte	1	0	-12.78333	45.23333	まよつと	Indian	1			FMCZ	1		5			1	FMCZ			マヨット
+Indian/Reunion	RE		レユニオン	レユニオン	Indian/Reunion	1	0	-20.86667	55.46667	れゆにおん	Indian	1			FMEE	1		5			1	FMEE			レユニオン
+Pacific/Apia	WS		アピア	アピア	Pacific/Apia	1	1	-13.83333	-171.73333	あひあ	Pacific	1		184/c01230	NSFA	0		5			1	NSFA			アピア+サモア
+Pacific/Auckland	NZ		オークランド	オークランド (ニュージーランド)	Pacific/Auckland	1	1	-36.86667	174.76667	おおくらんと	Pacific	1	本島	046/c00538	NZAA	0		5			1	NZAA			オークランド+ニュージーランド
+Pacific/Bougainville	PG		ブーゲンビル島	ブーゲンビル島	Pacific/Bougainville	2	0	-6.216667	155.566667	ふうけんひる	Pacific	2	ブーゲンビル島			0		0			0				ブーゲンビル島+パプアニューギニア
+Pacific/Chatham	NZ		チャタム島	チャタム島	Pacific/Chatham	2	0	-43.95	-176.55	ちやたむ	Pacific	2	チャタム諸島			0		0			0				チャタム島+ニュージーランド
+Pacific/Christchurch	NZ		クライストチャーチ	クライストチャーチ	Pacific/Auckland	101	1	-43.53	172.620278	くらいすとちやち	Pacific	0		046/c00539	NZCH	0		5			1	NZCH			クライストチャーチ+ニュージーランド
+Pacific/Chuuk	FM		チューク州	チューク諸島	Pacific/Chuuk	1	1	7.41667	151.78333	ちゆうく	Pacific	1	チューク州、ヤップ州		PTKK	0		5			1	PTKK			チューク州+ミクロネシア連邦
+Pacific/Clipperton	CP		クリッパートン島	クリッパートン島	Etc/GMT+8	1	0	10.3	-109.216667	くりつはあとん	Pacific	1				1		0			0				クリッパートン島+クリッパートン島
+Pacific/Easter	CL		イースター島	イースター島	Pacific/Easter	3	0	-27.15	-109.43333	いいすたあ	Pacific	3	イースター島		SCIP	0		5			1	SCIP			イースター島+チリ
+Pacific/Efate	VU		ポートビラ	ポートビラ	Pacific/Efate	1	1	-17.66667	168.41667	ほおとひら	Pacific	1		169/c00673	NVVV	0		5			0	NVVV			ポートビラ+バヌアツ
+Pacific/Enderbury	KI		エンダーベリー島	エンダーベリー島	Pacific/Enderbury	2	0	-3.13333	-171.08333	えんたあはり	Pacific	2	フェニックス諸島			0		0			0				エンダーベリー島+キリバス
+Pacific/Fakaofo	TK		ファカオフォ島	トケラウ	Pacific/Fakaofo	1	0	-9.36667	-171.23333	ふあかおふお	Pacific	1				0		0			0				ファカオフォ島+トケラウ諸島
+Pacific/Fiji	FJ		スバ	スバ	Pacific/Fiji	1	1	-18.13333	178.41667	すは	Pacific	1		022/c00093	NFFN	0		5			1	NFFN			スバ+フィジー
+Pacific/Funafuti	TV		フナフティ島	フナフティ島	Pacific/Funafuti	1	1	-8.51667	179.21667	ふなふてい	Pacific	1			NGFU	0		5			1	NGFU			フナフティ島+ツバル
+Pacific/Galapagos	EC		ガラパゴス諸島	ガラパゴス諸島	Pacific/Galapagos	2	0	-0.9	-89.6	からはこす	Pacific	2	ガラパゴス諸島			0		0			0				ガラパゴス諸島+エクアドル
+Pacific/Gambier	PF		ガンビエ諸島	ガンビエ諸島	Pacific/Gambier	3	0	-23.13333	-134.95	かんひえ	Pacific	3	ガンビエ諸島			0		0			0				Gambier+Islands+フランス領ポリネシア
+Pacific/Guadalcanal	SB		ガダルカナル島	ガダルカナル島	Pacific/Guadalcanal	1	1	-9.53333	160.2	かたるかなる	Pacific	1		139/c00295	AGGH	0		5			1	AGGH			ガダルカナル島+ソロモン諸島
+Pacific/Guam	GU		グアム	グアム	Pacific/Guam	1	1	13.46667	144.75	くあむ	Pacific	1			PGUM	1		7			1	PGUM		zmw:96910.3.99999	グアム
+Pacific/Honolulu	US	HI	ホノルル（ハワイ）	ホノルル	Pacific/Honolulu	7	1	21.3	-157.85	ほのるる	Pacific	8	ハワイ	093/c00849	PHNL	0		7			1	PHNL		HI/Honolulu	ホノルル（ハワイ）+アメリカ+ハワイ州
+Pacific/Johnston	UM		ジョンストン島	ジョンストン島	Pacific/Johnston	1	0	16.75	-169.51667	しよんすとん	Pacific	1	ジョンストン島			0		0			0				ジョンストン島+合衆国領有小離島
+Pacific/Kiritimati	KI		キリスィマスィ島	キリスィマスィ島	Pacific/Kiritimati	3	0	1.86667	-157.33333	きりすいますい	Pacific	3	ライン諸島			0		0			0				キリスィマスィ島+キリバス 
+Pacific/Kosrae	FM		コスラエ州	コスラエ州	Pacific/Kosrae	101	0	5.31667	162.98333	こすらえ	Pacific	3	コスラエ州		PTSA	0	Pacific/Ponape	5			0	PTSA			コスラエ州+ミクロネシア連邦
+Pacific/Kwajalein	MH		クェゼリン島	クェゼリン環礁	Pacific/Kwajalein	101	0	8.729731	167.738226	くえせりん	Pacific	0				0		0			0				クェゼリン島+マーシャル諸島
+Pacific/Majuro	MH		マジュロ	マジュロ	Pacific/Majuro	1	0	7.15	171.2	ましゆろ	Pacific	1			PKMJ	0		5			0	PKMJ			マジュロ+マーシャル諸島
+Pacific/Marquesas	PF		マルキーズ諸島	マルキーズ諸島	Pacific/Marquesas	2	0	-9.0	-139.5	まるきいす	Pacific	2	マルキーズ諸島			0		0			0				マルキーズ諸島+フランス領ポリネシア
+Pacific/Maui	US	HI	マウイ島	マウイ島	Pacific/Honolulu	101	1	20.881667	-156.4675	まうい	Pacific	0			PHOG	0		5			1	PHOG			マウイ島+アメリカ+ハワイ州
+Pacific/Midway	UM		ミッドウェー島	ミッドウェー島	Pacific/Midway	2	0	28.21667	-177.36667	みつとうええ	Pacific	2	ミッドウェー島		PMDY	0		0			0				ミッドウェー島+合衆国領有小離島
+Pacific/Nauru	NR		ナウル	ナウル	Pacific/Nauru	1	1	-0.51667	166.91667	なうる	Pacific	1				1		0			0				ナウル
+Pacific/Niue	NU		ニウエ	ニウエ	Pacific/Niue	1	0	-19.01667	-169.91667	にうえ	Pacific	1			NIUE	1		5			1	NIUE			ニウエ
+Pacific/Norfolk	NF		ノーフォーク島	ノーフォーク島	Pacific/Norfolk	1	0	-29.05	167.96667	のおふおおく	Pacific	1		185/c00471	YSNF	1		5			1	YSNF			ノーフォーク島
+Pacific/Noumea	NC		ヌメア	ヌメア	Pacific/Noumea	1	0	-22.26667	166.45	ぬめあ	Pacific	1		140/c00296	NWWW	0		5			1	NWWW			ヌメア+ニューカレドニア
+Pacific/Pago_Pago	AS		パゴパゴ	パゴパゴ	Pacific/Pago_Pago	1	1	-14.26667	-170.7	はこはこ	Pacific	1			NSTU	0		5			1	NSTU			パゴパゴ+アメリカ領サモア
+Pacific/Palau	PW		パラオ	パラオ	Pacific/Palau	1	1	7.33333	134.48333	はらお	Pacific	1			PTRO	1		5			1	PTRO			パラオ
+Pacific/Pitcairn	PN		ピトケアン諸島	ピトケアン諸島	Pacific/Pitcairn	1	0	-25.06667	-130.08333	ひとけあん	Pacific	1				1		0			0				ピトケアン諸島+ピトケアン島
+Pacific/Pohnpei	FM		ポンペイ州	ポンペイ島	Pacific/Pohnpei	2	0	6.96667	158.21667	ほんへい	Pacific	2	ポンペイ州、コスラエ州		PTPN	0		5			1	PTPN			ポンペイ州+ミクロネシア連邦
+Pacific/Port_Moresby	PG		ポートモレスビー	ポートモレスビー	Pacific/Port_Moresby	1	1	-9.5	147.16667	ほおともれすひい	Pacific	1	主要部	077/c01246	AYPY	0		5			1	AYPY			ポートモレスビー+パプアニューギニア
+Pacific/Rarotonga	CK		ラロトンガ島	ラロトンガ島	Pacific/Rarotonga	1	0	-21.23333	-159.76667	らろとんか	Pacific	1			NCRG	0		5			1	NCRG			ラロトンガ島+クック諸島
+Pacific/Saipan	MP		サイパン島	サイパン島	Pacific/Saipan	1	1	15.2	145.75	さいはん	Pacific	1			PGSN	0		7			1	PGSN		zmw:96950.1.99999	サイパン島+北マリアナ諸島
+Pacific/Tahiti	PF		タヒチ島	タヒチ島	Pacific/Tahiti	1	1	-17.53333	-149.56667	たひち	Pacific	1	ソシエテ諸島	175/c00297	NTAA	0		5			1	NTAA			タヒチ島+フランス領ポリネシア
+Pacific/Tarawa	KI		タラワ環礁	タラワ	Pacific/Tarawa	1	1	1.41667	173.0	たらわ	Pacific	1	ギルバート諸島			0		0			0				タラワ環礁+キリバス 
+Pacific/Tongatapu	TO		トンガタプ島	トンガ	Pacific/Tongatapu	1	1	-21.16667	-175.16667	とんかたふ	Pacific	1			NFTF	0		5			1	NFTF			トンガタプ島+トンガ
+Pacific/Wake	UM		ウェーク島	ウェーク島	Pacific/Wake	3	0	19.28333	166.61667	うええく	Pacific	3	ウェーク島		PWAK	0		0			0				ウェーク島+合衆国領有小離島
+Pacific/Wallis	WF		ウォリス島	ウォリス・フツナ	Pacific/Wallis	1	0	-13.3	-176.16667	うおりす	Pacific	1			NLWW	0		5			0	NLWW			ウォリス島+ウォリス・フツナ
