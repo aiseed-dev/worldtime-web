@@ -1,6 +1,6 @@
 # WorldTimeStatic データ契約
 
-build_data.py が生成する `data/*.json` のスキーマ定義。**実装より先にこのファイルを更新する**(eCitizenStatic と同運用)。
+build_data.py が生成する `data/*.json` のスキーマ定義。**実装より先にこのファイルを更新する**(ecitizen と同運用)。
 
 - 一次ソース: `/home/saki/dev/WorldTimeCore/WorldTimeCore/App_Data/`
 - 文字コード: UTF-8、キーは snake_case
